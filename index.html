@@ -3,14 +3,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- ========================================
+         PAGE SETTINGS
+    ========================================= -->
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
 
     <title>Mnemosyne</title>
 
     <style>
+        /* ========================================
+           1. GLOBAL STYLES
+        ======================================== */
+
         * {
             box-sizing: border-box;
         }
@@ -24,21 +33,25 @@
         }
 
         h1 {
-            font-size: 36px;
             margin: 20px 0 5px;
+            font-size: 36px;
         }
 
         h2 {
-            font-size: 22px;
             margin: 0 0 25px;
+            font-size: 22px;
             color: #475569;
         }
 
-        /* Chapter and section selectors */
+
+        /* ========================================
+           2. VOCABULARY FILTERS
+        ======================================== */
 
         .studyFilters {
             display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            grid-template-columns:
+                minmax(0, 1fr) minmax(0, 1fr);
             gap: 12px;
             width: 100%;
             margin: 24px 0;
@@ -50,9 +63,9 @@
 
         .filterGroup label {
             display: block;
+            margin-bottom: 8px;
             font-size: 16px;
             font-weight: bold;
-            margin-bottom: 8px;
             color: #374151;
         }
 
@@ -68,9 +81,16 @@
             border-radius: 12px;
         }
 
-        /* Flashcard */
+
+        /* ========================================
+           3. FLASHCARD DISPLAY
+        ======================================== */
 
         #flashcardBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             width: 100%;
             min-height: 250px;
             padding: 20px;
@@ -79,34 +99,38 @@
             background-color: white;
             border: 2px solid #d1d5db;
             border-radius: 16px;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
         #flashcard {
-            width: 90%;
+            width: 100%;
             margin: 0;
 
-            font-size: clamp(56px, 12vw, 72px);
+            font-size: 72px;
             font-weight: bold;
+            line-height: 1.3;
             text-align: center;
-            line-height: 1.4;
 
-            overflow-wrap: anywhere;
+            white-space: nowrap;
+            overflow-wrap: normal;
+            word-break: normal;
         }
 
-        /* Card counter */
+
+        /* ========================================
+           4. CARD COUNTER
+        ======================================== */
 
         #cardCounter {
-            text-align: center;
-            font-size: 16px;
-            color: #64748b;
             margin: 10px 0 25px;
+            font-size: 16px;
+            text-align: center;
+            color: #64748b;
         }
 
-        /* Buttons */
+
+        /* ========================================
+           5. FLASHCARD BUTTONS
+        ======================================== */
 
         button {
             display: block;
@@ -137,78 +161,127 @@
             opacity: 0.5;
             cursor: not-allowed;
         }
+
     </style>
 </head>
 
+
 <body>
+
+    <!-- ========================================
+         1. PAGE HEADER
+    ========================================= -->
 
     <h1>Mnemosyne</h1>
     <h2>Greek Vocabulary</h2>
 
-    <!-- Vocabulary filters -->
+
+    <!-- ========================================
+         2. VOCABULARY FILTERS
+    ========================================= -->
 
     <div class="studyFilters">
 
         <div class="filterGroup">
-            <label for="chapterSelect">Chapter</label>
+            <label for="chapterSelect">
+                Chapter
+            </label>
 
-            <select id="chapterSelect"
-                    onchange="selectChapter()">
-                <option value="all">All Chapters</option>
+            <select
+                id="chapterSelect"
+                onchange="selectChapter()"
+            >
+                <option value="all">
+                    All Chapters
+                </option>
             </select>
         </div>
 
         <div class="filterGroup">
-            <label for="sectionSelect">Section</label>
+            <label for="sectionSelect">
+                Section
+            </label>
 
-            <select id="sectionSelect"
-                    onchange="selectSection()">
-                <option value="all">All Sections</option>
+            <select
+                id="sectionSelect"
+                onchange="selectSection()"
+            >
+                <option value="all">
+                    All Sections
+                </option>
             </select>
         </div>
 
     </div>
 
-    <!-- Flashcard display -->
+
+    <!-- ========================================
+         3. FLASHCARD
+    ========================================= -->
 
     <div id="flashcardBox">
-        <p id="flashcard">Loading vocabulary...</p>
+        <p id="flashcard">
+            Loading vocabulary...
+        </p>
     </div>
 
-    <!-- Card counter -->
 
-    <p id="cardCounter">Card 0 of 0</p>
+    <!-- ========================================
+         4. CARD COUNTER
+    ========================================= -->
 
-    <!-- Flashcard controls -->
+    <p id="cardCounter">
+        Card 0 of 0
+    </p>
 
-    <button id="revealButton" onclick="flipCard()">
+
+    <!-- ========================================
+         5. FLASHCARD CONTROLS
+    ========================================= -->
+
+    <button
+        id="revealButton"
+        onclick="flipCard()"
+    >
         Reveal Answer
     </button>
 
-    <button id="nextButton" onclick="nextCard()">
+    <button
+        id="nextButton"
+        onclick="nextCard()"
+    >
         Next Card
     </button>
 
-    <button id="previousButton" onclick="previousCard()">
+    <button
+        id="previousButton"
+        onclick="previousCard()"
+    >
         Previous Card
     </button>
 
-    <script>
 
-        // All vocabulary loaded from words.json
+    <script>
+        /* ========================================
+           1. APPLICATION STATE
+        ======================================== */
+
+        // Complete vocabulary database
         let cards = [];
 
-        // Vocabulary matching the selected filters
+        // Cards matching the selected filters
         let studyCards = [];
 
-        // Current card position
+        // Current position in the study deck
         let currentIndex = 0;
 
-        // Whether English is currently visible
+        // Whether the English answer is visible
         let showingAnswer = false;
 
 
-        // Load vocabulary from the JSON file
+        /* ========================================
+           2. LOAD VOCABULARY
+        ======================================== */
 
         async function loadCards() {
             try {
@@ -247,7 +320,9 @@
         }
 
 
-        // Build chapter dropdown from vocabulary
+        /* ========================================
+           3. POPULATE CHAPTERS
+        ======================================== */
 
         function populateChapters() {
             const select = document.getElementById(
@@ -257,14 +332,21 @@
             select.innerHTML =
                 '<option value="all">All Chapters</option>';
 
-            const chapters = [...new Set(
-                cards
-                    .filter(card =>
-                        card.chapter !== undefined &&
-                        card.chapter !== null
-                    )
-                    .map(card => String(card.chapter))
-            )].sort((a, b) => Number(a) - Number(b));
+            const chapters = [
+                ...new Set(
+                    cards
+                        .filter(card =>
+                            card.chapter !== undefined &&
+                            card.chapter !== null
+                        )
+                        .map(card => String(card.chapter))
+                )
+            ].sort((a, b) => {
+                if (a === "general") return 1;
+                if (b === "general") return -1;
+
+                return Number(a) - Number(b);
+            });
 
             for (const chapter of chapters) {
                 const option = document.createElement(
@@ -272,27 +354,20 @@
                 );
 
                 option.value = chapter;
-                
-option.textContent =
-    chapter === "general"
-        ? "General Vocabulary"
-        : "Chapter " + chapter;
 
+                option.textContent =
+                    chapter === "general"
+                        ? "General Vocabulary"
+                        : "Chapter " + chapter;
 
                 select.appendChild(option);
             }
         }
 
 
-        // Called when chapter changes
-
-        function selectChapter() {
-            populateSections();
-            selectSection();
-        }
-
-
-        // Build section dropdown for selected chapter
+        /* ========================================
+           4. POPULATE SECTIONS
+        ======================================== */
 
         function populateSections() {
             const chapter = document.getElementById(
@@ -311,14 +386,16 @@ option.textContent =
                 String(card.chapter) === chapter
             );
 
-            const sections = [...new Set(
-                chapterCards
-                    .filter(card =>
-                        card.section !== undefined &&
-                        card.section !== null
-                    )
-                    .map(card => String(card.section))
-            )].sort();
+            const sections = [
+                ...new Set(
+                    chapterCards
+                        .filter(card =>
+                            card.section !== undefined &&
+                            card.section !== null
+                        )
+                        .map(card => String(card.section))
+                )
+            ].sort();
 
             for (const section of sections) {
                 const option = document.createElement(
@@ -334,7 +411,14 @@ option.textContent =
         }
 
 
-        // Filter vocabulary by chapter and section
+        /* ========================================
+           5. FILTER VOCABULARY
+        ======================================== */
+
+        function selectChapter() {
+            populateSections();
+            selectSection();
+        }
 
         function selectSection() {
             const chapter = document.getElementById(
@@ -364,7 +448,9 @@ option.textContent =
         }
 
 
-        // Display current Greek word or English answer
+        /* ========================================
+           6. DISPLAY FLASHCARD
+        ======================================== */
 
         function displayCard() {
             const flashcard = document.getElementById(
@@ -385,69 +471,91 @@ option.textContent =
 
             const currentCard = studyCards[currentIndex];
 
-            if (showingAnswer) {
-                flashcard.textContent =
-                    currentCard.english;
-            } else {
-                flashcard.textContent =
-                    currentCard.greek;
-            }
+            flashcard.textContent = showingAnswer
+                ? currentCard.english
+                : currentCard.greek;
 
             counter.textContent =
-                "Card " + (currentIndex + 1) +
-                " of " + studyCards.length;
+                `Card ${currentIndex + 1} of ${studyCards.length}`;
+
+            fitFlashcardText();
         }
 
 
-        // Reveal or hide the answer
+        /* ========================================
+           7. AUTOMATIC TEXT RESIZING
+        ======================================== */
+
+        function fitFlashcardText() {
+            const flashcard = document.getElementById(
+                "flashcard"
+            );
+
+            const availableWidth = flashcard.clientWidth;
+
+            let fontSize = 72;
+
+            flashcard.style.fontSize = `${fontSize}px`;
+
+            while (
+                flashcard.scrollWidth > availableWidth &&
+                fontSize > 12
+            ) {
+                fontSize -= 2;
+                flashcard.style.fontSize = `${fontSize}px`;
+            }
+        }
+
+
+        /* ========================================
+           8. FLASHCARD NAVIGATION
+        ======================================== */
 
         function flipCard() {
-            if (studyCards.length === 0) {
-                return;
-            }
+            if (studyCards.length === 0) return;
 
             showingAnswer = !showingAnswer;
+
             displayCard();
         }
-
-
-        // Advance to the next flashcard
 
         function nextCard() {
-            if (studyCards.length === 0) {
-                return;
-            }
+            if (studyCards.length === 0) return;
 
-            currentIndex++;
-
-            if (currentIndex >= studyCards.length) {
-                currentIndex = 0;
-            }
+            currentIndex =
+                (currentIndex + 1) % studyCards.length;
 
             showingAnswer = false;
+
             displayCard();
         }
-
-
-        // Go to the previous flashcard
 
         function previousCard() {
-            if (studyCards.length === 0) {
-                return;
-            }
+            if (studyCards.length === 0) return;
 
-            currentIndex--;
-
-            if (currentIndex < 0) {
-                currentIndex = studyCards.length - 1;
-            }
+            currentIndex =
+                (currentIndex - 1 + studyCards.length) %
+                studyCards.length;
 
             showingAnswer = false;
+
             displayCard();
         }
 
 
-        // Start the application
+        /* ========================================
+           9. WINDOW RESIZING
+        ======================================== */
+
+        window.addEventListener(
+            "resize",
+            fitFlashcardText
+        );
+
+
+        /* ========================================
+           10. START APPLICATION
+        ======================================== */
 
         loadCards();
 
