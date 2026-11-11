@@ -3,22 +3,36 @@
 <html lang="en">
 
 <head>
-    <!-- ========================================
-         PAGE SETTINGS
-    ========================================= -->
-
+    <!-- Page configuration -->
     <meta charset="UTF-8">
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1"
     >
+    <meta name="theme-color" content="#f8fafc">
 
-    <title>Mnemosyne</title>
+    <title>Mnemosyne | Greek Vocabulary</title>
 
     <style>
-        /* ========================================
-           1. GLOBAL STYLES
-        ======================================== */
+        /* =========================================
+           1. DESIGN SYSTEM
+        ========================================= */
+
+        :root {
+            --background: #f8fafc;
+            --surface: #ffffff;
+            --text: #0f172a;
+            --muted: #64748b;
+            --border: #e2e8f0;
+
+            --blue: #2563eb;
+            --green: #16a34a;
+            --red: #dc2626;
+            --purple: #7c3aed;
+
+            --radius: 18px;
+            --shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
+        }
 
         * {
             box-sizing: border-box;
@@ -26,35 +40,91 @@
 
         body {
             margin: 0;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            background-color: #f8fafc;
-            color: #111827;
+            padding: 24px 18px 48px;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Arial, sans-serif;
+            background: var(--background);
+            color: var(--text);
+        }
+
+        .app {
+            width: 100%;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        button,
+        select {
+            font: inherit;
+        }
+
+        button {
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        button:focus-visible,
+        select:focus-visible {
+            outline: 3px solid #93c5fd;
+            outline-offset: 3px;
+        }
+
+
+        /* =========================================
+           2. HEADER
+        ========================================= */
+
+        .appHeader {
+            margin: 10px 0 32px;
+        }
+
+        .eyebrow {
+            margin: 0 0 8px;
+            color: var(--blue);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
         }
 
         h1 {
-            margin: 20px 0 5px;
-            font-size: 36px;
+            margin: 0;
+            font-size: clamp(36px, 9vw, 48px);
+            font-weight: 800;
+            letter-spacing: -1.5px;
         }
 
-        h2 {
-            margin: 0 0 25px;
-            font-size: 22px;
-            color: #475569;
+        .subtitle {
+            margin: 8px 0 0;
+            color: var(--muted);
+            font-size: 17px;
         }
 
 
-        /* ========================================
-           2. VOCABULARY FILTERS
-        ======================================== */
+        /* =========================================
+           3. STUDY SETTINGS
+        ========================================= */
+
+        .settingsPanel {
+            padding: 18px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .panelTitle {
+            margin: 0 0 18px;
+            font-size: 15px;
+            font-weight: 800;
+        }
 
         .studyFilters {
             display: grid;
             grid-template-columns:
                 minmax(0, 1fr) minmax(0, 1fr);
             gap: 12px;
-            width: 100%;
-            margin: 24px 0;
         }
 
         .filterGroup {
@@ -64,97 +134,251 @@
         .filterGroup label {
             display: block;
             margin-bottom: 8px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #374151;
+            color: #475569;
+            font-size: 13px;
+            font-weight: 700;
         }
 
         .filterGroup select {
-            display: block;
             width: 100%;
             min-width: 0;
-            padding: 14px 8px;
-            font-size: 16px;
-            color: #1e40af;
-            background-color: #eff6ff;
-            border: 2px solid #93c5fd;
+            padding: 13px 8px;
+            color: #1d4ed8;
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
             border-radius: 12px;
+            font-size: 15px;
         }
 
 
-        /* ========================================
-           3. FLASHCARD DISPLAY
-        ======================================== */
+        /* =========================================
+           4. LANGUAGE SWITCH AND SHUFFLE
+        ========================================= */
+
+        .studyOptions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid var(--border);
+        }
+
+        .languageControl {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 0;
+        }
+
+        #languageLabel {
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 30px;
+            flex-shrink: 0;
+        }
+
+        .switch input {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .switchSlider {
+            position: absolute;
+            inset: 0;
+            background: var(--blue);
+            border-radius: 30px;
+            pointer-events: none;
+            transition: background 0.2s;
+        }
+
+        .switchSlider::before {
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 22px;
+            height: 22px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s;
+        }
+
+        .switch input:checked + .switchSlider {
+            background: var(--green);
+        }
+
+        .switch input:checked + .switchSlider::before {
+            transform: translateX(20px);
+        }
+
+        .switch input:focus-visible + .switchSlider {
+            outline: 3px solid #93c5fd;
+            outline-offset: 3px;
+        }
+
+        #shuffleButton {
+            width: auto;
+            padding: 11px 16px;
+            color: #6d28d9;
+            background: #f5f3ff;
+            border: 1px solid #ddd6fe;
+            border-radius: 11px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        #shuffleButton:active {
+            background: #ede9fe;
+        }
+
+
+        /* =========================================
+           5. FLASHCARD
+        ========================================= */
+
+        .flashcardArea {
+            margin-top: 26px;
+        }
+
+        .flashcardHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .flashcardHeader span {
+            color: var(--muted);
+            font-size: 13px;
+            font-weight: 700;
+        }
 
         #flashcardBox {
             display: flex;
-            justify-content: center;
             align-items: center;
-
+            justify-content: center;
             width: 100%;
-            min-height: 250px;
-            padding: 20px;
-            margin: 30px 0 15px;
-
-            background-color: white;
-            border: 2px solid #d1d5db;
-            border-radius: 16px;
+            min-height: 280px;
+            padding: 24px;
+            background: var(--surface);
+            border: 1px solid #cbd5e1;
+            border-radius: 22px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
         }
 
         #flashcard {
             width: 100%;
             margin: 0;
-
             font-size: 72px;
-            font-weight: bold;
-            line-height: 1.3;
+            font-weight: 800;
+            line-height: 1.25;
             text-align: center;
+            color: var(--text);
+        }
 
+        #flashcard.greekText {
             white-space: nowrap;
             overflow-wrap: normal;
             word-break: normal;
         }
 
-
-        /* ========================================
-           4. CARD COUNTER
-        ======================================== */
-
-        #cardCounter {
-            margin: 10px 0 25px;
-            font-size: 16px;
-            text-align: center;
-            color: #64748b;
+        #flashcard.englishText {
+            white-space: normal;
+            overflow-wrap: break-word;
+            word-break: normal;
         }
 
 
-        /* ========================================
-           5. FLASHCARD BUTTONS
-        ======================================== */
+        /* =========================================
+           6. CARD PROGRESS
+        ========================================= */
 
-        button {
-            display: block;
+        .progressArea {
+            margin: 18px 0 28px;
+        }
+
+        #cardCounter {
+            margin: 0 0 12px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .progressTrack {
             width: 100%;
-            padding: 18px 24px;
-            margin: 12px 0;
+            height: 6px;
+            background: #e2e8f0;
+            border-radius: 20px;
+            overflow: hidden;
+        }
 
-            font-size: 20px;
+        #progressFill {
+            width: 0%;
+            height: 100%;
+            background: var(--blue);
+            border-radius: 20px;
+            transition: width 0.25s ease;
+        }
+
+
+        /* =========================================
+           7. ACTION BUTTONS
+        ========================================= */
+
+        .cardControls {
+            display: grid;
+            gap: 12px;
+        }
+
+        .actionButton {
+            width: 100%;
+            padding: 18px;
             color: white;
             border: none;
-            border-radius: 12px;
-            cursor: pointer;
+            border-radius: 14px;
+            font-size: 18px;
+            font-weight: 700;
+            transition:
+                transform 0.12s,
+                opacity 0.12s;
+        }
+
+        .actionButton:active {
+            transform: scale(0.98);
         }
 
         #revealButton {
-            background-color: #2563eb;
+            background: var(--blue);
         }
 
-        #nextButton {
-            background-color: #16a34a;
+        .navigationButtons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
         }
 
         #previousButton {
-            background-color: #dc2626;
+            background: var(--red);
+        }
+
+        #nextButton {
+            background: var(--green);
         }
 
         button:disabled {
@@ -162,135 +386,258 @@
             cursor: not-allowed;
         }
 
+
+        /* =========================================
+           8. FOOTER
+        ========================================= */
+
+        .appFooter {
+            margin-top: 32px;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+        }
+
+
+        /* =========================================
+           9. SMALL SCREENS
+        ========================================= */
+
+        @media (max-width: 360px) {
+            body {
+                padding: 18px 12px 36px;
+            }
+
+            .settingsPanel {
+                padding: 14px;
+            }
+
+            .studyOptions {
+                gap: 8px;
+            }
+
+            #languageLabel {
+                font-size: 12px;
+            }
+
+            #shuffleButton {
+                padding: 10px;
+                font-size: 12px;
+            }
+
+            .actionButton {
+                padding: 16px 8px;
+                font-size: 15px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                transition: none !important;
+            }
+        }
     </style>
 </head>
 
-
 <body>
 
-    <!-- ========================================
-         1. PAGE HEADER
-    ========================================= -->
+    <main class="app">
 
-    <h1>Mnemosyne</h1>
-    <h2>Greek Vocabulary</h2>
+        <!-- =====================================
+             HEADER
+        ====================================== -->
+
+        <header class="appHeader">
+            <p class="eyebrow">Ancient Greek Study</p>
+            <h1>Mnemosyne</h1>
+            <p class="subtitle">
+                Build your vocabulary, one word at a time.
+            </p>
+        </header>
 
 
-    <!-- ========================================
-         2. VOCABULARY FILTERS
-    ========================================= -->
+        <!-- =====================================
+             STUDY SETTINGS
+        ====================================== -->
 
-    <div class="studyFilters">
+        <section class="settingsPanel" aria-label="Study settings">
 
-        <div class="filterGroup">
-            <label for="chapterSelect">
-                Chapter
-            </label>
+            <h2 class="panelTitle">Study Settings</h2>
 
-            <select
-                id="chapterSelect"
-                onchange="selectChapter()"
+            <div class="studyFilters">
+
+                <div class="filterGroup">
+                    <label for="chapterSelect">Chapter</label>
+
+                    <select
+                        id="chapterSelect"
+                        onchange="selectChapter()"
+                    >
+                        <option value="all">
+                            All Chapters
+                        </option>
+                    </select>
+                </div>
+
+                <div class="filterGroup">
+                    <label for="sectionSelect">Section</label>
+
+                    <select
+                        id="sectionSelect"
+                        onchange="selectSection()"
+                    >
+                        <option value="all">
+                            All Sections
+                        </option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="studyOptions">
+
+                <div class="languageControl">
+
+                    <label
+                        for="languageToggle"
+                        id="languageLabel"
+                    >
+                        Greek First
+                    </label>
+
+                    <label class="switch">
+                        <input
+                            type="checkbox"
+                            id="languageToggle"
+                            aria-label="Start with English"
+                            onchange="toggleLanguage()"
+                        >
+                        <span class="switchSlider"></span>
+                    </label>
+
+                </div>
+
+                <button
+                    type="button"
+                    id="shuffleButton"
+                    onclick="shuffleCards()"
+                >
+                    ⇄ Shuffle
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FLASHCARD
+        ====================================== -->
+
+        <section class="flashcardArea" aria-label="Flashcards">
+
+            <div class="flashcardHeader">
+                <span>FLASHCARD</span>
+                <span id="cardSideLabel">GREEK</span>
+            </div>
+
+            <div id="flashcardBox">
+                <p id="flashcard">
+                    Loading vocabulary...
+                </p>
+            </div>
+
+            <div class="progressArea">
+                <p id="cardCounter">Card 0 of 0</p>
+
+                <div
+                    class="progressTrack"
+                    role="progressbar"
+                    aria-label="Deck progress"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-valuenow="0"
+                    id="progressTrack"
+                >
+                    <div id="progressFill"></div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             CARD CONTROLS
+        ====================================== -->
+
+        <section class="cardControls" aria-label="Card controls">
+
+            <button
+                type="button"
+                class="actionButton"
+                id="revealButton"
+                onclick="flipCard()"
             >
-                <option value="all">
-                    All Chapters
-                </option>
-            </select>
-        </div>
+                Reveal Answer
+            </button>
 
-        <div class="filterGroup">
-            <label for="sectionSelect">
-                Section
-            </label>
+            <div class="navigationButtons">
 
-            <select
-                id="sectionSelect"
-                onchange="selectSection()"
-            >
-                <option value="all">
-                    All Sections
-                </option>
-            </select>
-        </div>
+                <button
+                    type="button"
+                    class="actionButton"
+                    id="previousButton"
+                    onclick="previousCard()"
+                >
+                    ← Previous
+                </button>
 
-    </div>
+                <button
+                    type="button"
+                    class="actionButton"
+                    id="nextButton"
+                    onclick="nextCard()"
+                >
+                    Next →
+                </button>
 
+            </div>
 
-    <!-- ========================================
-         3. FLASHCARD
-    ========================================= -->
+        </section>
 
-    <div id="flashcardBox">
-        <p id="flashcard">
-            Loading vocabulary...
-        </p>
-    </div>
+        <footer class="appFooter">
+            MNEMOSYNE · GREEK VOCABULARY
+        </footer>
 
-
-    <!-- ========================================
-         4. CARD COUNTER
-    ========================================= -->
-
-    <p id="cardCounter">
-        Card 0 of 0
-    </p>
-
-
-    <!-- ========================================
-         5. FLASHCARD CONTROLS
-    ========================================= -->
-
-    <button
-        id="revealButton"
-        onclick="flipCard()"
-    >
-        Reveal Answer
-    </button>
-
-    <button
-        id="nextButton"
-        onclick="nextCard()"
-    >
-        Next Card
-    </button>
-
-    <button
-        id="previousButton"
-        onclick="previousCard()"
-    >
-        Previous Card
-    </button>
+    </main>
 
 
     <script>
-        /* ========================================
+        /* =========================================
            1. APPLICATION STATE
-        ======================================== */
+        ========================================= */
 
-        // Complete vocabulary database
         let cards = [];
-
-        // Cards matching the selected filters
         let studyCards = [];
 
-        // Current position in the study deck
         let currentIndex = 0;
-
-        // Whether the English answer is visible
         let showingAnswer = false;
+        let englishFirst = false;
 
 
-        /* ========================================
+        /* =========================================
            2. LOAD VOCABULARY
-        ======================================== */
+        ========================================= */
 
         async function loadCards() {
             try {
                 const response = await fetch("words.json");
 
                 if (!response.ok) {
-                    throw new Error(
-                        "Could not load words.json"
-                    );
+                    throw new Error("Could not load words.json");
                 }
 
                 const data = await response.json();
@@ -309,25 +656,21 @@
             } catch (error) {
                 console.error(error);
 
-                document.getElementById(
-                    "flashcard"
-                ).textContent = "Error loading vocabulary";
+                document.getElementById("flashcard").textContent =
+                    "Error loading vocabulary";
 
-                document.getElementById(
-                    "cardCounter"
-                ).textContent = "Check words.json";
+                document.getElementById("cardCounter").textContent =
+                    "Check words.json";
             }
         }
 
 
-        /* ========================================
-           3. POPULATE CHAPTERS
-        ======================================== */
+        /* =========================================
+           3. CHAPTER DROPDOWN
+        ========================================= */
 
         function populateChapters() {
-            const select = document.getElementById(
-                "chapterSelect"
-            );
+            const select = document.getElementById("chapterSelect");
 
             select.innerHTML =
                 '<option value="all">All Chapters</option>';
@@ -349,34 +692,28 @@
             });
 
             for (const chapter of chapters) {
-                const option = document.createElement(
-                    "option"
-                );
+                const option = document.createElement("option");
 
                 option.value = chapter;
-
-                option.textContent =
-                    chapter === "general"
-                        ? "General Vocabulary"
-                        : "Chapter " + chapter;
+                option.textContent = chapter === "general"
+                    ? "General Vocabulary"
+                    : "Chapter " + chapter;
 
                 select.appendChild(option);
             }
         }
 
 
-        /* ========================================
-           4. POPULATE SECTIONS
-        ======================================== */
+        /* =========================================
+           4. SECTION DROPDOWN
+        ========================================= */
 
         function populateSections() {
-            const chapter = document.getElementById(
-                "chapterSelect"
-            ).value;
+            const chapter =
+                document.getElementById("chapterSelect").value;
 
-            const sectionSelect = document.getElementById(
-                "sectionSelect"
-            );
+            const sectionSelect =
+                document.getElementById("sectionSelect");
 
             sectionSelect.innerHTML =
                 '<option value="all">All Sections</option>';
@@ -398,22 +735,19 @@
             ].sort();
 
             for (const section of sections) {
-                const option = document.createElement(
-                    "option"
-                );
+                const option = document.createElement("option");
 
                 option.value = section;
-                option.textContent =
-                    "Section " + section;
+                option.textContent = "Section " + section;
 
                 sectionSelect.appendChild(option);
             }
         }
 
 
-        /* ========================================
+        /* =========================================
            5. FILTER VOCABULARY
-        ======================================== */
+        ========================================= */
 
         function selectChapter() {
             populateSections();
@@ -421,13 +755,11 @@
         }
 
         function selectSection() {
-            const chapter = document.getElementById(
-                "chapterSelect"
-            ).value;
+            const chapter =
+                document.getElementById("chapterSelect").value;
 
-            const section = document.getElementById(
-                "sectionSelect"
-            ).value;
+            const section =
+                document.getElementById("sectionSelect").value;
 
             studyCards = cards.filter(card => {
                 const chapterMatches =
@@ -448,58 +780,132 @@
         }
 
 
-        /* ========================================
-           6. DISPLAY FLASHCARD
-        ======================================== */
+        /* =========================================
+           6. LANGUAGE DIRECTION
+        ========================================= */
+
+        function toggleLanguage() {
+            englishFirst =
+                document.getElementById("languageToggle").checked;
+
+            document.getElementById("languageLabel").textContent =
+                englishFirst ? "English First" : "Greek First";
+
+            showingAnswer = false;
+            displayCard();
+        }
+
+
+        /* =========================================
+           7. SHUFFLE CARDS
+        ========================================= */
+
+        function shuffleCards() {
+            if (studyCards.length < 2) return;
+
+            for (let i = studyCards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+
+                [studyCards[i], studyCards[j]] =
+                    [studyCards[j], studyCards[i]];
+            }
+
+            currentIndex = 0;
+            showingAnswer = false;
+
+            displayCard();
+        }
+
+
+        /* =========================================
+           8. DISPLAY FLASHCARD
+        ========================================= */
 
         function displayCard() {
-            const flashcard = document.getElementById(
-                "flashcard"
-            );
+            const flashcard =
+                document.getElementById("flashcard");
 
-            const counter = document.getElementById(
-                "cardCounter"
-            );
+            const counter =
+                document.getElementById("cardCounter");
+
+            const sideLabel =
+                document.getElementById("cardSideLabel");
+
+            const progressFill =
+                document.getElementById("progressFill");
+
+            const progressTrack =
+                document.getElementById("progressTrack");
 
             if (studyCards.length === 0) {
-                flashcard.textContent =
-                    "No vocabulary available";
+                flashcard.textContent = "No vocabulary available";
+                flashcard.className = "englishText";
 
                 counter.textContent = "Card 0 of 0";
+                sideLabel.textContent = "NO CARDS";
+
+                progressFill.style.width = "0%";
+                progressTrack.setAttribute("aria-valuenow", "0");
+
                 return;
             }
 
             const currentCard = studyCards[currentIndex];
 
-            flashcard.textContent = showingAnswer
+            const showEnglish = englishFirst !== showingAnswer;
+
+            flashcard.textContent = showEnglish
                 ? currentCard.english
                 : currentCard.greek;
 
+            flashcard.className = showEnglish
+                ? "englishText"
+                : "greekText";
+
+            sideLabel.textContent = showEnglish
+                ? "ENGLISH"
+                : "GREEK";
+
             counter.textContent =
                 `Card ${currentIndex + 1} of ${studyCards.length}`;
+
+            const progress =
+                ((currentIndex + 1) / studyCards.length) * 100;
+
+            progressFill.style.width = `${progress}%`;
+
+            progressTrack.setAttribute(
+                "aria-valuenow",
+                String(Math.round(progress))
+            );
 
             fitFlashcardText();
         }
 
 
-        /* ========================================
-           7. AUTOMATIC TEXT RESIZING
-        ======================================== */
+        /* =========================================
+           9. AUTOMATIC TEXT RESIZING
+        ========================================= */
 
         function fitFlashcardText() {
-            const flashcard = document.getElementById(
-                "flashcard"
-            );
+            const flashcard =
+                document.getElementById("flashcard");
 
-            const availableWidth = flashcard.clientWidth;
+            const isGreek =
+                flashcard.classList.contains("greekText");
 
-            let fontSize = 72;
+            const maxFontSize = isGreek ? 72 : 42;
+            const minFontSize = 12;
+
+            let fontSize = maxFontSize;
 
             flashcard.style.fontSize = `${fontSize}px`;
 
+            if (!isGreek) return;
+
             while (
-                flashcard.scrollWidth > availableWidth &&
-                fontSize > 12
+                flashcard.scrollWidth > flashcard.clientWidth &&
+                fontSize > minFontSize
             ) {
                 fontSize -= 2;
                 flashcard.style.fontSize = `${fontSize}px`;
@@ -507,15 +913,14 @@
         }
 
 
-        /* ========================================
-           8. FLASHCARD NAVIGATION
-        ======================================== */
+        /* =========================================
+           10. CARD NAVIGATION
+        ========================================= */
 
         function flipCard() {
             if (studyCards.length === 0) return;
 
             showingAnswer = !showingAnswer;
-
             displayCard();
         }
 
@@ -526,7 +931,6 @@
                 (currentIndex + 1) % studyCards.length;
 
             showingAnswer = false;
-
             displayCard();
         }
 
@@ -538,24 +942,20 @@
                 studyCards.length;
 
             showingAnswer = false;
-
             displayCard();
         }
 
 
-        /* ========================================
-           9. WINDOW RESIZING
-        ======================================== */
+        /* =========================================
+           11. RESPONSIVE RESIZING
+        ========================================= */
 
-        window.addEventListener(
-            "resize",
-            fitFlashcardText
-        );
+        window.addEventListener("resize", fitFlashcardText);
 
 
-        /* ========================================
-           10. START APPLICATION
-        ======================================== */
+        /* =========================================
+           12. START APPLICATION
+        ========================================= */
 
         loadCards();
 
