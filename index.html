@@ -1,0 +1,457 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Mnemosyne</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #111827;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 20px 0 5px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin: 0 0 25px;
+            color: #475569;
+        }
+
+        /* Chapter and section selectors */
+
+        .studyFilters {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 12px;
+            width: 100%;
+            margin: 24px 0;
+        }
+
+        .filterGroup {
+            min-width: 0;
+        }
+
+        .filterGroup label {
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #374151;
+        }
+
+        .filterGroup select {
+            display: block;
+            width: 100%;
+            min-width: 0;
+            padding: 14px 8px;
+            font-size: 16px;
+            color: #1e40af;
+            background-color: #eff6ff;
+            border: 2px solid #93c5fd;
+            border-radius: 12px;
+        }
+
+        /* Flashcard */
+
+        #flashcardBox {
+            width: 100%;
+            min-height: 250px;
+            padding: 20px;
+            margin: 30px 0 15px;
+
+            background-color: white;
+            border: 2px solid #d1d5db;
+            border-radius: 16px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #flashcard {
+            width: 90%;
+            margin: 0;
+
+            font-size: clamp(56px, 12vw, 72px);
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.4;
+
+            overflow-wrap: anywhere;
+        }
+
+        /* Card counter */
+
+        #cardCounter {
+            text-align: center;
+            font-size: 16px;
+            color: #64748b;
+            margin: 10px 0 25px;
+        }
+
+        /* Buttons */
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 18px 24px;
+            margin: 12px 0;
+
+            font-size: 20px;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        #revealButton {
+            background-color: #2563eb;
+        }
+
+        #nextButton {
+            background-color: #16a34a;
+        }
+
+        #previousButton {
+            background-color: #dc2626;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Mnemosyne</h1>
+    <h2>Greek Vocabulary</h2>
+
+    <!-- Vocabulary filters -->
+
+    <div class="studyFilters">
+
+        <div class="filterGroup">
+            <label for="chapterSelect">Chapter</label>
+
+            <select id="chapterSelect"
+                    onchange="selectChapter()">
+                <option value="all">All Chapters</option>
+            </select>
+        </div>
+
+        <div class="filterGroup">
+            <label for="sectionSelect">Section</label>
+
+            <select id="sectionSelect"
+                    onchange="selectSection()">
+                <option value="all">All Sections</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!-- Flashcard display -->
+
+    <div id="flashcardBox">
+        <p id="flashcard">Loading vocabulary...</p>
+    </div>
+
+    <!-- Card counter -->
+
+    <p id="cardCounter">Card 0 of 0</p>
+
+    <!-- Flashcard controls -->
+
+    <button id="revealButton" onclick="flipCard()">
+        Reveal Answer
+    </button>
+
+    <button id="nextButton" onclick="nextCard()">
+        Next Card
+    </button>
+
+    <button id="previousButton" onclick="previousCard()">
+        Previous Card
+    </button>
+
+    <script>
+
+        // All vocabulary loaded from words.json
+        let cards = [];
+
+        // Vocabulary matching the selected filters
+        let studyCards = [];
+
+        // Current card position
+        let currentIndex = 0;
+
+        // Whether English is currently visible
+        let showingAnswer = false;
+
+
+        // Load vocabulary from the JSON file
+
+        async function loadCards() {
+            try {
+                const response = await fetch("words.json");
+
+                if (!response.ok) {
+                    throw new Error(
+                        "Could not load words.json"
+                    );
+                }
+
+                const data = await response.json();
+
+                if (!Array.isArray(data)) {
+                    throw new Error(
+                        "Vocabulary must be a JSON array"
+                    );
+                }
+
+                cards = data;
+
+                populateChapters();
+                selectChapter();
+
+            } catch (error) {
+                console.error(error);
+
+                document.getElementById(
+                    "flashcard"
+                ).textContent = "Error loading vocabulary";
+
+                document.getElementById(
+                    "cardCounter"
+                ).textContent = "Check words.json";
+            }
+        }
+
+
+        // Build chapter dropdown from vocabulary
+
+        function populateChapters() {
+            const select = document.getElementById(
+                "chapterSelect"
+            );
+
+            select.innerHTML =
+                '<option value="all">All Chapters</option>';
+
+            const chapters = [...new Set(
+                cards
+                    .filter(card =>
+                        card.chapter !== undefined &&
+                        card.chapter !== null
+                    )
+                    .map(card => String(card.chapter))
+            )].sort((a, b) => Number(a) - Number(b));
+
+            for (const chapter of chapters) {
+                const option = document.createElement(
+                    "option"
+                );
+
+                option.value = chapter;
+                
+option.textContent =
+    chapter === "general"
+        ? "General Vocabulary"
+        : "Chapter " + chapter;
+
+
+                select.appendChild(option);
+            }
+        }
+
+
+        // Called when chapter changes
+
+        function selectChapter() {
+            populateSections();
+            selectSection();
+        }
+
+
+        // Build section dropdown for selected chapter
+
+        function populateSections() {
+            const chapter = document.getElementById(
+                "chapterSelect"
+            ).value;
+
+            const sectionSelect = document.getElementById(
+                "sectionSelect"
+            );
+
+            sectionSelect.innerHTML =
+                '<option value="all">All Sections</option>';
+
+            const chapterCards = cards.filter(card =>
+                chapter === "all" ||
+                String(card.chapter) === chapter
+            );
+
+            const sections = [...new Set(
+                chapterCards
+                    .filter(card =>
+                        card.section !== undefined &&
+                        card.section !== null
+                    )
+                    .map(card => String(card.section))
+            )].sort();
+
+            for (const section of sections) {
+                const option = document.createElement(
+                    "option"
+                );
+
+                option.value = section;
+                option.textContent =
+                    "Section " + section;
+
+                sectionSelect.appendChild(option);
+            }
+        }
+
+
+        // Filter vocabulary by chapter and section
+
+        function selectSection() {
+            const chapter = document.getElementById(
+                "chapterSelect"
+            ).value;
+
+            const section = document.getElementById(
+                "sectionSelect"
+            ).value;
+
+            studyCards = cards.filter(card => {
+                const chapterMatches =
+                    chapter === "all" ||
+                    String(card.chapter) === chapter;
+
+                const sectionMatches =
+                    section === "all" ||
+                    String(card.section) === section;
+
+                return chapterMatches && sectionMatches;
+            });
+
+            currentIndex = 0;
+            showingAnswer = false;
+
+            displayCard();
+        }
+
+
+        // Display current Greek word or English answer
+
+        function displayCard() {
+            const flashcard = document.getElementById(
+                "flashcard"
+            );
+
+            const counter = document.getElementById(
+                "cardCounter"
+            );
+
+            if (studyCards.length === 0) {
+                flashcard.textContent =
+                    "No vocabulary available";
+
+                counter.textContent = "Card 0 of 0";
+                return;
+            }
+
+            const currentCard = studyCards[currentIndex];
+
+            if (showingAnswer) {
+                flashcard.textContent =
+                    currentCard.english;
+            } else {
+                flashcard.textContent =
+                    currentCard.greek;
+            }
+
+            counter.textContent =
+                "Card " + (currentIndex + 1) +
+                " of " + studyCards.length;
+        }
+
+
+        // Reveal or hide the answer
+
+        function flipCard() {
+            if (studyCards.length === 0) {
+                return;
+            }
+
+            showingAnswer = !showingAnswer;
+            displayCard();
+        }
+
+
+        // Advance to the next flashcard
+
+        function nextCard() {
+            if (studyCards.length === 0) {
+                return;
+            }
+
+            currentIndex++;
+
+            if (currentIndex >= studyCards.length) {
+                currentIndex = 0;
+            }
+
+            showingAnswer = false;
+            displayCard();
+        }
+
+
+        // Go to the previous flashcard
+
+        function previousCard() {
+            if (studyCards.length === 0) {
+                return;
+            }
+
+            currentIndex--;
+
+            if (currentIndex < 0) {
+                currentIndex = studyCards.length - 1;
+            }
+
+            showingAnswer = false;
+            displayCard();
+        }
+
+
+        // Start the application
+
+        loadCards();
+
+    </script>
+
+</body>
+</html>
