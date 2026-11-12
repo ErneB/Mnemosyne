@@ -1,0 +1,4146 @@
+{
+  "passages": [
+    {
+      "id": "athenaze-1a",
+      "title": "Athenaze — Chapter 1α",
+      "chapter": 1,
+      "section": "α",
+      "language": "Ancient Greek",
+      "sentences": [
+        {
+          "id": 1,
+          "greek": "ὁ Δικαιόπολις Ἀθηναῖός ἐστιν.",
+          "english": "Dikaiopolis is an Athenian."
+        },
+        {
+          "id": 2,
+          "greek": "οἰκεῖ δὲ ὁ Δικαιόπολις οὐκ ἐν ταῖς Ἀθήναις ἀλλὰ ἐν τοῖς ἀγροῖς· αὐτουργὸς γάρ ἐστιν.",
+          "english": "But Dikaiopolis lives not in Athens but in the countryside, for he works his own land."
+        },
+        {
+          "id": 3,
+          "greek": "γεωργεῖ οὖν τὸν κλῆρον καὶ πονεῖ ἐν τοῖς ἀγροῖς.",
+          "english": "So he cultivates his farm and works hard in the fields."
+        },
+        {
+          "id": 4,
+          "greek": "χαλεπὸς δέ ἐστιν ὁ βίος· ὁ γὰρ κλῆρός ἐστι μικρός, μακρὸς δὲ ὁ πόνος.",
+          "english": "But life is difficult, for the farm is small and the work is long."
+        },
+        {
+          "id": 5,
+          "greek": "ἀεὶ οὖν πονεῖ ὁ Δικαιόπολις καὶ πολλάκις στενάζει καὶ λέγει·",
+          "english": "So Dikaiopolis is always working hard, and often he groans and says:"
+        },
+        {
+          "id": 6,
+          "greek": "ὦ Ζεῦ, χαλεπός ἐστιν ὁ βίος· ἀπέραντος γάρ ἐστιν ὁ πόνος, μικρὸς δὲ ὁ κλῆρος καὶ οὐ πολὺν σῖτον παρέχει.",
+          "english": "O Zeus, life is difficult, for the work is endless, but the farm is small and does not produce much grain."
+        },
+        {
+          "id": 7,
+          "greek": "ἀλλὰ ἰσχυρός ἐστιν ὁ ἄνθρωπος καὶ ἄοκνος·",
+          "english": "But the man is strong and hardworking."
+        },
+        {
+          "id": 8,
+          "greek": "πολλάκις οὖν χαίρει· ἐλεύθερος γάρ ἐστι καὶ αὐτουργός·",
+          "english": "So he is often happy, for he is free and works his own land."
+        },
+        {
+          "id": 9,
+          "greek": "φιλεῖ δὲ τὸν οἶκον.",
+          "english": "And he loves his home."
+        },
+        {
+          "id": 10,
+          "greek": "καλὸς γάρ ἐστιν ὁ κλῆρος καὶ σῖτον παρέχει οὐ πολὺν ἀλλὰ ἱκανόν.",
+          "english": "For the farm is beautiful and produces not much grain, but enough."
+        }
+      ]
+    },
+    {
+      "id": "athenaze-1b",
+      "title": "Athenaze — Chapter 1β",
+      "chapter": 1,
+      "section": "β",
+      "language": "Ancient Greek",
+      "sentences": [
+        {
+          "id": 1,
+          "greek": "ὁ Δικαιόπολις ἐν τῷ ἀγρῷ πονεῖ· τὸν γὰρ ἀγρὸν σκάπτει.",
+          "english": "Dikaiopolis works in the field, for he is digging the field."
+        },
+        {
+          "id": 2,
+          "greek": "μακρός ἐστιν ὁ πόνος καὶ χαλεπός· τοὺς γὰρ λίθους ἐκ τοῦ ἀγροῦ φέρει.",
+          "english": "The work is long and difficult, for he carries stones out of the field."
+        },
+        {
+          "id": 3,
+          "greek": "μέγαν λίθον αἴρει καὶ φέρει πρὸς τὸ ἕρμα.",
+          "english": "He lifts a large stone and carries it toward the stone heap."
+        },
+        {
+          "id": 4,
+          "greek": "ἰσχυρός ἐστιν ὁ ἄνθρωπος ἀλλὰ πολὺν χρόνον πονεῖ καὶ μάλα κάμνει.",
+          "english": "The man is strong, but he works for a long time and becomes very tired."
+        },
+        {
+          "id": 5,
+          "greek": "φλέγει γὰρ ὁ ἥλιος καὶ κατατρίβει αὐτόν.",
+          "english": "For the sun burns and wears him out."
+        },
+        {
+          "id": 6,
+          "greek": "καθίζει οὖν ὑπὸ τῷ δένδρῳ καὶ ἡσυχάζει οὐ πολὺν χρόνον.",
+          "english": "So he sits beneath the tree and rests for a short time."
+        },
+        {
+          "id": 7,
+          "greek": "δι’ ὀλίγου γὰρ ἐπαίρει ἑαυτὸν καὶ πονεῖ.",
+          "english": "For after a little while he gets himself up and works."
+        },
+        {
+          "id": 8,
+          "greek": "τέλος δὲ καταδύνει ὁ ἥλιος.",
+          "english": "Finally, the sun sets."
+        },
+        {
+          "id": 9,
+          "greek": "οὐκέτι οὖν πονεῖ ὁ Δικαιόπολις ἀλλὰ πρὸς τὸν οἶκον βαδίζει.",
+          "english": "So Dikaiopolis no longer works, but walks toward his home."
+        }
+      ]
+    },
+    {
+      "id": "athenaze-2a",
+      "title": "Athenaze — Chapter 2α",
+      "chapter": 2,
+      "section": "α",
+      "language": "Ancient Greek",
+      "sentences": [
+        {
+          "id": 1,
+          "greek": "ὁ Δικαιόπολις ἐκβαίνει ἐκ τοῦ οἴκου καὶ καλεῖ τὸν Ξανθίαν.",
+          "english": "Dikaiopolis comes out of the house and calls Xanthias."
+        },
+        {
+          "id": 2,
+          "greek": "ὁ Ξανθίας δοῦλός ἐστιν, ἰσχυρὸς μὲν ἄνθρωπος, ἀργὸς δέ· οὐ γὰρ πονεῖ, εἰ μὴ πάρεστιν ὁ Δικαιόπολις.",
+          "english": "Xanthias is a slave, a strong man but lazy; for he does not work unless Dikaiopolis is present."
+        },
+        {
+          "id": 3,
+          "greek": "νῦν δὲ καθεύδει ἐν τῷ οἴκῳ.",
+          "english": "And now he is sleeping in the house."
+        },
+        {
+          "id": 4,
+          "greek": "ὁ οὖν Δικαιόπολις καλεῖ αὐτὸν καὶ λέγει·",
+          "english": "So Dikaiopolis calls him and says:"
+        },
+        {
+          "id": 5,
+          "greek": "ἐλθὲ δεῦρο, ὦ Ξανθία. τί καθεύδεις; μὴ οὕτως ἀργὸς ἴσθι· ἀλλὰ σπεῦδε.",
+          "english": "Come here, Xanthias! Why are you sleeping? Do not be so lazy, but hurry!"
+        },
+        {
+          "id": 6,
+          "greek": "ὁ οὖν Ξανθίας βραδέως ἐκβαίνει ἐκ τοῦ οἴκου καὶ λέγει·",
+          "english": "So Xanthias slowly comes out of the house and says:"
+        },
+        {
+          "id": 7,
+          "greek": "τί εἶ οὕτω χαλεπός, ὦ δέσποτα; οὐ γὰρ ἀργός εἰμι ἀλλὰ ἤδη σπεύδω.",
+          "english": "Why are you so harsh, master? For I am not lazy, but am already hurrying."
+        },
+        {
+          "id": 8,
+          "greek": "ὁ δὲ Δικαιόπολις λέγει·",
+          "english": "But Dikaiopolis says:"
+        },
+        {
+          "id": 9,
+          "greek": "ἐλθὲ δεῦρο καὶ συλλάμβανε· αἶρε γὰρ τὸ ἄροτρον καὶ φέρε αὐτὸ πρὸς τὸν ἀγρόν. ἐγὼ γὰρ ἐλαύνω τοὺς βοῦς. ἀλλὰ σπεῦδε· μικρὸς μὲν γάρ ἐστιν ὁ ἀγρός, μακρὸς δὲ ὁ πόνος.",
+          "english": "Come here and help! Pick up the plow and carry it to the field, for I am driving the oxen. But hurry, for the field is small but the work is long."
+        }
+      ]
+    },
+    {
+      "id": "athenaze-2b",
+      "title": "Athenaze — Chapter 2β",
+      "chapter": 2,
+      "section": "β",
+      "language": "Ancient Greek",
+      "sentences": [
+        {
+          "id": 1,
+          "greek": "ὁ μὲν οὖν Δικαιόπολις ἐλαύνει τοὺς βοῦς, ὁ δὲ Ξανθίας ὄπισθεν βαδίζει καὶ φέρει τὸ ἄροτρον.",
+          "english": "Dikaiopolis drives the oxen, while Xanthias walks behind and carries the plow."
+        },
+        {
+          "id": 2,
+          "greek": "δι’ ὀλίγου δὲ ὁ Δικαιόπολις εἰσάγει τοὺς βοῦς εἰς τὸν ἀγρὸν καὶ βλέπει πρὸς τὸν δοῦλον· ὁ δὲ Ξανθίας οὐ πάρεστιν· βραδέως γὰρ βαίνει.",
+          "english": "Soon Dikaiopolis leads the oxen into the field and looks toward the slave, but Xanthias is not there, for he is walking slowly."
+        },
+        {
+          "id": 3,
+          "greek": "ὁ οὖν Δικαιόπολις καλεῖ αὐτὸν καὶ λέγει·",
+          "english": "So Dikaiopolis calls him and says:"
+        },
+        {
+          "id": 4,
+          "greek": "σπεῦδε, ὦ Ξανθία, καὶ φέρε μοι τὸ ἄροτρον.",
+          "english": "Hurry, Xanthias, and bring me the plow."
+        },
+        {
+          "id": 5,
+          "greek": "ὁ δὲ Ξανθίας λέγει·",
+          "english": "But Xanthias says:"
+        },
+        {
+          "id": 6,
+          "greek": "ἀλλ’ ἤδη σπεύδω, ὦ δέσποτα· τί οὕτω χαλεπὸς εἶ;",
+          "english": "But I am already hurrying, master. Why are you so harsh?"
+        },
+        {
+          "id": 7,
+          "greek": "βραδέως δὲ φέρει τὸ ἄροτρον πρὸς αὐτόν.",
+          "english": "But he carries the plow toward him slowly."
+        },
+        {
+          "id": 8,
+          "greek": "ὁ οὖν Δικαιόπολις ἄγει τοὺς βοῦς ὑπὸ τὸ ζυγὸν καὶ προσάπτει τὸ ἄροτρον.",
+          "english": "So Dikaiopolis leads the oxen under the yoke and attaches the plow."
+        },
+        {
+          "id": 9,
+          "greek": "ἔπειτα δὲ πρὸς τὸν δοῦλον βλέπει· ὁ δὲ Ξανθίας οὐ πάρεστιν· καθεύδει γὰρ ὑπὸ τῷ δένδρῳ.",
+          "english": "Then he looks toward the slave, but Xanthias is not there, for he is sleeping under the tree."
+        },
+        {
+          "id": 10,
+          "greek": "ὁ οὖν Δικαιόπολις καλεῖ αὐτὸν καὶ λέγει·",
+          "english": "So Dikaiopolis calls him and says:"
+        },
+        {
+          "id": 11,
+          "greek": "ἐλθὲ δεῦρο, ὦ κατάρατε. μὴ κάθευδε ἀλλὰ συλλάμβανε. φέρε γὰρ τὸ σπέρμα καὶ ὄπισθεν βάδιζε.",
+          "english": "Come here, you wretch! Do not sleep, but help. Bring the seed and walk behind."
+        },
+        {
+          "id": 12,
+          "greek": "ὁ μὲν οὖν δοῦλος τὸ σπέρμα λαμβάνει καὶ ἀκολουθεῖ,",
+          "english": "So the slave takes the seed and follows."
+        },
+        {
+          "id": 13,
+          "greek": "ὁ δὲ δεσπότης καλεῖ τὴν Δήμητραν καὶ λέγει·",
+          "english": "But the master calls upon Demeter and says:"
+        },
+        {
+          "id": 14,
+          "greek": "ἵλεως ἴσθι, ὦ Δήμητερ, καὶ πλήθυνε τὸ σπέρμα.",
+          "english": "Be gracious, O Demeter, and multiply the seed."
+        },
+        {
+          "id": 15,
+          "greek": "ἔπειτα δὲ τὸ κέντρον λαμβάνει καὶ κεντεῖ τοὺς βοῦς καὶ λέγει· σπεύδετε, ὦ βόες· ἕλκετε τὸ ἄροτρον καὶ ἀροῦτε τὸν ἀγρόν.",
+          "english": "Then he takes the goad and prods the oxen, saying: Hurry, oxen! Pull the plow and plow the field."
+        }
+      ]
+    },
+    
+{
+  "chapter": 3,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ὁ μὲν Δικαιόπολις ἐλαύνει τοὺς βοῦς, οἱ δὲ βόες ἕλκουσι τὸ ἄροτρον, ὁ δὲ Ξανθίας σπείρει τὸ σπέρμα.",
+      "english": "Dicaeopolis drives the oxen, the oxen pull the plow, and Xanthias sows the seed."
+    },
+    {
+      "id": 2,
+      "greek": "ἀλλὰ ἰδού, μένουσιν οἱ βόες καὶ οὐκέτι ἕλκουσι τὸ ἄροτρον.",
+      "english": "But look, the oxen stop and no longer pull the plow."
+    },
+    {
+      "id": 3,
+      "greek": "ὁ μὲν οὖν Δικαιόπολις τοὺς βοῦς καλεῖ καί, “σπεύδετε, ὦ βόες,” φησίν.",
+      "english": "So Dicaeopolis calls to the oxen and says, 'Hurry, oxen!'"
+    },
+    {
+      "id": 4,
+      "greek": "“μὴ μένετε.”",
+      "english": "'Do not stop.'"
+    },
+    {
+      "id": 5,
+      "greek": "οἱ δὲ βόες ἔτι μένουσιν.",
+      "english": "But the oxen still remain standing."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ οὖν Δικαιόπολις, “τί μένετε, ὦ βόες;” φησίν, καὶ βλέπει πρὸς τὸ ἄροτρον, καὶ ἰδού, λίθος ἐμποδίζει αὐτό.",
+      "english": "So Dicaeopolis says, 'Why are you stopping, oxen?' He looks toward the plow, and look, a stone is obstructing it."
+    },
+    {
+      "id": 7,
+      "greek": "ὁ οὖν Δικαιόπολις λαμβάνει τὸν λίθον ἀλλ’ οὐκ αἴρει αὐτόν· μέγας γάρ ἐστιν.",
+      "english": "So Dicaeopolis takes hold of the stone but cannot lift it, for it is large."
+    },
+    {
+      "id": 8,
+      "greek": "καλεῖ οὖν τὸν δοῦλον καί, “ἐλθὲ δεῦρο, ὦ Ξανθία,” φησίν, “καὶ συλλάμβανε· λίθος γὰρ μέγας τὸ ἄροτρον ἐμποδίζει, οἱ δὲ βόες μένουσιν.”",
+      "english": "So he calls the slave and says, 'Come here, Xanthias, and help! For a large stone is obstructing the plow, and the oxen are standing still.'"
+    },
+    {
+      "id": 9,
+      "greek": "ὁ οὖν Ξανθίας βραδέως προσχωρεῖ ἀλλ’ οὐ συλλαμβάνει·",
+      "english": "So Xanthias approaches slowly but does not help."
+    },
+    {
+      "id": 10,
+      "greek": "βλέπει γὰρ πρὸς τὸν λίθον καί, “μέγας ἐστὶν ὁ λίθος, ὦ δέσποτα,” φησίν.",
+      "english": "For he looks at the stone and says, 'The stone is large, master.'"
+    },
+    {
+      "id": 11,
+      "greek": "“ἰδού, οὐ δυνατὸν ἐστιν αἴρειν αὐτόν.”",
+      "english": "'Look, it is not possible to lift it.'"
+    },
+    {
+      "id": 12,
+      "greek": "ὁ δὲ Δικαιόπολις, “μὴ ἀργὸς ἴσθι,” φησίν, “ἀλλὰ συλλάμβανε. δυνατὸν γάρ ἐστιν αἴρειν τὸν λίθον.”",
+      "english": "But Dicaeopolis says, 'Do not be lazy, but help! For it is possible to lift the stone.'"
+    },
+    {
+      "id": 13,
+      "greek": "ἅμα οὖν ὅ τε δεσπότης καὶ ὁ δοῦλος αἴρουσι τὸν λίθον καὶ φέρουσιν αὐτὸν ἐκ τοῦ ἀγροῦ.",
+      "english": "So together both the master and the slave lift the stone and carry it out of the field."
+    },
+    {
+      "id": 14,
+      "greek": "ἐν ᾧ δὲ φέρουσιν αὐτόν, πταίει ὁ Ξανθίας καὶ καταβάλλει τὸν λίθον·",
+      "english": "But while they are carrying it, Xanthias stumbles and drops the stone."
+    },
+    {
+      "id": 15,
+      "greek": "ὁ δὲ λίθος πίπτει πρὸς τὸν τοῦ Δικαιοπόλιδος πόδα.",
+      "english": "And the stone falls against Dicaeopolis' foot."
+    },
+    {
+      "id": 16,
+      "greek": "ὁ οὖν Δικαιόπολις στενάζει καί, “ὦ Ζεῦ,” φησίν, “φεῦ τοῦ ποδός. λάμβανε τὸν λίθον, ὦ ἀνόητε, καὶ αἶρε αὐτὸν καὶ μὴ οὕτω σκαιὸς ἴσθι.”",
+      "english": "So Dicaeopolis groans and says, 'O Zeus! Oh, my poor foot! Take hold of the stone, you fool, and lift it, and do not be so clumsy!'"
+    },
+    {
+      "id": 17,
+      "greek": "ὁ δὲ Ξανθίας, “τί οὕτω χαλεπὸς εἶ, ὦ δέσποτα;” φησίν.",
+      "english": "But Xanthias says, 'Why are you so harsh, master?'"
+    },
+    {
+      "id": 18,
+      "greek": "“οὐ γὰρ αἴτιός εἰμι ἐγώ· μέγας γάρ ἐστιν ὁ λίθος, καὶ οὐ δυνατὸν ἐστιν αὐτὸν φέρειν.”",
+      "english": "'For I am not to blame. The stone is large, and it is not possible to carry it.'"
+    },
+    {
+      "id": 19,
+      "greek": "ὁ δὲ Δικαιόπολις, “μὴ φλυάρει, ὦ μαστιγία, ἀλλ’ αἶρε τὸν λίθον καὶ ἔκφερε ἐκ τοῦ ἀγροῦ.”",
+      "english": "But Dicaeopolis says, 'Stop talking nonsense, you scoundrel! Lift the stone and carry it out of the field.'"
+    },
+    {
+      "id": 20,
+      "greek": "αὖθις οὖν αἴρουσι τὸν λίθον καὶ μόλις ἐκφέρουσιν αὐτὸν ἐκ τοῦ ἀγροῦ.",
+      "english": "So they lift the stone again and with difficulty carry it out of the field."
+    },
+    {
+      "id": 21,
+      "greek": "ἔπειτα δὲ ὁ μὲν Δικαιόπολις ἐλαύνει τοὺς βοῦς, οἱ δὲ βόες οὐκέτι μένουσιν ἀλλὰ ἕλκουσι τὸ ἄροτρον.",
+      "english": "Then Dicaeopolis drives the oxen, and the oxen no longer stand still but pull the plow."
+    }
+  ]
+},
+
+{
+  "chapter": 3,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐν δὲ τούτῳ προσχωρεῖ ὁ Φίλιππος.",
+      "english": "Meanwhile, Philip approaches."
+    },
+    {
+      "id": 2,
+      "greek": "ὁ Φίλιππός ἐστιν ὁ τοῦ Δικαιοπόλιδος υἱός, παῖς μέγας τε καὶ ἀνδρεῖος·",
+      "english": "Philip is the son of Dicaeopolis, a big and courageous boy."
+    },
+    {
+      "id": 3,
+      "greek": "φέρει δὲ τὸ δεῖπνον πρὸς τὸν πατέρα.",
+      "english": "He brings dinner to his father."
+    },
+    {
+      "id": 4,
+      "greek": "ἐπεὶ δὲ εἰς τὸν ἀγρὸν εἰσβαίνει, τὸν πατέρα καλεῖ καὶ λέγει·",
+      "english": "When he enters the field, he calls to his father and says:"
+    },
+    {
+      "id": 5,
+      "greek": "“ἐλθὲ δεῦρο, ὦ πάτερ· ἰδού, τὸ δεῖπνον φέρω.",
+      "english": "Come here, father! Look, I am bringing dinner."
+    },
+    {
+      "id": 6,
+      "greek": "μηκέτι οὖν πόνει ἀλλὰ κάθιζε καὶ δείπνει.”",
+      "english": "So stop working, sit down, and eat dinner."
+    },
+    {
+      "id": 7,
+      "greek": "ὁ οὖν πατὴρ λείπει τὸ ἄροτρον καὶ καλεῖ τὸν δοῦλον.",
+      "english": "So the father leaves the plow and calls the slave."
+    },
+    {
+      "id": 8,
+      "greek": "καθίζουσιν οὖν ἅμα καὶ δειπνοῦσιν.",
+      "english": "So they sit down together and eat dinner."
+    },
+    {
+      "id": 9,
+      "greek": "μετὰ δὲ τὸ δεῖπνον ὁ Δικαιόπολις, “μένε, ὦ παῖ,” φησίν, “καὶ συλλάμβανε.",
+      "english": "After dinner Dicaeopolis says, 'Stay, boy, and help.'"
+    },
+    {
+      "id": 10,
+      "greek": "φέρε τὸ σπέρμα καὶ σπεῖρε.",
+      "english": "Carry the seed and sow it."
+    },
+    {
+      "id": 11,
+      "greek": "σὺ δέ, ὦ Ξανθία, σκάπτε τοὺς λίθους καὶ ἔκφερε ἐκ τοῦ ἀγροῦ.",
+      "english": "And you, Xanthias, dig up the stones and carry them out of the field."
+    },
+    {
+      "id": 12,
+      "greek": "πολλοὶ γάρ εἰσιν οἱ λίθοι καὶ μόλις δυνατόν ἐστιν ἀροῦν.”",
+      "english": "For there are many stones, and it is scarcely possible to plow."
+    },
+    {
+      "id": 13,
+      "greek": "ὁ δὲ Ξανθίας, “ἀλλ’ οὐ δυνατόν ἐστι τοσούτους λίθους ἐκφέρειν.”",
+      "english": "But Xanthias says, 'It is not possible to carry out so many stones.'"
+    },
+    {
+      "id": 14,
+      "greek": "ὁ δὲ Δικαιόπολις, “μὴ φλυάρει, ὦ Ξανθία, ἀλλὰ πόνει.”",
+      "english": "But Dicaeopolis says, 'Stop talking nonsense, Xanthias, and work!'"
+    },
+    {
+      "id": 15,
+      "greek": "πονοῦσιν οὖν ὅ τε πατὴρ καὶ ὁ παῖς καὶ ὁ δοῦλος.",
+      "english": "So the father, the boy, and the slave all work."
+    },
+    {
+      "id": 16,
+      "greek": "τέλος δὲ καταδύνει μὲν ὁ ἥλιος, οἱ δὲ ἄνθρωποι οὐκέτι πονοῦσιν",
+      "english": "Finally, the sun sets, and the men no longer work."
+    },
+    {
+      "id": 17,
+      "greek": "ἀλλὰ λύουσι μὲν τοὺς βοῦς, τὸ δὲ ἄροτρον λείπουσιν ἐν τῷ ἀγρῷ",
+      "english": "Instead, they unyoke the oxen and leave the plow in the field."
+    },
+    {
+      "id": 18,
+      "greek": "καὶ πρὸς τὸν οἶκον βραδέως βαδίζουσιν.",
+      "english": "And they walk slowly toward the house."
+    }
+  ]
+},
+
+{
+  "chapter": 4,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "τῇ δὲ ὑστεραίᾳ ἐπεὶ πρῶτον ἀνατέλλει ὁ ἥλιος, ἡ γυνὴ τὸν ἄνδρα καλεῖ καί,",
+      "english": "On the next day, when the sun first rises, the wife calls her husband and says,"
+    },
+    {
+      "id": 2,
+      "greek": "“ἔπαιρε σεαυτόν, ὦ ἄνερ,” φησίν.",
+      "english": "'Get up, husband,' she says."
+    },
+    {
+      "id": 3,
+      "greek": "“ὁ γὰρ ἥλιος ἀνατέλλει, ὁ δὲ δοῦλος ἤδη ἄγει τοὺς βοῦς πρὸς τὸν ἀγρόν,",
+      "english": "'For the sun is rising, and the slave is already leading the oxen to the field,'"
+    },
+    {
+      "id": 4,
+      "greek": "ἐγὼ δὲ καὶ ἡ θυγάτηρ ἐν νῷ ἔχομεν βαδίζειν πρὸς τὴν κρήνην.",
+      "english": "'And my daughter and I intend to walk to the spring.'"
+    },
+    {
+      "id": 5,
+      "greek": "ἔπαιρε σεαυτόν· καιρὸς γάρ ἐστι βαδίζειν πρὸς τὸν ἀγρόν.”",
+      "english": "'Get up, for it is time to walk to the field.'"
+    },
+    {
+      "id": 6,
+      "greek": "ὁ δὲ Δικαιόπολις μάλα κάμνει καὶ οὐκ ἐθέλει ἐπαίρειν ἑαυτόν·",
+      "english": "But Dicaeopolis is very tired and does not want to get up."
+    },
+    {
+      "id": 7,
+      "greek": "λέγει οὖν· “μὴ χαλεπὴ ἴσθι, ὦ γύναι·",
+      "english": "So he says, 'Do not be harsh, wife.'"
+    },
+    {
+      "id": 8,
+      "greek": "μάλα γὰρ κάμνω καὶ ἐθέλω καθεύδειν.”",
+      "english": "'For I am very tired and want to sleep.'"
+    },
+    {
+      "id": 9,
+      "greek": "ἡ δὲ γυνή, “ἀλλ’ οὐ δυνατόν ἐστιν,” φησίν, “ἔτι καθεύδειν·",
+      "english": "But his wife says, 'It is not possible to sleep any longer.'"
+    },
+    {
+      "id": 10,
+      "greek": "καιρὸς γάρ ἐστι πονεῖν. ἔπαιρε σεαυτόν, ὦ ἀργέ.”",
+      "english": "'For it is time to work. Get up, you lazy man!'"
+    },
+    {
+      "id": 11,
+      "greek": "ὁ μὲν οὖν Δικαιόπολις μόλις ἐπαίρει ἑαυτὸν καὶ βαδίζει πρὸς τὸν ἀγρόν,",
+      "english": "So Dicaeopolis gets up with difficulty and walks toward the field."
+    },
+    {
+      "id": 12,
+      "greek": "ἡ δὲ Μυρρίνη καὶ ἡ Μέλιττα πρὸς τὴν κρήνην βαδίζουσιν",
+      "english": "But Myrrhine and Melitta walk toward the spring."
+    },
+    {
+      "id": 13,
+      "greek": "(ἡ Μέλιττα θυγάτηρ ἐστίν, κόρη μάλα καλή).",
+      "english": "(Melitta is the daughter, a very beautiful girl.)"
+    },
+    {
+      "id": 14,
+      "greek": "ἥ τε οὖν μήτηρ καὶ ἡ θυγάτηρ βραδέως βαδίζουσιν·",
+      "english": "So both the mother and the daughter walk slowly."
+    },
+    {
+      "id": 15,
+      "greek": "ὑδρίας γὰρ φέρουσιν·",
+      "english": "For they are carrying water jars."
+    },
+    {
+      "id": 16,
+      "greek": "μεγάλαι δ’ εἰσὶν αἱ ὑδρίαι, ὥστε οὐ δυνατόν ἐστι σπεύδειν.",
+      "english": "And the water jars are large, so it is not possible to hurry."
+    },
+    {
+      "id": 17,
+      "greek": "ἐπεὶ δὲ τῇ κρήνῃ προσχωροῦσιν, ἰδού, ἄλλαι γυναῖκες ἤδη πάρεισι καὶ τὰς ὑδρίας πληροῦσιν.",
+      "english": "When they approach the spring, look, other women are already there and are filling their water jars."
+    },
+    {
+      "id": 18,
+      "greek": "ἡ οὖν Μυρρίνη τὰς γυναῖκας καλεῖ καί,",
+      "english": "So Myrrhine calls to the women and says,"
+    },
+    {
+      "id": 19,
+      "greek": "“χαίρετε, ὦ φίλαι,” φησίν.",
+      "english": "'Greetings, friends,' she says."
+    },
+    {
+      "id": 20,
+      "greek": "“ἆρα ἤδη πληροῦτε τὰς ὑδρίας;”",
+      "english": "'Are you already filling your water jars?'"
+    },
+    {
+      "id": 21,
+      "greek": "αἱ δὲ λέγουσιν· “χαῖρε καὶ σύ· ναί, ἤδη πληροῦμεν τὰς ὑδρίας·",
+      "english": "And the women say, 'Greetings to you too! Yes, we are already filling the water jars.'"
+    },
+    {
+      "id": 22,
+      "greek": "πρῲ γὰρ πάρεσμεν.",
+      "english": "'For we have been here since early morning.'"
+    },
+    {
+      "id": 23,
+      "greek": "ἀλλ’ ἐλθὲ δεῦρο ταχέως καὶ ἄκουε·",
+      "english": "'But come here quickly and listen!'"
+    },
+    {
+      "id": 24,
+      "greek": "ἄγγελος γὰρ ἥκει ἀπὸ τοῦ ἄστεως·",
+      "english": "'For a messenger has arrived from the city.'"
+    },
+    {
+      "id": 25,
+      "greek": "λέγει δὲ ὅτι οἱ Ἀθηναῖοι τὰ Διονύσια ποιοῦσιν.",
+      "english": "'He says that the Athenians are celebrating the Dionysia.'"
+    },
+    {
+      "id": 26,
+      "greek": "ἡμεῖς οὖν ἐν νῷ ἔχομεν βαδίζειν πρὸς τὸ ἄστυ· τοὺς γὰρ χοροὺς ἐθέλομεν θεωρεῖν καὶ τοὺς ἀγῶνας καὶ τὰ δράματα. ἆρα ἐθέλεις καὶ σὺ τὴν ἑορτὴν θεωρεῖν;”",
+      "english": "'So we intend to go to the city, for we want to watch the choruses, the contests, and the plays. Do you also want to see the festival?'"
+    }
+  ]
+},
+
+{
+  "chapter": 4,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἡ δὲ Μυρρίνη, “τί λέγετε, ὦ φίλαι; ἆρα ἀληθῶς ἑορτὴν ποιοῦσιν οἱ Ἀθηναῖοι;",
+      "english": "But Myrrhine says, 'What are you saying, friends? Are the Athenians really celebrating a festival?'"
+    },
+    {
+      "id": 2,
+      "greek": "ἐγὼ μὲν μάλιστα ἐθέλω αὐτὴν θεωρεῖν·",
+      "english": "I very much want to see it."
+    },
+    {
+      "id": 3,
+      "greek": "σὺ δέ, ὦ Μέλιττα, ἆρα καὶ σὺ ἐθέλεις θεωρεῖν;",
+      "english": "And you, Melitta, do you also want to see it?"
+    },
+    {
+      "id": 4,
+      "greek": "ἀλλ’ οὐ δυνατόν ἐστιν· χαλεπὸς γάρ ἐστιν ὁ ἀνήρ·",
+      "english": "But it is not possible, for my husband is difficult."
+    },
+    {
+      "id": 5,
+      "greek": "ἀεὶ γὰρ πονεῖ καὶ σπανίως ἐθέλει ἰέναι πρὸς τὸ ἄστυ.”",
+      "english": "For he is always working and rarely wants to go to the city."
+    },
+    {
+      "id": 6,
+      "greek": "ἡ δὲ Μέλιττα, “ἀλλ’ οὐ μάλα χαλεπός ἐστιν ὁ πατήρ·",
+      "english": "But Melitta says, 'Father is not very difficult.'"
+    },
+    {
+      "id": 7,
+      "greek": "ῥᾴδιον γάρ ἐστι πείθειν αὐτόν.”",
+      "english": "For it is easy to persuade him."
+    },
+    {
+      "id": 8,
+      "greek": "ἡ δὲ Μυρρίνη, “μὴ οὕτω φλυάρει ἀλλὰ τὴν ὑδρίαν ταχέως πλήρου·",
+      "english": "But Myrrhine says, 'Do not talk such nonsense, but fill the water jar quickly.'"
+    },
+    {
+      "id": 9,
+      "greek": "καιρὸς γάρ ἐστιν οἴκαδε ἐπανιέναι.”",
+      "english": "For it is time to return home."
+    },
+    {
+      "id": 10,
+      "greek": "ἥ τε οὖν μήτηρ καὶ ἡ θυγάτηρ τὰς ὑδρίας ταχέως πληροῦσι καὶ οἴκαδε βαδίζουσιν.",
+      "english": "So both the mother and the daughter quickly fill their water jars and walk home."
+    },
+    {
+      "id": 11,
+      "greek": "ἐν δὲ τῇ ὁδῷ πταίει ἡ Μέλιττα καὶ καταβάλλει τὴν ὑδρίαν πρὸς τὴν γῆν καὶ θραύει αὐτήν.",
+      "english": "But on the road, Melitta stumbles, drops the water jar onto the ground, and breaks it."
+    },
+    {
+      "id": 12,
+      "greek": "στενάζει οὖν καί, “οἴμοι,” φησίν,",
+      "english": "So she groans and says, 'Alas!'"
+    },
+    {
+      "id": 13,
+      "greek": "“οὐκ αἰτία εἰμὶ ἐγώ· μεγάλη γάρ ἐστιν ἡ ὑδρία, καὶ οὐ δυνατόν ἐστι φέρειν αὐτήν.”",
+      "english": "'I am not to blame, for the water jar is large, and it is not possible to carry it.'"
+    },
+    {
+      "id": 14,
+      "greek": "ἡ δὲ μήτηρ, “τί λέγεις, ὦ θύγατερ;",
+      "english": "But her mother says, 'What are you saying, daughter?'"
+    },
+    {
+      "id": 15,
+      "greek": "μὴ φλυάρει ἀλλὰ οἴκαδε σπεῦδε καὶ ἄλλην ὑδρίαν φέρε.”",
+      "english": "'Do not talk nonsense, but hurry home and bring another water jar.'"
+    },
+    {
+      "id": 16,
+      "greek": "ἡ μὲν οὖν Μέλιττα οἴκαδε σπεύδει,",
+      "english": "So Melitta hurries home."
+    },
+    {
+      "id": 17,
+      "greek": "ἡ δὲ Μυρρίνη βραδέως βαδίζει·",
+      "english": "But Myrrhine walks slowly."
+    },
+    {
+      "id": 18,
+      "greek": "μεγάλη γάρ ἐστιν ἡ ὑδρία,",
+      "english": "For the water jar is large."
+    },
+    {
+      "id": 19,
+      "greek": "καὶ ἡ Μυρρίνη οὐκ ἐθέλει καταβάλλειν αὐτήν.",
+      "english": "And Myrrhine does not want to drop it."
+    }
+  ]
+},
+
+{
+  "chapter": 5,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐν ᾧ δ’ ἄπεισιν ἥ τε Μυρρίνη καὶ ἡ Μέλιττα, ὁ μὲν πάππος πονεῖ ἐν τῷ κήπῳ, ὁ δὲ παῖς καὶ ὁ Ἄργος βαδίζουσι πρὸς τὸ αὔλιον.",
+      "english": "While Myrrhine and Melitta are away, the grandfather works in the garden, while the boy and Argos walk toward the sheepfold."
+    },
+    {
+      "id": 2,
+      "greek": "ὁ Ἄργος κύων ἐστί, μέγας τε καὶ ἰσχυρός·",
+      "english": "Argos is a dog, both large and strong."
+    },
+    {
+      "id": 3,
+      "greek": "τήν τ’ οἰκίαν φυλάττει καὶ τὰ πρόβατα.",
+      "english": "He guards both the house and the sheep."
+    },
+    {
+      "id": 4,
+      "greek": "ἐν ᾧ δὲ βαδίζουσιν ὅ τε παῖς καὶ ὁ κύων ἀνὰ τὴν ὁδόν, ὁ Φίλιππος λαγὼν ὁρᾷ ἐν τῷ ἀγρῷ τρέχοντα·",
+      "english": "While the boy and the dog are walking along the road, Philip sees a hare running in the field."
+    },
+    {
+      "id": 5,
+      "greek": "λύει οὖν τὸν κύνα καί, “ἴθι δή, Ἄργε,” φησίν·",
+      "english": "So he releases the dog and says, 'Go on, Argos!'"
+    },
+    {
+      "id": 6,
+      "greek": "“δίωκε.”",
+      "english": "'Chase it!'"
+    },
+    {
+      "id": 7,
+      "greek": "ὁ μὲν οὖν Ἄργος ὑλακτεῖ καὶ διώκει τὸν λαγών, ὁ δὲ φεύγει ἀνὰ τὸ ὄρος.",
+      "english": "So Argos barks and chases the hare, while the hare flees up the mountain."
+    },
+    {
+      "id": 8,
+      "greek": "οὕτω δὲ ταχέως τρέχουσιν ὥστε δι’ ὀλίγου οὐ δυνατόν ἐστιν ὁρᾶν οὔτε τὸν κύνα οὔτε τὸν λαγών.",
+      "english": "They run so quickly that before long it is impossible to see either the dog or the hare."
+    },
+    {
+      "id": 9,
+      "greek": "ὁ οὖν Φίλιππος σπεύδει μετ’ αὐτοὺς καὶ βοᾷ·",
+      "english": "So Philip hurries after them and shouts:"
+    },
+    {
+      "id": 10,
+      "greek": "“ἐλθὲ δεῦρο, Ἄργε· ἐπάνελθε, ὦ κύον κατάρατε.”",
+      "english": "'Come here, Argos! Come back, you wretched dog!'"
+    },
+    {
+      "id": 11,
+      "greek": "ἀλλ’ ἔτι διώκει ὁ κύων.",
+      "english": "But the dog continues chasing."
+    },
+    {
+      "id": 12,
+      "greek": "τρέχει οὖν ὁ Φίλιππος εἰς ἄκρον τὸ ὄρος ἀλλ’ οὐχ ὁρᾷ τὸν κύνα.",
+      "english": "So Philip runs to the top of the mountain, but he cannot see the dog."
+    },
+    {
+      "id": 13,
+      "greek": "μέγα οὖν βοᾷ καὶ καλεῖ, ἀλλ’ οὐκ ἀκούει ὁ Ἄργος.",
+      "english": "So he shouts loudly and calls, but Argos does not hear."
+    },
+    {
+      "id": 14,
+      "greek": "τέλος δ’ ἀθυμεῖ ὁ παῖς καὶ καταβαίνει τὸ ὄρος.",
+      "english": "Finally, the boy despairs and descends the mountain."
+    },
+    {
+      "id": 15,
+      "greek": "ἐπεὶ δὲ προσχωρεῖ τῷ κήπῳ, ὁρᾷ αὐτὸν ὁ πάππος καί, “τί ποιεῖς, ὦ παῖ;” φησίν.",
+      "english": "When he approaches the garden, his grandfather sees him and says, 'What are you doing, boy?'"
+    },
+    {
+      "id": 16,
+      "greek": "“πόθεν ἥκεις καὶ ποῦ ἐστιν ὁ Ἄργος;”",
+      "english": "'Where have you come from, and where is Argos?'"
+    },
+    {
+      "id": 17,
+      "greek": "ὁ δὲ Φίλιππος, “ἀπὸ τοῦ αὐλίου ἥκω, ὦ πάππε·",
+      "english": "Philip replies, 'I have come from the sheepfold, grandfather.'"
+    },
+    {
+      "id": 18,
+      "greek": "ὁ δ’ Ἄργος ἐστί που ἐν τοῖς ὄρεσιν· λαγὼν γὰρ διώκει.”",
+      "english": "'Argos is somewhere in the mountains, for he is chasing a hare.'"
+    },
+    {
+      "id": 19,
+      "greek": "ὁ δὲ πάππος, “ἴθι δή, ὦ παῖ· τί οὐ ζητεῖς αὐτόν;",
+      "english": "But his grandfather says, 'Come now, boy! Why aren't you looking for him?'"
+    },
+    {
+      "id": 20,
+      "greek": "μὴ οὕτω ῥᾴθυμος ἴσθι.”",
+      "english": "'Don't be so lazy!'"
+    },
+    {
+      "id": 21,
+      "greek": "ὁ δὲ Φίλιππος, “οὐ ῥᾴθυμός εἰμι, ὦ πάππε, οὐδὲ αἴτιος ἐγώ.",
+      "english": "But Philip says, 'I am not lazy, grandfather, nor am I to blame.'"
+    },
+    {
+      "id": 22,
+      "greek": "μέγα γὰρ βοῶ καὶ καλῶ, ἀλλ’ οὐκ ἀκούει ὁ κύων.”",
+      "english": "'For I shout loudly and call, but the dog does not hear.'"
+    },
+    {
+      "id": 23,
+      "greek": "ὁ δὲ πάππος, “ἐλθὲ δεῦρο, ὦ παῖ,” φησίν. οὕτω λέγει καὶ τὴν βακτηρίαν λαμβάνει καὶ σπεύδει ἅμα τῷ παιδὶ ἀνὰ τὴν ὁδόν.",
+      "english": "But the grandfather says, 'Come here, boy.' Saying this, he takes his walking stick and hurries along the road together with the boy."
+    }
+  ]
+},
+
+{
+  "chapter": 5,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐπεὶ δὲ τῷ αὐλίῳ προσχωροῦσιν ὅ τε Φίλιππος καὶ ὁ πάππος, πολὺν ψόφον ἀκούουσιν·",
+      "english": "When Philip and his grandfather approach the sheepfold, they hear a great noise."
+    },
+    {
+      "id": 2,
+      "greek": "ὑλακτεῖ γὰρ ἀγρίως ὁ Ἄργος, τὰ δὲ πρόβατα πολὺν θόρυβον ποιεῖ.",
+      "english": "For Argos is barking fiercely, and the sheep are making a great commotion."
+    },
+    {
+      "id": 3,
+      "greek": "σπεύδουσιν οὖν·",
+      "english": "So they hurry."
+    },
+    {
+      "id": 4,
+      "greek": "βούλονται γὰρ γιγνώσκειν τί πάσχει τὰ πρόβατα.",
+      "english": "For they want to know what is happening to the sheep."
+    },
+    {
+      "id": 5,
+      "greek": "πρῶτος οὖν πάρεστιν ὁ παῖς, καὶ ἰδού, ὁ μὲν Ἄργος μένει πρὸς τῇ ὁδῷ καὶ ἀγρίως ὑλακτεῖ.",
+      "english": "So the boy arrives first, and look, Argos is standing beside the road and barking fiercely."
+    },
+    {
+      "id": 6,
+      "greek": "καταβαίνει δὲ ἐκ τοῦ ὄρους πρὸς τὸ αὔλιον λύκος μέγας.",
+      "english": "And a large wolf is coming down from the mountain toward the sheepfold."
+    },
+    {
+      "id": 7,
+      "greek": "ὁ μὲν οὖν Φίλιππος μέγα βοᾷ καὶ λίθους λαμβάνει καὶ βάλλει τὸν λύκον·",
+      "english": "So Philip shouts loudly, picks up stones, and throws them at the wolf."
+    },
+    {
+      "id": 8,
+      "greek": "ὁ δὲ Ἄργος ὁρμᾷ ἐπ’ αὐτὸν καὶ οὕτως ἀγρίως ἐμπίπτει ὥστε ἀναστρέφει ὁ λύκος καὶ ἀποφεύγει.",
+      "english": "But Argos rushes at it and attacks so fiercely that the wolf turns around and flees."
+    },
+    {
+      "id": 9,
+      "greek": "διώκει μὲν οὖν ὁ κύων, ὁ δὲ Φίλιππος σπεύδει μετ’ αὐτόν.",
+      "english": "So the dog gives chase, and Philip hurries after him."
+    },
+    {
+      "id": 10,
+      "greek": "ὁ δὲ πάππος ἤδη εἰς ἄκρον τὸ ὄρος ἥκει καὶ τὸν λύκον ὁρᾷ καὶ βοᾷ·",
+      "english": "Meanwhile, the grandfather has already reached the top of the mountain, sees the wolf, and shouts."
+    },
+    {
+      "id": 11,
+      "greek": "“ἐλθὲ δεῦρο, Φίλιππε· μὴ δίωκε ἀλλ’ ἐπάνελθε.”",
+      "english": "'Come here, Philip! Do not chase it, but come back!'"
+    },
+    {
+      "id": 12,
+      "greek": "νῦν δὲ ὁ Ἄργος τὸν λύκον ὀδὰξ λαμβάνει καὶ κατέχει,",
+      "english": "But now Argos seizes the wolf with his teeth and holds it fast."
+    },
+    {
+      "id": 13,
+      "greek": "ὁ δὲ Φίλιππος αὐτὸς ἤδη πάρεστι καὶ τὴν μάχαιραν λαμβάνει καὶ τύπτει τὸν λύκον.",
+      "english": "Philip himself is now there, takes his knife, and strikes the wolf."
+    },
+    {
+      "id": 14,
+      "greek": "ὁ δὲ ἀσπαίρει καὶ καταπίπτει πρὸς τὴν γῆν.",
+      "english": "The wolf struggles and falls to the ground."
+    },
+    {
+      "id": 15,
+      "greek": "ἐνταῦθα δὴ προσχωρεῖ ὁ πάππος καὶ τὸν λύκον ὁρᾷ ἐπὶ τῇ γῇ κείμενον.",
+      "english": "At this point the grandfather approaches and sees the wolf lying on the ground."
+    },
+    {
+      "id": 16,
+      "greek": "θαυμάζει οὖν καί, “εὖ γε, ὦ παῖ,” φησίν·",
+      "english": "So he is amazed and says, 'Well done, boy!'"
+    },
+    {
+      "id": 17,
+      "greek": "“μάλα ἀνδρεῖος εἶ.",
+      "english": "'You are very brave.'"
+    },
+    {
+      "id": 18,
+      "greek": "μέγας γάρ ἐστιν ὁ λύκος καὶ ἄγριος.",
+      "english": "'For the wolf is large and fierce.'"
+    },
+    {
+      "id": 19,
+      "greek": "σὺ δέ, ὦ Ἄργε, ἀγαθὸς εἶ κύων.",
+      "english": "'And you, Argos, are a good dog.'"
+    },
+    {
+      "id": 20,
+      "greek": "εὖ γὰρ τὰ πρόβατα φυλάττεις.",
+      "english": "'For you guard the sheep well.'"
+    },
+    {
+      "id": 21,
+      "greek": "νῦν δέ, ὦ Φίλιππε, οἴκαδε σπεῦδε·",
+      "english": "'Now, Philip, hurry home.'"
+    },
+    {
+      "id": 22,
+      "greek": "ἡ γὰρ μήτηρ δήπου ἐθέλει γιγνώσκειν ποῦ εἶ καὶ τί πάσχεις.”",
+      "english": "'For your mother surely wants to know where you are and what has happened to you.'"
+    },
+    {
+      "id": 23,
+      "greek": "ἐπεὶ δὲ τῇ οἰκίᾳ προσχωροῦσιν, τὴν μητέρα ὁρῶσιν.",
+      "english": "When they approach the house, they see his mother."
+    },
+    {
+      "id": 24,
+      "greek": "ὁ μὲν οὖν πάππος σπεύδει πρὸς αὐτὴν καὶ πάντα λέγει.",
+      "english": "So the grandfather hurries toward her and tells her everything."
+    },
+    {
+      "id": 25,
+      "greek": "ἡ δέ, “ἆρα τὰ ἀληθῆ λέγεις;” φησίν.",
+      "english": "And she says, 'Are you telling the truth?'"
+    },
+    {
+      "id": 26,
+      "greek": "“εὖ γε, ὦ παῖ· μάλα ἀνδρεῖος εἶ.",
+      "english": "'Well done, boy! You are very brave.'"
+    },
+    {
+      "id": 27,
+      "greek": "ἀλλ’ ἰδού—προσχωρεῖ ἡ Μέλιττα ἀπὸ τῆς κρήνης.",
+      "english": "'But look—Melitta is approaching from the fountain.'"
+    },
+    {
+      "id": 28,
+      "greek": "ἐλθὲ δεῦρο, ὦ Μέλιττα, καὶ ἄκουε· ὁ γὰρ Φίλιππος λύκον ἀπέκτονεν.”",
+      "english": "'Come here, Melitta, and listen! Philip has killed a wolf.'"
+    },
+    {
+      "id": 29,
+      "greek": "ὁ μὲν οὖν πάππος πάντα αὖθις λέγει, ἡ δὲ Μέλιττα μάλα θαυμάζει καὶ λέγει ὅτι καὶ ὁ Ἄργος καὶ ὁ Φίλιππος μάλα ἀνδρεῖοί εἰσι καὶ ἰσχυροί.",
+      "english": "So the grandfather tells everything again, and Melitta is greatly amazed and says that both Argos and Philip are very brave and strong."
+    },
+    {
+      "id": 30,
+      "greek": "ἔπειτα δὲ ἡ μήτηρ, “νῦν δὲ ἐλθὲ δεῦρο, ὦ φίλε,” φησίν, “καὶ κάθιζε μεθ’ ἡμῶν ὑπὸ τῷ δένδρῳ·",
+      "english": "Then the mother says, 'Now come here, dear, and sit with us beneath the tree.'"
+    },
+    {
+      "id": 31,
+      "greek": "μάλα γὰρ κάμνεις. σὺ δέ, ὦ Μέλιττα, κάθιζε καὶ σύ.",
+      "english": "'For you are very tired. And you, Melitta, sit down too.'"
+    },
+    {
+      "id": 32,
+      "greek": "ἀκούετε οὖν· ἐγὼ γὰρ μέλλω καλὸν μῦθον ὑμῖν λέγειν.” ὁ μὲν οὖν πάππος καθεύδει—μάλα γὰρ κάμνει—οἱ δὲ παῖδες καθίζουσιν ὑπὸ τῷ δένδρῳ καὶ ἀκούουσιν· ἐπιθυμοῦσι γὰρ ἀκούειν τὸν μῦθον.",
+      "english": "'Listen, then, for I am about to tell you a fine story.' So the grandfather sleeps, for he is very tired, while the children sit beneath the tree and listen, for they are eager to hear the story."
+    }
+  ]
+},
+
+{
+  "chapter": 6,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ὁ Μίνως οἰκεῖ ἐν τῇ Κρήτῃ· βασιλεὺς δέ ἐστι τῆς νήσου.",
+      "english": "Minos lives in Crete, and he is king of the island."
+    },
+    {
+      "id": 2,
+      "greek": "καὶ ἐν τῇ τοῦ Μίνω οἰκίᾳ ἐστὶν ὁ λαβύρινθος·",
+      "english": "And in Minos' house is the labyrinth."
+    },
+    {
+      "id": 3,
+      "greek": "ἐκεῖ δ’ οἰκεῖ ὁ Μινώταυρος, θηρίον τι δεινόν, τὸ μὲν ἥμισυ ἄνθρωπος, τὸ δ’ ἥμισυ ταῦρος.",
+      "english": "There lives the Minotaur, a terrible creature, half man and half bull."
+    },
+    {
+      "id": 4,
+      "greek": "ὁ δὲ Μινώταυρος ἐσθίει ἀνθρώπους.",
+      "english": "The Minotaur eats human beings."
+    },
+    {
+      "id": 5,
+      "greek": "ὁ οὖν Μίνως ἀναγκάζει τοὺς Ἀθηναίους ἑπτά τε νεανίας πέμπειν καὶ ἑπτὰ παρθένους κατ’ ἔτος πρὸς τὴν Κρήτην καὶ παρέχει αὐτοὺς τῷ Μινωταύρῳ ἐσθίειν.",
+      "english": "So Minos forces the Athenians to send seven young men and seven maidens to Crete every year and gives them to the Minotaur to eat."
+    },
+    {
+      "id": 6,
+      "greek": "ἐν δὲ ταῖς Ἀθήναις βασιλεύει ὁ Αἰγεύς·",
+      "english": "In Athens, Aegeus is king."
+    },
+    {
+      "id": 7,
+      "greek": "ἔστι δὲ αὐτῷ παῖς τις ὀνόματι Θησεύς.",
+      "english": "And he has a son named Theseus."
+    },
+    {
+      "id": 8,
+      "greek": "ὁ δὲ ἐπεὶ πρῶτον ἡβᾷ, τοὺς ἑταίρους οἰκτίρει καὶ βούλεται βοηθεῖν αὐτοῖς.",
+      "english": "When Theseus first reaches manhood, he pities his companions and wants to help them."
+    },
+    {
+      "id": 9,
+      "greek": "προσχωρεῖ οὖν τῷ πατρὶ καί, “ὦ πάππα φίλε,” φησίν,",
+      "english": "So he approaches his father and says, 'Dear father,'"
+    },
+    {
+      "id": 10,
+      "greek": "“τοὺς ἑταίρους οἰκτίρω καὶ βούλομαι σῴζειν.",
+      "english": "'I pity my companions and want to save them.'"
+    },
+    {
+      "id": 11,
+      "greek": "πέμπε με οὖν μετὰ τῶν ἑταίρων πρὸς τὴν Κρήτην.”",
+      "english": "'So send me to Crete with my companions.'"
+    },
+    {
+      "id": 12,
+      "greek": "ὁ δ’ Αἰγεὺς μάλα φοβεῖται ἀλλ’ ὅμως πείθεται αὐτῷ.",
+      "english": "Aegeus is very afraid, but nevertheless agrees to his request."
+    },
+    {
+      "id": 13,
+      "greek": "ὁ οὖν Θησεὺς εἰς ναῦν εἰσβαίνει μετὰ τῶν ἑταίρων καὶ πλεῖ πρὸς τὴν Κρήτην.",
+      "english": "So Theseus boards a ship with his companions and sails to Crete."
+    },
+    {
+      "id": 14,
+      "greek": "ἐπεὶ δὲ εἰς τὴν νῆσον ἀφικνοῦνται, ὅ τε βασιλεὺς αὐτὸς καὶ ἡ βασίλεια καὶ ἡ θυγάτηρ αὐτῶν, ὀνόματι Ἀριάδνη, δέχονται αὐτοὺς",
+      "english": "When they arrive on the island, the king himself, the queen, and their daughter Ariadne receive them."
+    },
+    {
+      "id": 15,
+      "greek": "καὶ ἄγουσι πρὸς τὴν Κνωσόν (οὕτω γὰρ τὴν τοῦ Μίνω πόλιν ὀνομάζουσιν)",
+      "english": "And they lead them to Knossos, for that is what they call Minos' city."
+    },
+    {
+      "id": 16,
+      "greek": "καὶ φυλάττουσιν ἐν τῷ δεσμωτηρίῳ.",
+      "english": "And they keep them in prison."
+    },
+    {
+      "id": 17,
+      "greek": "ἡ δ’ Ἀριάδνη, ἐπεὶ πρῶτον ὁρᾷ τὸν Θησέα, ἐρᾷ αὐτοῦ καὶ βούλεται σῴζειν.",
+      "english": "When Ariadne first sees Theseus, she falls in love with him and wants to save him."
+    },
+    {
+      "id": 18,
+      "greek": "ἐπεὶ οὖν νὺξ γίγνεται, σπεύδει πρὸς τὸ δεσμωτήριον",
+      "english": "So when night comes, she hurries to the prison."
+    },
+    {
+      "id": 19,
+      "greek": "καὶ τὸν Θησέα καλεῖ καί, “σίγα, ὦ Θησεῦ,” φησίν·",
+      "english": "And she calls to Theseus and says, 'Be quiet, Theseus!'"
+    },
+    {
+      "id": 20,
+      "greek": "“ἐγώ, Ἀριάδνη, πάρειμι.",
+      "english": "'It is I, Ariadne. I am here.'"
+    },
+    {
+      "id": 21,
+      "greek": "ἐρῶ σοῦ καὶ βούλομαι σῴζειν.",
+      "english": "'I love you and want to save you.'"
+    },
+    {
+      "id": 22,
+      "greek": "ἰδού, παρέχω γάρ σοι τοῦτο τὸ ξίφος καὶ τοῦτο τὸ λίνον.",
+      "english": "'Look, I am giving you this sword and this thread.'"
+    },
+    {
+      "id": 23,
+      "greek": "μὴ οὖν φοβοῦ ἀλλὰ ἀνδρείως εἴσβαινε εἰς τὸν λαβύρινθον καὶ ἀπόκτεινε τὸν Μινώταυρον.",
+      "english": "'So do not be afraid, but enter the labyrinth bravely and kill the Minotaur.'"
+    },
+    {
+      "id": 24,
+      "greek": "ἔπειτα δὲ ἔκφευγε μετὰ τῶν ἑταίρων καὶ σπεῦδε πρὸς τὴν ναῦν.",
+      "english": "'Then escape with your companions and hurry to the ship.'"
+    },
+    {
+      "id": 25,
+      "greek": "ἐγὼ γὰρ ἐν νῷ ἔχω πρὸς τῇ νηὶ μένειν·",
+      "english": "'For I intend to wait beside the ship.'"
+    },
+    {
+      "id": 26,
+      "greek": "βούλομαι γὰρ ἀπὸ τῆς Κρήτης ἀποφεύγειν καὶ μετὰ σοῦ πρὸς τὰς Ἀθήνας πλεῖν.”",
+      "english": "'For I want to escape from Crete and sail to Athens with you.'"
+    },
+    {
+      "id": 27,
+      "greek": "οὕτω λέγει καὶ ταχέως ἀπέρχεται πρὸς τὴν πόλιν. ὁ δὲ Θησεὺς μάλα μὲν θαυμάζει, δέχεται δὲ τὸ ξίφος καὶ μένει τὴν ἡμέραν.",
+      "english": "Having said this, she quickly departs for the city. Theseus is greatly astonished, but accepts the sword and waits for the day."
+    }
+  ]
+},
+
+{
+  "chapter": 6,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐπεὶ δὲ ἡμέρα γίγνεται, ὁ Μίνως ἔρχεται πρὸς τὸ δεσμωτήριον καὶ καλεῖ τόν τε Θησέα καὶ τοὺς ἑταίρους καὶ ἄγει αὐτοὺς πρὸς τὸν λαβύρινθον.",
+      "english": "When day comes, Minos goes to the prison, summons Theseus and his companions, and leads them to the labyrinth."
+    },
+    {
+      "id": 2,
+      "greek": "ἐπεὶ δὲ ἀφικνοῦνται, οἱ δοῦλοι ἀνοίγουσι τὰς πύλας καὶ τοὺς Ἀθηναίους εἰσελαύνουσιν.",
+      "english": "When they arrive, the slaves open the gates and drive the Athenians inside."
+    },
+    {
+      "id": 3,
+      "greek": "ἔπειτα δὲ τὰς πύλας κλείουσι καὶ ἀπέρχονται·",
+      "english": "Then they close the gates and depart."
+    },
+    {
+      "id": 4,
+      "greek": "οὕτω γὰρ τῷ Μινωταύρῳ σῖτον παρέχουσιν εἰς πολλὰς ἡμέρας.",
+      "english": "For in this way they provide the Minotaur with food for many days."
+    },
+    {
+      "id": 5,
+      "greek": "οἱ μὲν οὖν ἑταῖροι μάλα φοβοῦνται,",
+      "english": "So the companions are very afraid."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ δὲ Θησεύς, “μὴ φοβεῖσθε, ὦ φίλοι,” φησίν·",
+      "english": "But Theseus says, 'Do not be afraid, friends.'"
+    },
+    {
+      "id": 7,
+      "greek": "“ἐγὼ γὰρ ὑμᾶς σώσω.",
+      "english": "'For I will save you.'"
+    },
+    {
+      "id": 8,
+      "greek": "ἕπεσθέ μοι οὖν ἀνδρείως.”",
+      "english": "'So follow me bravely.'"
+    },
+    {
+      "id": 9,
+      "greek": "οὕτω λέγει καὶ ἡγεῖται αὐτοῖς εἰς τὸν λαβύρινθον.",
+      "english": "Thus he speaks and leads them into the labyrinth."
+    },
+    {
+      "id": 10,
+      "greek": "ὁ μὲν οὖν Θησεὺς ἐν μὲν τῇ ἀριστερᾷ ἔχει τὸ λίνον, ἐν δὲ τῇ δεξιᾷ τὸ ξίφος, καὶ προχωρεῖ εἰς τὸν σκότον.",
+      "english": "Theseus holds the thread in his left hand and the sword in his right, and advances into the darkness."
+    },
+    {
+      "id": 11,
+      "greek": "οἱ δὲ ἑταῖροι μάλα φοβοῦνται, ἀλλ’ ὅμως ἕπονται·",
+      "english": "His companions are very frightened, but nevertheless follow."
+    },
+    {
+      "id": 12,
+      "greek": "ἡ γὰρ ἀνάγκη αὐτοὺς ἔχει.",
+      "english": "For necessity compels them."
+    },
+    {
+      "id": 13,
+      "greek": "μακρὰν οὖν ὁδὸν πορεύονται καὶ πολλάκις μὲν τρέπονται, πολλάκις δὲ ψόφους δεινοὺς ἀκούουσιν·",
+      "english": "So they travel a long way, frequently turning and often hearing terrible noises."
+    },
+    {
+      "id": 14,
+      "greek": "ὁ γὰρ Μινώταυρος διώκει αὐτοὺς ἐν τῷ σκότῳ καὶ μάλα δεινῶς βρυχᾶται.",
+      "english": "For the Minotaur is pursuing them in the darkness and roaring terribly."
+    },
+    {
+      "id": 15,
+      "greek": "ἐνταῦθα δὴ τὸν τῶν ποδῶν ψόφον ἀκούουσι καὶ τὸ τοῦ θηρίου πνεῦμα ὀσφραίνονται,",
+      "english": "At this point they hear the sound of its feet and smell the breath of the beast."
+    },
+    {
+      "id": 16,
+      "greek": "καὶ ἰδού, ἐν τῇ ὁδῷ πάρεστιν ὁ Μινώταυρος.",
+      "english": "And look, the Minotaur is there in the passage."
+    },
+    {
+      "id": 17,
+      "greek": "δεινῶς δὴ βρυχᾶται καὶ ἐπὶ τὸν Θησέα ὁρμᾶται.",
+      "english": "It roars terribly and rushes at Theseus."
+    },
+    {
+      "id": 18,
+      "greek": "ὁ δὲ Θησεὺς οὐ φοβεῖται, ἀλλὰ μάλα ἀνδρείως μάχεται·",
+      "english": "But Theseus is not afraid and fights very bravely."
+    },
+    {
+      "id": 19,
+      "greek": "τῇ μὲν γὰρ ἀριστερᾷ λαμβάνεται τῆς τοῦ θηρίου κεφαλῆς, τῇ δὲ δεξιᾷ τὸ στῆθος τύπτει.",
+      "english": "For with his left hand he seizes the beast's head, and with his right he strikes its chest."
+    },
+    {
+      "id": 20,
+      "greek": "ὁ δὲ Μινώταυρος δεινῶς κλάζει καὶ καταπίπτει πρὸς τὴν γῆν.",
+      "english": "The Minotaur shrieks terribly and falls to the ground."
+    },
+    {
+      "id": 21,
+      "greek": "οἱ δὲ ἑταῖροι, ἐπεὶ ὁρῶσι τὸ θηρίον ἐπὶ τῇ γῇ κείμενον, χαίρουσι καί,",
+      "english": "When the companions see the beast lying on the ground, they rejoice and say,"
+    },
+    {
+      "id": 22,
+      "greek": "“ὦ Θησεῦ,” φασίν, “ὡς ἀνδρεῖος εἶ.",
+      "english": "'Theseus, how brave you are!'"
+    },
+    {
+      "id": 23,
+      "greek": "ὡς θαυμάζομέν σε καὶ τιμῶμεν.",
+      "english": "'How we admire and honor you!'"
+    },
+    {
+      "id": 24,
+      "greek": "ἀλλὰ νῦν γε σῷζε ἡμᾶς ἐκ τοῦ λαβυρίνθου καὶ ἡγοῦ ἡμῖν πρὸς τὰς πύλας.",
+      "english": "'But now save us from the labyrinth and lead us to the gates.'"
+    },
+    {
+      "id": 25,
+      "greek": "μακρὰ γάρ ἐστιν ἡ ὁδὸς καὶ πολὺς ὁ σκότος· τὴν δ’ ὁδὸν ἀγνοοῦμεν.”",
+      "english": "'For the path is long and the darkness is great, and we do not know the way.'"
+    },
+    {
+      "id": 26,
+      "greek": "ὁ δὲ Θησεὺς οὐ φοβεῖται, ἀλλὰ τὸ λίνον λαμβάνει—οὕτω γὰρ τὴν ὁδὸν γιγνώσκει—καὶ ἡγεῖται τοῖς ἑταίροις πρὸς τὰς πύλας.",
+      "english": "But Theseus is not afraid. He takes the thread, for in this way he knows the path, and leads his companions to the gates."
+    },
+    {
+      "id": 27,
+      "greek": "ἐπεὶ δ’ ἀφικνοῦνται, τὸν μοχλὸν διακόπτουσι καὶ μένουσιν ἐκεῖ·",
+      "english": "When they arrive, they break through the bolt and remain there."
+    },
+    {
+      "id": 28,
+      "greek": "ἔτι γὰρ ἡμέρα ἐστίν.",
+      "english": "For it is still daytime."
+    },
+    {
+      "id": 29,
+      "greek": "ἐπεὶ δὲ νὺξ γίγνεται, ἐξέρχονται ἐκ τοῦ λαβυρίνθου καὶ σπεύδουσι πρὸς τὴν ναῦν.",
+      "english": "When night comes, they leave the labyrinth and hurry to the ship."
+    },
+    {
+      "id": 30,
+      "greek": "ἐκεῖ δὲ τὴν Ἀριάδνην αὐτὴν ὁρῶσιν·",
+      "english": "There they see Ariadne herself."
+    },
+    {
+      "id": 31,
+      "greek": "μένει γὰρ πρὸς τῇ νηί.",
+      "english": "For she is waiting beside the ship."
+    },
+    {
+      "id": 32,
+      "greek": "ταχέως οὖν εἰσβαίνουσι καὶ ἀποπλέουσι πρὸς τὰς Ἀθήνας.",
+      "english": "So they quickly board and sail away toward Athens."
+    },
+    {
+      "id": 33,
+      "greek": "οὕτως οὖν ὁ Θησεὺς τόν τε Μινώταυρον ἀποκτείνει καὶ τοὺς ἑταίρους σῴζει εἰς τὰς Ἀθήνας.",
+      "english": "Thus Theseus kills the Minotaur and brings his companions safely to Athens."
+    },
+    {
+      "id": 34,
+      "greek": "οὕτω περαίνει τὸν μῦθον ἡ Μυρρίνη, ἡ δὲ Μέλιττα, “καὶ ἡ Ἀριάδνη;” φησίν. “ἆρα χαίρει; ἆρα φιλεῖ αὐτὴν ὁ Θησεύς;”",
+      "english": "Thus Myrrhine finishes the story, but Melitta says, 'And Ariadne? Is she happy? Does Theseus love her?'"
+    },
+    {
+      "id": 35,
+      "greek": "ἡ δὲ Μυρρίνη, “οὐδαμῶς· οὐ χαίρει ἡ Ἀριάδνη οὐδὲ φιλεῖ αὐτὴν ὁ Θησεύς.” ἡ δὲ Μέλιττα, “τί οὐ φιλεῖ αὐτὴν ὁ Θησεύς; τί γίγνεται;” ἡ δὲ μήτηρ, “ἐκεῖνον τὸν μῦθον οὐκ ἐθέλω σοι λέγειν νῦν γε.”",
+      "english": "But Myrrhine replies, 'Not at all. Ariadne is not happy, nor does Theseus love her.' Melitta asks, 'Why doesn't Theseus love her? What happens?' Her mother replies, 'I do not want to tell you that story just now.'"
+    }
+  ]
+},
+
+{
+  "chapter": 7,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐπεὶ δὲ περαίνει τὸν μῦθον ἡ Μυρρίνη, ἡ Μέλιττα, “ὡς καλός ἐστιν ὁ μῦθος,” φησίν.",
+      "english": "When Myrrhine finishes the story, Melitta says, 'What a fine story!'"
+    },
+    {
+      "id": 2,
+      "greek": "“λέγε ἡμῖν ἄλλον τινὰ μῦθον, ὦ μῆτερ.”",
+      "english": "'Tell us another story, mother.'"
+    },
+    {
+      "id": 3,
+      "greek": "ἡ δὲ Μυρρίνη, “οὐδαμῶς,” φησίν.",
+      "english": "But Myrrhine says, 'Certainly not.'"
+    },
+    {
+      "id": 4,
+      "greek": "“νῦν γὰρ ἐν νῷ ἔχω τὸ δεῖπνον παρασκευάζειν.”",
+      "english": "'For now I intend to prepare dinner.'"
+    },
+    {
+      "id": 5,
+      "greek": "ἡ μὲν οὖν Μέλιττα δακρύει.",
+      "english": "So Melitta begins to cry."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ δὲ Φίλιππος, “μὴ δάκρυε, ὦ Μέλιττα,” φησίν·",
+      "english": "But Philip says, 'Don't cry, Melitta.'"
+    },
+    {
+      "id": 7,
+      "greek": "“ἐγὼ γὰρ ἐθέλω σοι μῦθον καλὸν λέγειν περὶ ἀνδρὸς πολυτρόπου, ὀνόματι Ὀδυσσέως.”",
+      "english": "'For I want to tell you a fine story about a resourceful man named Odysseus.'"
+    },
+    {
+      "id": 8,
+      "greek": "ὁ γὰρ Ὀδυσσεὺς ἐπὶ τὴν Τροίαν πλεῖ μετὰ τοῦ τ’ Ἀγαμέμνονος καὶ τῶν Ἀχαιῶν.",
+      "english": "For Odysseus sails against Troy with Agamemnon and the Achaeans."
+    },
+    {
+      "id": 9,
+      "greek": "δέκα μὲν οὖν ἔτη περὶ Τροίαν μάχονται, τέλος δὲ τὴν πόλιν αἱροῦσιν.",
+      "english": "They fight around Troy for ten years, and finally capture the city."
+    },
+    {
+      "id": 10,
+      "greek": "ὁ οὖν Ὀδυσσεὺς τοὺς ἑταίρους κελεύει εἰς τὰς ναῦς εἰσβαίνειν.",
+      "english": "So Odysseus orders his companions to board the ships."
+    },
+    {
+      "id": 11,
+      "greek": "καὶ ἀπὸ τῆς Τροίας οἴκαδε ἀποπλέουσιν.",
+      "english": "And they sail homeward from Troy."
+    },
+    {
+      "id": 12,
+      "greek": "ἐν δὲ τῇ ὁδῷ πολλὰ καὶ δεινὰ πάσχουσιν.",
+      "english": "But on the journey they suffer many terrible hardships."
+    },
+    {
+      "id": 13,
+      "greek": "πολλάκις μὲν γὰρ χειμῶνας ὑπέχουσιν, πολλάκις δὲ εἰς ἄλλους κινδύνους μεγίστους ἐμπίπτουσιν.",
+      "english": "For they often endure storms, and often fall into other very great dangers."
+    },
+    {
+      "id": 14,
+      "greek": "πλέουσί ποτε εἰς νῆσόν τινα μικράν,",
+      "english": "At one point they sail to a small island."
+    },
+    {
+      "id": 15,
+      "greek": "ἐκβαίνουσι δὲ ἐκ τῶν νεῶν καὶ δεῖπνον ποιοῦσιν ἐν τῷ αἰγιαλῷ.",
+      "english": "They disembark from their ships and prepare a meal on the beach."
+    },
+    {
+      "id": 16,
+      "greek": "ἔστι δὲ ἐγγὺς ἄλλη νῆσος·",
+      "english": "There is another island nearby."
+    },
+    {
+      "id": 17,
+      "greek": "καπνὸν ὁρῶσι καὶ φθόγγον ἀκούουσι προβάτων τε καὶ αἰγῶν.",
+      "english": "They see smoke and hear the sounds of sheep and goats."
+    },
+    {
+      "id": 18,
+      "greek": "τῇ οὖν ὑστεραίᾳ ὁ Ὀδυσσεὺς τοὺς ἑταίρους κελεύει εἰς τὴν ναῦν εἰσβαίνειν·",
+      "english": "So on the following day, Odysseus orders his companions to board the ship."
+    },
+    {
+      "id": 19,
+      "greek": "βούλεται γὰρ εἰς τὴν νῆσον πλεῖν καὶ γιγνώσκειν τίνες ἐκεῖ οἰκοῦσιν.",
+      "english": "For he wants to sail to the island and discover who lives there."
+    },
+    {
+      "id": 20,
+      "greek": "δι’ ὀλίγου οὖν ἀφικνοῦνται εἰς τὴν νῆσον.",
+      "english": "So before long they arrive at the island."
+    },
+    {
+      "id": 21,
+      "greek": "ἐγγὺς τῆς θαλάττης ἄντρον μέγα ὁρῶσι καὶ πολλά τε πρόβατα καὶ πολλὰς αἶγας.",
+      "english": "Near the sea they see a large cave, many sheep, and many goats."
+    },
+    {
+      "id": 22,
+      "greek": "ὁ οὖν Ὀδυσσεὺς τοῖς ἑταίροις, “ὑμεῖς μέν,” φησίν, “πρὸς τῇ νηὶ μένετε.",
+      "english": "So Odysseus says to his companions, 'You stay beside the ship.'"
+    },
+    {
+      "id": 23,
+      "greek": "ἐγὼ δὲ ἐν νῷ ἔχω εἰς τὸ ἄντρον εἰσιέναι.”",
+      "english": "'But I intend to enter the cave.'"
+    },
+    {
+      "id": 24,
+      "greek": "δώδεκα οὖν τῶν ἑταίρων κελεύει ἑαυτῷ ἕπεσθαι.",
+      "english": "So he orders twelve of his companions to follow him."
+    },
+    {
+      "id": 25,
+      "greek": "οἱ δὲ ἄλλοι πρὸς τῇ νηὶ μένουσιν.",
+      "english": "The others remain beside the ship."
+    },
+    {
+      "id": 26,
+      "greek": "ἐπεὶ δὲ εἰς τὸ ἄντρον ἀφικνοῦνται, οὐδένα ἄνθρωπον εὑρίσκουσιν ἔνδον. οἱ οὖν ἑταῖροι, “ὦ Ὀδυσσεῦ,” φασίν, “οὐδεὶς ἄνθρωπός ἐστιν ἔνδον. ἔλαυνε οὖν τά τε πρόβατα καὶ τὰς αἶγας πρὸς τὴν ναῦν καὶ ἀπόπλει ὡς τάχιστα.” ὁ δ’ Ὀδυσσεὺς οὐκ ἐθέλει τοῦτο ποιεῖν· βούλεται γὰρ γιγνώσκειν τίς ἐν τῷ ἄντρῳ οἰκεῖ. οἱ δὲ ἑταῖροι μάλα φοβοῦνται· ὅμως δὲ τῷ Ὀδυσσεῖ πείθονται καὶ μένουσιν ἐν τῷ ἄντρῳ.",
+      "english": "When they arrive at the cave, they find nobody inside. His companions say, 'Odysseus, there is no one here. Drive the sheep and goats to the ship and sail away as quickly as possible.' But Odysseus does not want to do this, for he wants to discover who lives in the cave. His companions are very afraid, but nevertheless obey Odysseus and remain in the cave."
+    }
+  ]
+},
+
+{
+  "chapter": 7,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "δι’ ὀλίγου δὲ ψόφον μέγιστον ἀκούουσιν, καὶ εἰσέρχεται γίγας φοβερός·",
+      "english": "Before long, they hear a very loud noise, and a terrifying giant enters."
+    },
+    {
+      "id": 2,
+      "greek": "εἷς γὰρ ὀφθαλμὸς ἐν μέσῳ τῷ μετώπῳ ἔνεστιν.",
+      "english": "For he has one eye in the middle of his forehead."
+    },
+    {
+      "id": 3,
+      "greek": "ὅ τ’ οὖν Ὀδυσσεὺς καὶ οἱ ἑταῖροι μάλα φοβοῦνται καὶ εἰς τὸν τοῦ ἄντρου μυχὸν φεύγουσιν.",
+      "english": "Odysseus and his companions are very frightened and flee to the farthest corner of the cave."
+    },
+    {
+      "id": 4,
+      "greek": "ὁ δὲ γίγας πρῶτον μὲν τὰ πρόβατα καὶ τὰς αἶγας εἰς τὸ ἄντρον εἰσελαύνει,",
+      "english": "The giant first drives the sheep and goats into the cave."
+    },
+    {
+      "id": 5,
+      "greek": "ἐπεὶ δὲ πάντα ἔνδον ἐστίν, λίθον μέγιστον αἴρει καὶ εἰς τὴν τοῦ ἄντρου εἴσοδον βάλλει.",
+      "english": "When everything is inside, he lifts a huge stone and places it across the entrance to the cave."
+    },
+    {
+      "id": 6,
+      "greek": "ἐνταῦθα δὴ πρῶτον μὲν τὰς αἶγας ἀμέλγει, ἔπειτα δὲ πῦρ κάει.",
+      "english": "Then he first milks the goats and afterward lights a fire."
+    },
+    {
+      "id": 7,
+      "greek": "οὕτω δὴ τόν τ’ Ὀδυσσέα καὶ τοὺς ἑταίρους ὁρᾷ καί, “ὦ ξένοι,” βοᾷ, “τίνες ἐστὲ καὶ πόθεν πλεῖτε;”",
+      "english": "Thus he sees Odysseus and his companions and shouts, 'Strangers, who are you, and where are you sailing from?'"
+    },
+    {
+      "id": 8,
+      "greek": "ὁ δ’ Ὀδυσσεύς, “ἡμεῖς Ἀχαιοί ἐσμεν,” φησίν, “καὶ ἀπὸ τῆς Τροίας οἴκαδε πλέομεν.",
+      "english": "Odysseus says, 'We are Achaeans, and we are sailing home from Troy.'"
+    },
+    {
+      "id": 9,
+      "greek": "χειμὼν δὲ ἡμᾶς ἐνθάδε ἐλαύνει.”",
+      "english": "'But a storm has driven us here.'"
+    },
+    {
+      "id": 10,
+      "greek": "ὁ δὲ Κύκλωψ οὐδὲν ἀποκρίνεται ἀλλὰ ὁρμᾶται ἐπὶ τοὺς Ἀχαιούς·",
+      "english": "The Cyclops gives no answer but rushes at the Achaeans."
+    },
+    {
+      "id": 11,
+      "greek": "τῶν ἑταίρων δὲ δύο ἁρπάζει καὶ κόπτει πρὸς τὴν γῆν·",
+      "english": "He seizes two of the companions and dashes them against the ground."
+    },
+    {
+      "id": 12,
+      "greek": "ὁ δὲ ἐγκέφαλος ἐκρεῖ καὶ δεύει τὴν γῆν.",
+      "english": "Their brains flow out and wet the ground."
+    },
+    {
+      "id": 13,
+      "greek": "ἡ δὲ Μέλιττα, “παῦε, ὦ Φίλιππε,” φησίν, “παῦε·",
+      "english": "Melitta says, 'Stop, Philip, stop!'"
+    },
+    {
+      "id": 14,
+      "greek": "δεινὸς γάρ ἐστιν ὁ μῦθος.",
+      "english": "'For the story is terrible.'"
+    },
+    {
+      "id": 15,
+      "greek": "ἀλλ’ εἰπέ μοι, πῶς ἐκφεύγει ὁ Ὀδυσσεύς;",
+      "english": "'But tell me, how does Odysseus escape?'"
+    },
+    {
+      "id": 16,
+      "greek": "ἆρα πάντας τοὺς ἑταίρους ἀποκτείνει ὁ Κύκλωψ;”",
+      "english": "'Does the Cyclops kill all his companions?'"
+    },
+    {
+      "id": 17,
+      "greek": "ὁ δὲ Φίλιππος, “οὐδαμῶς,” φησίν.",
+      "english": "Philip says, 'Not at all.'"
+    },
+    {
+      "id": 18,
+      "greek": "“οὐ πάντας ἀποκτείνει ὁ Κύκλωψ.",
+      "english": "'The Cyclops does not kill all of them.'"
+    },
+    {
+      "id": 19,
+      "greek": "ὁ γὰρ Ὀδυσσεύς ἐστιν ἀνὴρ πολύμητις.",
+      "english": "'For Odysseus is a very cunning man.'"
+    },
+    {
+      "id": 20,
+      "greek": "πρῶτον μὲν οὖν πολὺν οἶνον τῷ Κύκλωπι παρέχει, ὥστε δι’ ὀλίγου μάλα μεθύει.",
+      "english": "'First he gives the Cyclops a great deal of wine, so that before long he becomes very drunk.'"
+    },
+    {
+      "id": 21,
+      "greek": "ἐπεὶ δὲ καθεύδει ὁ Κύκλωψ, μοχλὸν μέγιστον ὁ Ὀδυσσεὺς εὑρίσκει καὶ τοὺς ἑταίρους κελεύει θερμαίνειν αὐτὸν ἐν τῷ πυρί.",
+      "english": "'When the Cyclops falls asleep, Odysseus finds a huge stake and orders his companions to heat it in the fire.'"
+    },
+    {
+      "id": 22,
+      "greek": "ἐπεὶ δὲ μέλλει ἅψεσθαι ὁ μοχλός, ὁ Ὀδυσσεὺς αἴρει αὐτὸν ἐκ τοῦ πυρὸς καὶ ἐλαύνει εἰς τὸν ἕνα ὀφθαλμὸν τοῦ Κύκλωπος.",
+      "english": "'When the stake is about to catch fire, Odysseus lifts it out of the fire and drives it into the Cyclops' single eye.'"
+    },
+    {
+      "id": 23,
+      "greek": "σίζει δὲ ὁ ὀφθαλμὸς αὐτοῦ.",
+      "english": "'And his eye sizzles.'"
+    },
+    {
+      "id": 24,
+      "greek": "ὁ δ’ ἀναπηδᾷ καὶ δεινῶς κλάζει.",
+      "english": "'He leaps up and shrieks terribly.'"
+    },
+    {
+      "id": 25,
+      "greek": "ὁ δ’ Ὀδυσσεὺς καὶ οἱ ἑταῖροι εἰς τὸν τοῦ ἄντρου μυχὸν φεύγουσιν.",
+      "english": "'Odysseus and his companions flee to the farthest corner of the cave.'"
+    },
+    {
+      "id": 26,
+      "greek": "ὁ δὲ Κύκλωψ οὐ δύναται αὐτοὺς ὁρᾶν.",
+      "english": "'But the Cyclops cannot see them.'"
+    },
+    {
+      "id": 27,
+      "greek": "τυφλὸς γάρ ἐστιν.”",
+      "english": "'For he is blind.'"
+    },
+    {
+      "id": 28,
+      "greek": "ἡ δὲ Μέλιττα, “ὡς σοφός ἐστιν ὁ Ὀδυσσεύς.",
+      "english": "Melitta says, 'How clever Odysseus is!'"
+    },
+    {
+      "id": 29,
+      "greek": "ἀλλὰ πῶς ἐκφεύγουσιν ἐκ τοῦ ἄντρου;”",
+      "english": "'But how do they escape from the cave?'"
+    },
+    {
+      "id": 30,
+      "greek": "ὁ δὲ Φίλιππος, “τῇ ὑστεραίᾳ, ἐπεὶ πρῶτον ἀνατέλλει ὁ ἥλιος, ὁ Κύκλωψ τὸν λίθον ἐξαίρει ἐκ τῆς τοῦ ἄντρου εἰσόδου",
+      "english": "Philip says, 'On the following day, as soon as the sun rises, the Cyclops removes the stone from the cave's entrance.'"
+    },
+    {
+      "id": 31,
+      "greek": "καὶ πάντα τά τε πρόβατα καὶ τὰς αἶγας ἐκπέμπει.",
+      "english": "'And he sends out all the sheep and goats.'"
+    },
+    {
+      "id": 32,
+      "greek": "ὁ οὖν Ὀδυσσεὺς τοὺς μὲν ἑταίρους κρύπτει ὑπὸ τῶν προβάτων, ἑαυτὸν δὲ ὑπὸ κριοῦ μεγάλου.",
+      "english": "'So Odysseus hides his companions beneath the sheep and himself beneath a large ram.'"
+    },
+    {
+      "id": 33,
+      "greek": "οὕτω δὴ ὁ Κύκλωψ ἐκπέμπει τοὺς Ἀχαιοὺς μετὰ τῶν προβάτων καὶ τοῦ κριοῦ,",
+      "english": "'In this way the Cyclops lets the Achaeans out along with the sheep and the ram.'"
+    },
+    {
+      "id": 34,
+      "greek": "οἱ δὲ πάντα τὰ πρόβατα πρὸς τὴν ναῦν ἐλαύνουσι καὶ ἀποπλέουσιν.”",
+      "english": "'And they drive all the sheep to the ship and sail away.'"
+    }
+  ]
+},
+
+{
+  "chapter": 8,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐν δὲ τούτῳ ὅ τε Δικαιόπολις καὶ ὁ δοῦλος οὐ παύονται ἐργαζόμενοι.",
+      "english": "Meanwhile, Dicaeopolis and the slave do not stop working."
+    },
+    {
+      "id": 2,
+      "greek": "ἐπεὶ δὲ ἑσπέρα γίγνεται, ὁ μὲν Δικαιόπολις τοὺς βοῦς λύει καὶ οἴκαδε ἐλαύνει,",
+      "english": "When evening comes, Dicaeopolis unyokes the oxen and drives them home."
+    },
+    {
+      "id": 3,
+      "greek": "ὁ δὲ δοῦλος τῷ δεσπότῃ ἑπόμενος τὸ ἄροτρον φέρει.",
+      "english": "The slave follows his master, carrying the plow."
+    },
+    {
+      "id": 4,
+      "greek": "ἐπεὶ δὲ τῇ οἰκίᾳ προσχωροῦσιν, τὸν πάππον ὁρῶσιν ἐν τῷ κήπῳ ἐργαζόμενον.",
+      "english": "When they approach the house, they see the grandfather working in the garden."
+    },
+    {
+      "id": 5,
+      "greek": "ὁ οὖν Δικαιόπολις καλεῖ αὐτὸν καί, “ἑσπέρα ἤδη γίγνεται, ὦ πάππε,” φησίν.",
+      "english": "So Dicaeopolis calls to him and says, 'It is already getting late, grandfather.'"
+    },
+    {
+      "id": 6,
+      "greek": "“παῦε οὖν ἐργαζόμενος καὶ ἡσύχαζε.”",
+      "english": "'So stop working and rest.'"
+    },
+    {
+      "id": 7,
+      "greek": "ὁ δέ, “εὖ λέγεις, ὦ παῖ,” φησίν·",
+      "english": "He replies, 'You speak well, son.'"
+    },
+    {
+      "id": 8,
+      "greek": "“μάλα γὰρ κάμνω.”",
+      "english": "'For I am very tired.'"
+    },
+    {
+      "id": 9,
+      "greek": "παύεται οὖν ἐργαζόμενος καὶ πρὸς τὴν οἰκίαν σπεύδει.",
+      "english": "So he stops working and hurries toward the house."
+    },
+    {
+      "id": 10,
+      "greek": "οἴκοι δὲ ἥ τε Μυρρίνη καὶ ἡ θυγάτηρ πέπλον ὑφαίνουσιν·",
+      "english": "At home, Myrrhine and her daughter are weaving a robe."
+    },
+    {
+      "id": 11,
+      "greek": "ἐν ᾧ δὲ ὑφαίνουσιν, διαλέγονται ἀλλήλαις.",
+      "english": "While they weave, they converse with one another."
+    },
+    {
+      "id": 12,
+      "greek": "δι’ ὀλίγου δὲ ἡ μήτηρ τόν τε ἄνδρα καὶ τὸν δοῦλον καὶ τὸν πάππον ὁρᾷ εἰς τὴν αὐλὴν ἀφικνουμένους.",
+      "english": "Before long, the mother sees her husband, the slave, and the grandfather arriving in the courtyard."
+    },
+    {
+      "id": 13,
+      "greek": "παύεται οὖν ἐργαζομένη καὶ σπεύδει πρὸς τὴν θύραν καί, “χαῖρε, ὦ ἄνερ,” φησίν, “καὶ ἄκουε.",
+      "english": "So she stops working, hurries to the door, and says, 'Greetings, husband, and listen.'"
+    },
+    {
+      "id": 14,
+      "greek": "ὅ τε γὰρ Φίλιππος καὶ ὁ Ἄργος λύκον ἀπεκτόνασιν.”",
+      "english": "'For Philip and Argos have killed a wolf.'"
+    },
+    {
+      "id": 15,
+      "greek": "ὁ δέ, “ἆρα τὰ ἀληθῆ λέγεις; εἰπέ μοι τί ἐγένετο.”",
+      "english": "He says, 'Are you telling the truth? Tell me what happened.'"
+    },
+    {
+      "id": 16,
+      "greek": "ἡ μὲν οὖν Μυρρίνη πάντα ἐξηγεῖται, ὁ δὲ θαυμάζει καὶ λέγει·",
+      "english": "Myrrhine explains everything, and he is amazed and says,"
+    },
+    {
+      "id": 17,
+      "greek": "“εὖ γε· ἀνδρεῖός ἐστιν ὁ παῖς καὶ ἰσχυρός.",
+      "english": "'Well done! The boy is brave and strong.'"
+    },
+    {
+      "id": 18,
+      "greek": "ἀλλ’ εἰπέ μοι, ποῦ ἐστιν;",
+      "english": "'But tell me, where is he?'"
+    },
+    {
+      "id": 19,
+      "greek": "βουλόμενος γὰρ τιμᾶν τὸν λυκοκτόνον μέλλω ζητεῖν αὐτόν.”",
+      "english": "'For I intend to seek him out, wishing to honor the wolf-slayer.'"
+    },
+    {
+      "id": 20,
+      "greek": "καὶ ἐν νῷ ἔχει ζητεῖν τὸν παῖδα.",
+      "english": "And he intends to look for the boy."
+    },
+    {
+      "id": 21,
+      "greek": "ἡ δὲ Μυρρίνη, “ἀλλὰ μένε, ὦ φίλε,” φησίν, “καὶ αὖθις ἄκουε.",
+      "english": "But Myrrhine says, 'Wait, dear, and listen again.'"
+    },
+    {
+      "id": 22,
+      "greek": "ἄγγελος γὰρ ἥκει ἀπὸ τοῦ ἄστεως·",
+      "english": "'For a messenger has come from the city.'"
+    },
+    {
+      "id": 23,
+      "greek": "λέγει δὲ ὅτι οἱ Ἀθηναῖοι τὰ Διονύσια ποιοῦνται.",
+      "english": "'And he says that the Athenians are celebrating the Dionysia.'"
+    },
+    {
+      "id": 24,
+      "greek": "ἆρα ἐθέλεις ἐμέ τε καὶ τοὺς παῖδας πρὸς τὴν ἑορτὴν ἄγειν;”",
+      "english": "'Would you like to take me and the children to the festival?'"
+    },
+    {
+      "id": 25,
+      "greek": "ὁ δέ, “ἀλλ’ οὐ δυνατόν ἐστιν, ὦ γύναι·",
+      "english": "But he says, 'It is not possible, wife.'"
+    },
+    {
+      "id": 26,
+      "greek": "ἀνάγκη γάρ ἐστιν ἐργάζεσθαι.",
+      "english": "'For it is necessary to work.'"
+    },
+    {
+      "id": 27,
+      "greek": "ὁ γὰρ λιμὸς τῷ ἀργῷ ἀνδρὶ ἕπεται, ὥσπερ λέγει ὁ ποιητής·",
+      "english": "'For hunger follows the idle man, as the poet says.'"
+    },
+    {
+      "id": 28,
+      "greek": "ἐξ ἔργων δ’ ἄνδρες πολύμηλοί τ’ ἀφνειοί τε γίγνονται.”",
+      "english": "'Through work men become rich in flocks and wealthy.'"
+    },
+    {
+      "id": 29,
+      "greek": "ἡ δὲ Μυρρίνη ἀποκριναμένη, “ἀλλ’ ὅμως,” φησίν, “ἡμᾶς ἐκεῖσε ἄγε, ὦ φίλε ἄνερ.",
+      "english": "Myrrhine replies, 'Nevertheless, take us there, dear husband.'"
+    },
+    {
+      "id": 30,
+      "greek": "σπανίως γὰρ πορευόμεθα πρὸς τὸ ἄστυ· καὶ πάντες δὴ ἔρχονται.”",
+      "english": "'For we rarely go to the city, and everyone is going.'"
+    },
+    {
+      "id": 31,
+      "greek": "ὁ δέ, “ἀλλ’ ἀδύνατον· ἀργὸς γάρ ἐστιν ὁ δοῦλος· ὅταν γὰρ ἀπῶ, παύεται ἐργαζόμενος.”",
+      "english": "But he says, 'Impossible! The slave is lazy, for whenever I am away, he stops working.'"
+    },
+    {
+      "id": 32,
+      "greek": "ἡ δὲ Μέλιττα, “ἀλλὰ μὴ χαλεπὸς ἴσθι, ὦ πάτερ, ἀλλὰ πείθου ἡμῖν.",
+      "english": "Melitta says, 'Don't be difficult, father, but listen to us.'"
+    },
+    {
+      "id": 33,
+      "greek": "ἆρ’ οὐκ ἐθέλεις καὶ σὺ τὴν ἑορτὴν θεᾶσθαι καὶ τὸν θεὸν τιμᾶν; ὁ γὰρ Διόνυσος σῴζει ἡμῖν τὰς ἀμπέλους.",
+      "english": "'Don't you also want to see the festival and honor the god? For Dionysus protects our vines.'"
+    },
+    {
+      "id": 34,
+      "greek": "καὶ τὸν Φίλιππον—ἆρ’ οὐ βούλει τιμᾶν τὸν παῖδα, διότι τὸν λύκον ἀπέκτονεν; βούλεται γὰρ τούς τε ἀγῶνας θεᾶσθαι καὶ τοὺς χοροὺς καὶ τὰ δράματα. ἄγε οὖν ἡμᾶς πάντας πρὸς τὸ ἄστυ.”",
+      "english": "'And Philip—don't you want to honor the boy because he killed the wolf? For he wants to watch the contests, the dances, and the plays. So take us all to the city.'"
+    },
+    {
+      "id": 35,
+      "greek": "ὁ δὲ Δικαιόπολις, “ἔστω οὖν, ἐπεὶ οὕτω βούλεσθε. ἀλλὰ λέγω ὑμῖν ὅτι ὁ λιμὸς ἕπεσθαι ἡμῖν μέλλει—ἀλλ’ οὐκ αἴτιος ἔγωγε.”",
+      "english": "Dicaeopolis says, 'Very well, since that is what you want. But I tell you that hunger will follow us—and I, at least, am not responsible.'"
+    }
+  ]
+},
+
+{
+  "chapter": 8,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "τῇ οὖν ὑστεραίᾳ, ἐπεὶ πρῶτον ἡμέρα γίγνεται, ἐγείρεταί τε ἡ Μυρρίνη καὶ τὸν ἄνδρα ἐγείρει καί,",
+      "english": "So on the following day, as soon as daylight comes, Myrrhine gets up, wakes her husband, and says,"
+    },
+    {
+      "id": 2,
+      "greek": "“ἔπαιρε σεαυτόν, ὦ ἄνερ,” φησίν·",
+      "english": "'Get up, husband,' she says."
+    },
+    {
+      "id": 3,
+      "greek": "“οὐ γὰρ δυνατόν ἐστιν ἔτι καθεύδειν·",
+      "english": "'For it is no longer possible to sleep.'"
+    },
+    {
+      "id": 4,
+      "greek": "καιρὸς γάρ ἐστι πρὸς τὸ ἄστυ πορεύεσθαι.”",
+      "english": "'For it is time to travel to the city.'"
+    },
+    {
+      "id": 5,
+      "greek": "ὁ οὖν ἀνὴρ ἐπαίρει ἑαυτόν·",
+      "english": "So her husband gets up."
+    },
+    {
+      "id": 6,
+      "greek": "καὶ πρῶτον τὸν Ξανθίαν καλεῖ καὶ κελεύει αὐτὸν μὴ ἀργὸν εἶναι μηδὲ παύεσθαι ἐργαζόμενον.",
+      "english": "First he calls Xanthias and orders him not to be idle or stop working."
+    },
+    {
+      "id": 7,
+      "greek": "ἐν δὲ τούτῳ ἡ Μυρρίνη τόν τε σῖτον φέρει καὶ τόν τε πάππον ἐγείρει καὶ τοὺς παῖδας.",
+      "english": "Meanwhile, Myrrhine brings the food and wakes the grandfather and the children."
+    },
+    {
+      "id": 8,
+      "greek": "ἔπειτα δὲ ὁ Δικαιόπολις εἰς τὴν αὐλὴν εἰσέρχεται καὶ τοῖς ἄλλοις ἡγεῖται πρὸς τὸν βωμόν·",
+      "english": "Then Dicaeopolis enters the courtyard and leads the others to the altar."
+    },
+    {
+      "id": 9,
+      "greek": "σπονδὴν δὲ ποιούμενος τὸν Δία εὔχεται σῴζειν πάντας πρὸς τὸ ἄστυ πορευομένους.",
+      "english": "Making a libation, he prays to Zeus to keep everyone safe on their journey to the city."
+    },
+    {
+      "id": 10,
+      "greek": "τέλος δὲ τὸν ἡμίονον ἐξάγει, ὁ δὲ πάππος ἀναβαίνει ἐπ’ αὐτόν.",
+      "english": "Finally he brings out the mule, and the grandfather climbs onto it."
+    },
+    {
+      "id": 11,
+      "greek": "οὕτως οὖν πορεύονται πρὸς τὸ ἄστυ.",
+      "english": "And so they set out toward the city."
+    },
+    {
+      "id": 12,
+      "greek": "μακρὰ δ’ ἐστὶν ἡ ὁδὸς καὶ χαλεπή.",
+      "english": "The road is long and difficult."
+    },
+    {
+      "id": 13,
+      "greek": "δι’ ὀλίγου δὲ κάμνει ἡ Μυρρίνη καὶ βούλεται καθίζεσθαι·",
+      "english": "Before long, Myrrhine becomes tired and wants to sit down."
+    },
+    {
+      "id": 14,
+      "greek": "κάμνει δὲ καὶ ὁ ἡμίονος καὶ οὐκ ἐθέλει προχωρεῖν.",
+      "english": "The mule also becomes tired and does not want to go on."
+    },
+    {
+      "id": 15,
+      "greek": "καθιζόμενοι οὖν πρὸς τῇ ὁδῷ ἀναπαύονται.",
+      "english": "So they sit down beside the road and rest."
+    },
+    {
+      "id": 16,
+      "greek": "δι’ ὀλίγου δ’ ὁ Δικαιόπολις, “καιρός ἐστι πορεύεσθαι,” φησίν.",
+      "english": "After a little while, Dicaeopolis says, 'It is time to continue.'"
+    },
+    {
+      "id": 17,
+      "greek": "“θάρρει, ὦ γύναι·",
+      "english": "'Take courage, wife!'"
+    },
+    {
+      "id": 18,
+      "greek": "μακρὰ γὰρ ἡ ὁδὸς καὶ χαλεπὴ τὸ πρῶτον,",
+      "english": "'For the road is long and difficult at first,'"
+    },
+    {
+      "id": 19,
+      "greek": "‘ἐπὴν δ’ εἰς ἄκρον ἵκηαι,’ ὥσπερ λέγει ὁ ποιητής, ‘ῥᾳδίη δὴ ἔπειτα γίνεται.’”",
+      "english": "'But when you reach the summit, as the poet says, it becomes easy afterward.'"
+    },
+    {
+      "id": 20,
+      "greek": "προχωροῦσιν οὖν ἀνὰ τὸ ὄρος καὶ, ἐπεὶ εἰς ἄκρον ἀφικνοῦνται, τὰς Ἀθήνας ὁρῶσι κάτω κειμένας.",
+      "english": "So they proceed up the mountain, and when they reach the summit, they see Athens lying below."
+    },
+    {
+      "id": 21,
+      "greek": "ὁ δὲ Φίλιππος τὴν πόλιν θεώμενος, “ἰδού,” φησίν, “ὡς καλὴ ἐστιν ἡ πόλις.",
+      "english": "Philip looks at the city and says, 'Look, how beautiful the city is!'"
+    },
+    {
+      "id": 22,
+      "greek": "ἆρ’ ὁρᾶτε τὴν Ἀκρόπολιν;”",
+      "english": "'Do you see the Acropolis?'"
+    },
+    {
+      "id": 23,
+      "greek": "ἡ δὲ Μέλιττα, “ὁρῶ δή.",
+      "english": "Melitta replies, 'Yes, I see it.'"
+    },
+    {
+      "id": 24,
+      "greek": "ἆρ’ ὁρᾶτε καὶ τὸν Παρθενῶνα;",
+      "english": "'Do you also see the Parthenon?'"
+    },
+    {
+      "id": 25,
+      "greek": "ὡς καλός ἐστι καὶ μέγας.”",
+      "english": "'How beautiful and large it is!'"
+    },
+    {
+      "id": 26,
+      "greek": "ὁ δὲ Φίλιππος, “ἀλλὰ σπεῦδε, ὦ πάππα·",
+      "english": "Philip says, 'But hurry, grandfather!'"
+    },
+    {
+      "id": 27,
+      "greek": "καταβαίνομεν γὰρ πρὸς τὴν πόλιν.”",
+      "english": "'For we are going down toward the city.'"
+    },
+    {
+      "id": 28,
+      "greek": "ταχέως οὖν καταβαίνουσι καὶ εἰς τὰς πύλας ἀφικόμενοι τὸν ἡμίονον προσάπτουσι δένδρῳ τινὶ καὶ εἰσέρχονται.",
+      "english": "So they descend quickly, and upon reaching the gates, they tie the mule to a tree and enter."
+    },
+    {
+      "id": 29,
+      "greek": "ἐν δὲ τῷ ἄστει πολλοὺς ἀνθρώπους ὁρῶσιν ἐν ταῖς ὁδοῖς βαδίζοντας·",
+      "english": "In the city they see many people walking through the streets."
+    },
+    {
+      "id": 30,
+      "greek": "ἄνδρες γάρ, γυναῖκες, νεανίαι, παῖδες, πολῖταί τε καὶ ξένοι, σπεύδουσι πρὸς τὴν ἀγοράν.",
+      "english": "For men, women, young men, children, citizens, and foreigners are hurrying toward the marketplace."
+    },
+    {
+      "id": 31,
+      "greek": "ἡ οὖν Μυρρίνη φοβουμένη ὑπὲρ τῶν παίδων, “ἐλθὲ δεῦρο, ὦ Φίλιππε,” φησίν,",
+      "english": "So Myrrhine, fearing for the children, says, 'Come here, Philip!'"
+    },
+    {
+      "id": 32,
+      "greek": "“καὶ λαμβάνου τῆς χειρός.",
+      "english": "'And take my hand.'"
+    },
+    {
+      "id": 33,
+      "greek": "σὺ δέ—Μέλιτταν λέγω—μὴ λεῖπέ με ἀλλ’ ἕπου ἅμα ἐμοί·",
+      "english": "'And you—I mean Melitta—do not leave me, but follow along with me.'"
+    },
+    {
+      "id": 34,
+      "greek": "τοσοῦτοι γάρ εἰσιν οἱ ἄνθρωποι ὥστε φοβοῦμαι ὑπὲρ σοῦ.”",
+      "english": "'For there are so many people that I am afraid for you.'"
+    }
+  ]
+},
+
+{
+  "chapter": 9,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "οὕτως οὖν πορευόμενοι ἀφικνοῦνται εἰς τὴν ἀγοράν.",
+      "english": "And so, as they travel, they arrive at the marketplace."
+    },
+    {
+      "id": 2,
+      "greek": "ἐκεῖ δὲ τοσοῦτός ἐστιν ὁ ὅμιλος ὥστε μόλις προχωροῦσι πρὸς τὴν Ἀκρόπολιν.",
+      "english": "There the crowd is so large that they can scarcely make their way toward the Acropolis."
+    },
+    {
+      "id": 3,
+      "greek": "τέλος δὲ τῷ Δικαιοπόλιδι ἑπόμενοι εἰς στοάν τινα ἀφικνοῦνται,",
+      "english": "Finally, following Dicaeopolis, they arrive at a certain colonnade,"
+    },
+    {
+      "id": 4,
+      "greek": "καὶ καθιζόμενοι θεῶνται τοὺς ἀνθρώπους σπεύδοντας καὶ βοῶντας καὶ θόρυβον ποιοῦντας.",
+      "english": "And sitting down, they watch the people hurrying, shouting, and making an uproar."
+    },
+    {
+      "id": 5,
+      "greek": "ἤδη δὲ μάλα πεινῶσιν οἱ παῖδες.",
+      "english": "By now the children are very hungry."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ δὲ Φίλιππος ἀλλαντοπώλην ὁρᾷ διὰ τοῦ ὁμίλου ὠθιζόμενον καὶ τὰ ὦνια βοῶντα.",
+      "english": "Philip sees a sausage seller pushing through the crowd and shouting out his wares."
+    },
+    {
+      "id": 7,
+      "greek": "τὸν οὖν πατέρα καλεῖ καί, “ὦ πάππα φίλε,” φησίν, “ἰδού, ἀλλαντοπώλης προσχωρεῖ.",
+      "english": "So he calls his father and says, 'Dear father, look, a sausage seller is approaching.'"
+    },
+    {
+      "id": 8,
+      "greek": "ἆρ’ οὐκ ἐθέλεις σῖτον ὠνεῖσθαι;",
+      "english": "'Don't you want to buy some food?'"
+    },
+    {
+      "id": 9,
+      "greek": "μάλα γὰρ πεινῶμεν.”",
+      "english": "'For we are very hungry.'"
+    },
+    {
+      "id": 10,
+      "greek": "ὁ οὖν Δικαιόπολις τὸν ἀλλαντοπώλην καλεῖ καὶ σῖτον ὠνεῖται.",
+      "english": "So Dicaeopolis calls the sausage seller and buys some food."
+    },
+    {
+      "id": 11,
+      "greek": "οὕτως οὖν ἐν τῇ στοᾷ καθίζονται ἀλλάντας ἐσθίοντες καὶ οἶνον πίνοντες.",
+      "english": "Thus they sit in the colonnade, eating sausages and drinking wine."
+    },
+    {
+      "id": 12,
+      "greek": "μετὰ δὲ τὸ δεῖπνον ὁ Δικαιόπολις, “ἄγετε,” φησίν, “ἆρ’ οὐ βούλεσθε ἐπὶ τὴν Ἀκρόπολιν ἀναβαίνειν καὶ τὰ ἱερὰ θεᾶσθαι;”",
+      "english": "After the meal, Dicaeopolis says, 'Come now, don't you want to go up to the Acropolis and see the sacred places?'"
+    },
+    {
+      "id": 13,
+      "greek": "ὁ μὲν πάππος μάλα κάμνει καὶ οὐκ ἐθέλει ἀναβαίνειν,",
+      "english": "The grandfather is very tired and does not want to climb up,"
+    },
+    {
+      "id": 14,
+      "greek": "οἱ δ’ ἄλλοι λείπουσιν αὐτὸν ἐν τῇ στοᾷ καθιζόμενον καὶ διὰ τοῦ ὁμίλου ὠθιζόμενοι ἐπὶ τὴν Ἀκρόπολιν ἀναβαίνουσιν.",
+      "english": "But the others leave him sitting in the colonnade and push through the crowd up to the Acropolis."
+    },
+    {
+      "id": 15,
+      "greek": "ἐπεὶ δὲ εἰς ἄκρον τὴν Ἀκρόπολιν ἀφικνοῦνται καὶ τὰ προπύλαια διαπερῶσιν,",
+      "english": "When they reach the top of the Acropolis and pass through the Propylaea,"
+    },
+    {
+      "id": 16,
+      "greek": "τὸ τῆς Παρθένου ἱερὸν ὁρῶσιν ἐναντίον καὶ τὴν τῆς Ἀθηνᾶς εἰκόνα, μεγίστην οὖσαν, ἐνόπλιον καὶ δόρυ δεξιᾷ φέρουσαν.",
+      "english": "They see the temple of the Maiden opposite them and the enormous statue of Athena, fully armed and carrying a spear in her right hand."
+    },
+    {
+      "id": 17,
+      "greek": "πολὺν οὖν χρόνον ἡσυχάζουσιν οἱ παῖδες τὴν θεὸν θεώμενοι,",
+      "english": "So the children remain quiet for a long time, gazing at the goddess,"
+    },
+    {
+      "id": 18,
+      "greek": "τέλος δὲ ὁ Δικαιόπολις, “ἄγετε,” φησίν, “ἆρ’ οὐ βούλεσθε τὸ ἱερὸν θεᾶσθαι;”",
+      "english": "Finally Dicaeopolis says, 'Come, don't you want to see the temple?'"
+    },
+    {
+      "id": 19,
+      "greek": "καὶ ἡγεῖται αὐτοῖς πόρρω.",
+      "english": "And he leads them onward."
+    },
+    {
+      "id": 20,
+      "greek": "μέγιστόν ἐστι τὸ ἱερὸν καὶ κάλλιστον.",
+      "english": "The temple is very large and very beautiful."
+    },
+    {
+      "id": 21,
+      "greek": "πολὺν χρόνον τὰ ἀγάλματα θεῶνται, ἃ τὸ πᾶν ἱερὸν κοσμεῖ.",
+      "english": "For a long time they look at the sculptures that decorate the entire temple."
+    },
+    {
+      "id": 22,
+      "greek": "ἀνεῳγμέναι εἰσὶν αἱ πύλαι·",
+      "english": "The doors are open."
+    },
+    {
+      "id": 23,
+      "greek": "ἀναβαίνουσιν οὖν οἱ παῖδες καὶ εἰσέρχονται.",
+      "english": "So the children go up and enter."
+    },
+    {
+      "id": 24,
+      "greek": "πάντα τὰ εἴσω σκοτεινά ἐστιν,",
+      "english": "Everything inside is dark,"
+    },
+    {
+      "id": 25,
+      "greek": "ἀλλ’ ἐναντίαν μόλις ὁρῶσι τὴν τῆς Ἀθηνᾶς εἰκόνα, τὸ κάλλιστον ἔργον τοῦ Φειδίου.",
+      "english": "But opposite them they can just make out the statue of Athena, the most beautiful work of Phidias."
+    },
+    {
+      "id": 26,
+      "greek": "ἡ θεὸς λάμπεται χρυσῷ, τῇ μὲν δεξιᾷ Νίκην φέρουσα τῇ δὲ ἀριστερᾷ τὴν ἀσπίδα.",
+      "english": "The goddess gleams with gold, holding Victory in her right hand and her shield in her left."
+    },
+    {
+      "id": 27,
+      "greek": "ἅμα τ’ οὖν φοβοῦνται οἱ παῖδες θεώμενοι καὶ χαίρουσιν.",
+      "english": "The children are both awestruck and delighted as they look."
+    },
+    {
+      "id": 28,
+      "greek": "ὁ δὲ Φίλιππος προχωρεῖ καὶ τὰς χεῖρας ἀνέχων τῇ θεῷ εὔχεται·",
+      "english": "Philip steps forward and, raising his hands, prays to the goddess."
+    },
+    {
+      "id": 29,
+      "greek": "“ὦ Ἀθηνᾶ Παρθένε, παῖ Διός, πολιούχε, ἵλεως ἴσθι καὶ ἄκουέ μου εὐχομένου·",
+      "english": "'O Athena the Maiden, daughter of Zeus, protector of our city, be gracious and hear my prayer.'"
+    },
+    {
+      "id": 30,
+      "greek": "σῷζε τὴν πόλιν καὶ σῷζε ἡμᾶς ἐκ πάντων κινδύνων.”",
+      "english": "'Protect the city and save us from every danger.'"
+    },
+    {
+      "id": 31,
+      "greek": "ἐνταῦθα δὴ πρὸς τὴν Μέλιτταν ἐπανέρχεται καὶ ἡγεῖται αὐτῇ ἐκ τοῦ ἱεροῦ.",
+      "english": "Then he returns to Melitta and leads her out of the temple."
+    },
+    {
+      "id": 32,
+      "greek": "πολύν τινα χρόνον τοὺς τεκόντας ζητοῦσιν,",
+      "english": "For quite some time they search for their parents,"
+    },
+    {
+      "id": 33,
+      "greek": "τέλος δὲ εὑρίσκουσιν αὐτοὺς ὄπισθεν τοῦ ἱεροῦ καθορῶντας τὸ τοῦ Διονύσου τέμενος.",
+      "english": "Finally they find them behind the temple, looking down at the sanctuary of Dionysus."
+    },
+    {
+      "id": 34,
+      "greek": "ὁ δὲ Δικαιόπολις, “ἰδού, ὦ παῖδες,” φησίν, “ἤδη συλλέγονται οἱ ἄνθρωποι εἰς τὸ τέμενος.",
+      "english": "Dicaeopolis says, 'Look, children, the people are already gathering in the sanctuary.'"
+    },
+    {
+      "id": 35,
+      "greek": "καιρός ἐστι καταβαίνειν καὶ ζητεῖν τὸν πάππον.”",
+      "english": "'It is time to go down and look for grandfather.'"
+    },
+    {
+      "id": 36,
+      "greek": "καταβαίνουσιν οὖν καὶ σπεύδουσι πρὸς τὴν στοάν·",
+      "english": "So they go down and hurry toward the colonnade."
+    },
+    {
+      "id": 37,
+      "greek": "ἐκεῖ δὲ εὑρίσκουσι τὸν πάππον ὀργίλως ἔχοντα·",
+      "english": "There they find grandfather in an angry mood."
+    },
+    {
+      "id": 38,
+      "greek": "“ὦ τέκνον,” φησίν, “τί ποιεῖς; τί με λείπεις τοσοῦτον χρόνον; τί τὴν πομπὴν οὐ θεώμεθα;”",
+      "english": "'My son,' he says, 'What are you doing? Why have you left me for so long? Why aren't we watching the procession?'"
+    },
+    {
+      "id": 39,
+      "greek": "ὁ δὲ Δικαιόπολις, “θάρρει, ὦ πάππα,” φησίν· “νῦν γὰρ πρὸς τὸ τοῦ Διονύσου τέμενος πορευόμεθα.",
+      "english": "Dicaeopolis replies, 'Take courage, grandfather, for we are now going to the sanctuary of Dionysus.'"
+    },
+    {
+      "id": 40,
+      "greek": "δι’ ὀλίγου γὰρ γίγνεται ἡ πομπή. ἄγε δή.” οὕτω λέγει καὶ ἡγεῖται αὐτοῖς πρὸς τὸ τέμενος.",
+      "english": "'The procession will begin shortly. Come along!' So he speaks and leads them toward the sanctuary."
+    }
+  ]
+},
+
+{
+  "chapter": 9,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἑσπέρα ἤδη πάρεστιν.",
+      "english": "Evening has already arrived."
+    },
+    {
+      "id": 2,
+      "greek": "δι’ ὀλίγου σιγῶσι πάντες οἱ ἄνθρωποι·",
+      "english": "Before long, all the people fall silent."
+    },
+    {
+      "id": 3,
+      "greek": "ὁ γὰρ κῆρυξ προχωρεῖ καὶ βοῶν, “σιγᾶτε, ὦ πολῖται,” φησίν·",
+      "english": "For the herald comes forward and shouts, 'Be silent, citizens!'"
+    },
+    {
+      "id": 4,
+      "greek": "“ἡ γὰρ πομπὴ προσχωρεῖ.",
+      "english": "'For the procession is approaching.'"
+    },
+    {
+      "id": 5,
+      "greek": "ἐκποδὼν γίγνεσθε.”",
+      "english": "'Get out of the way!'"
+    },
+    {
+      "id": 6,
+      "greek": "πάντες οὖν ἐκποδὼν γίγνονται καὶ τὴν πομπὴν μένουσιν.",
+      "english": "So everyone moves out of the way and waits for the procession."
+    },
+    {
+      "id": 7,
+      "greek": "ἐνταῦθα δὴ τὴν πομπὴν ὁρῶσι προσχωροῦσαν.",
+      "english": "Then they see the procession approaching."
+    },
+    {
+      "id": 8,
+      "greek": "ἡγοῦνται μὲν οἱ κήρυκες·",
+      "english": "The heralds lead the way."
+    },
+    {
+      "id": 9,
+      "greek": "ἔπειτα δὲ παρθένοι κάλλισται βαδίζουσι κανᾶ φέρουσαι βοτρύων πλήρη.",
+      "english": "Then very beautiful maidens walk along carrying baskets full of grapes."
+    },
+    {
+      "id": 10,
+      "greek": "ἕπονται δὲ αὐταῖς πολλοί τε πολῖται ἀσκοὺς οἴνου φέροντες καὶ πολλοὶ μέτοικοι σκάφια φέροντες.",
+      "english": "Many citizens carrying wineskins and many resident foreigners carrying offering trays follow them."
+    },
+    {
+      "id": 11,
+      "greek": "ἔπειτα δὲ προχωρεῖ ὁ τοῦ Διονύσου ἱερεὺς καὶ ἅμ’ αὐτῷ νεανίαι ἄριστοι τὴν τοῦ Διονύσου εἰκόνα φέροντες.",
+      "english": "Then the priest of Dionysus advances, accompanied by distinguished young men carrying the image of Dionysus."
+    },
+    {
+      "id": 12,
+      "greek": "τελευταῖοι δὲ οἱ ὑπηρέται ἔρχονται τὰ ἱερεῖα ἄγοντες.",
+      "english": "Finally, the attendants come, leading the sacrificial animals."
+    },
+    {
+      "id": 13,
+      "greek": "πάντες οὖν χαίροντες τῇ πομπῇ ἕπονται πρὸς τὸ τοῦ θεοῦ τέμενος.",
+      "english": "So everyone joyfully follows the procession toward the sanctuary of the god."
+    },
+    {
+      "id": 14,
+      "greek": "ἐπεὶ δὲ ἀφικνοῦνται, ὁ μὲν ἱερεὺς καὶ οἱ νεανίαι τὴν τοῦ θεοῦ εἰκόνα εἰς τὸ ἱερὸν φέρουσιν,",
+      "english": "When they arrive, the priest and the young men carry the image of the god into the temple."
+    },
+    {
+      "id": 15,
+      "greek": "οἱ δὲ ὑπηρέται τὰ ἱερεῖα πρὸς τὸν βωμὸν ἄγουσιν.",
+      "english": "The attendants lead the sacrificial animals toward the altar."
+    },
+    {
+      "id": 16,
+      "greek": "ἔπειτα δὲ ὁ κῆρυξ τῷ δήμῳ κηρύττων, “εὐφημεῖτε, ὦ πολῖται,” φησίν.",
+      "english": "Then the herald proclaims to the people, 'Keep holy silence, citizens!'"
+    },
+    {
+      "id": 17,
+      "greek": "σιγᾷ οὖν ὁ πᾶς ὅμιλος καὶ ἥσυχος μένει.",
+      "english": "So the entire crowd becomes silent and remains quiet."
+    },
+    {
+      "id": 18,
+      "greek": "ὁ δὲ ἱερεὺς τὰς χεῖρας πρὸς τὸν οὐρανὸν αἴρων, “ὦ ἄναξ Διόνυσε,” φησίν,",
+      "english": "The priest raises his hands toward heaven and says, 'O Lord Dionysus!'"
+    },
+    {
+      "id": 19,
+      "greek": "“ἄκουέ μου εὐχομένου.",
+      "english": "'Hear my prayer.'"
+    },
+    {
+      "id": 20,
+      "greek": "Βρόμιε, τήν τε θυσίαν δέχου καὶ ἵλεως ἴσθι τῷ δήμῳ·",
+      "english": "'O Bromius, accept the sacrifice and be gracious to the people.'"
+    },
+    {
+      "id": 21,
+      "greek": "σὺ γὰρ ἵλεως ὢν τὰς τε ἀμπέλους σῴζεις καὶ αὐξάνεις τοὺς βότρυας ὥστε παρέχειν ἡμῖν τὸν οἶνον.”",
+      "english": "'For in your kindness you protect the vines and cause the grapes to grow, providing us with wine.'"
+    },
+    {
+      "id": 22,
+      "greek": "οἱ δὲ παρόντες πάντες βοῶσιν·",
+      "english": "All those present shout,"
+    },
+    {
+      "id": 23,
+      "greek": "“ἐλθέ, ἰώ, ἰώ, Βρόμιε, ἵλεως ὢν τούς τε βότρυας αὔξανε καὶ πάρεχε ἡμῖν τὸν οἶνον.”",
+      "english": "'Come, io, io, Bromius! Be gracious, make the grapes grow, and provide us with wine!'"
+    },
+    {
+      "id": 24,
+      "greek": "ἔπειτα δὲ ὁ ἱερεὺς σφάττει τὰ ἱερεῖα·",
+      "english": "Then the priest slaughters the sacrificial animals."
+    },
+    {
+      "id": 25,
+      "greek": "οἱ δὲ ὑπηρέται ἕτοιμοι ὄντες λαμβάνουσιν αὐτὰ καὶ κατατέμνουσιν.",
+      "english": "The attendants, being ready, take the animals and cut them up."
+    },
+    {
+      "id": 26,
+      "greek": "καὶ τὰ μὲν τῷ θεῷ παρέχουσιν ἐν τῷ βωμῷ καίοντες, τὰ δὲ τοῖς παροῦσι διαιροῦσιν.",
+      "english": "They offer some portions to the god by burning them on the altar, and distribute the others to those present."
+    },
+    {
+      "id": 27,
+      "greek": "ἐπεὶ δὲ ἕτοιμά ἐστι πάντα, ὁ ἱερεὺς οἶνον σπένδει καὶ τῷ θεῷ εὔχεται.",
+      "english": "When everything is ready, the priest pours a libation of wine and prays to the god."
+    },
+    {
+      "id": 28,
+      "greek": "ἐνταῦθα δὴ πάντες τόν τ’ οἶνον πίνουσι καὶ τὰ κρέα ἐσθίουσι τῷ θιασὶ τερπόμενοι.",
+      "english": "Then everyone drinks wine and eats meat, enjoying the feast."
+    },
+    {
+      "id": 29,
+      "greek": "μέση νὺξ ἤδη ἐστίν,",
+      "english": "It is already midnight."
+    },
+    {
+      "id": 30,
+      "greek": "τῶν δὲ παρόντων πολλοὶ μεθύοντες κωμάζουσιν.",
+      "english": "Many of those present are drunk and reveling."
+    },
+    {
+      "id": 31,
+      "greek": "ἡ οὖν Μυρρίνη, φοβουμένη ὑπὲρ τῶν παίδων, “ἄγε δή, ὦ ἄνερ,” φησίν,",
+      "english": "Myrrhine, worried about the children, says, 'Come now, husband!'"
+    },
+    {
+      "id": 32,
+      "greek": "“ὁ πάππος μάλα κάμνει.",
+      "english": "'Grandfather is very tired.'"
+    },
+    {
+      "id": 33,
+      "greek": "καιρός ἐστιν ἐπανιέναι πρὸς τὰς πύλας καὶ καθεύδειν.”",
+      "english": "'It is time to return to the gates and sleep.'"
+    },
+    {
+      "id": 34,
+      "greek": "ὁ δὲ πάππος, “τί λέγεις;” φησίν, “οὐ κάμνω ἐγώ. βούλομαι κωμάζειν.”",
+      "english": "But grandfather says, 'What are you saying? I'm not tired. I want to celebrate!'"
+    },
+    {
+      "id": 35,
+      "greek": "ὁ δὲ Δικαιόπολις, “γέρων εἶ, ὦ πάππα,” φησίν· “οὐ προσήκει σοι κωμάζειν. ἐλθέ.”",
+      "english": "Dicaeopolis says, 'You are an old man, grandfather. It is not fitting for you to revel. Come along.'"
+    },
+    {
+      "id": 36,
+      "greek": "οὕτω λέγει καὶ ἡγεῖται αὐτοῖς πρὸς τὰς πύλας. ἐπεὶ δὲ ἀφικνοῦνται, τὸν ἡμίονον εὑρίσκουσιν, καὶ πάντες χαμαὶ καθεύδουσιν.",
+      "english": "So he speaks and leads them to the gates. When they arrive, they find the mule, and everyone sleeps on the ground."
+    }
+  ]
+},
+
+{
+  "chapter": 10,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "τῇ δ᾽ ὑστεραίᾳ, ἐπεὶ πρῶτον ἀνατέλλει ὁ ἥλιος, ὁ Δικαιόπολις τήν τε γυναῖκα καὶ τοὺς παῖδας ἐγείρει.",
+      "english": "On the next day, as soon as the sun rises, Dicaeopolis wakes his wife and children."
+    },
+    {
+      "id": 2,
+      "greek": "ἐγείρεσθε, φησίν· δι᾽ ὀλίγου γὰρ θεασόμεθα τοὺς χορούς.",
+      "english": "Get up, he says, for soon we shall watch the choruses."
+    },
+    {
+      "id": 3,
+      "greek": "σπεύδετε.",
+      "english": "Hurry!"
+    },
+    {
+      "id": 4,
+      "greek": "εἰ γὰρ μὴ σπεύσετε, ὀψὲ ἀφιξόμεθα.",
+      "english": "For if you do not hurry, we shall arrive late."
+    },
+    {
+      "id": 5,
+      "greek": "ὁ δὲ πάππος ἔτι καθεύδει.",
+      "english": "But the grandfather is still sleeping."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ οὖν Δικαιόπολις, ἐγείρου, ὦ πάππα, φησίν.",
+      "english": "So Dicaeopolis says, Wake up, grandfather!"
+    },
+    {
+      "id": 7,
+      "greek": "εἰ γὰρ μὴ σπεύσεις, ὀψὲ ἀφίξει.",
+      "english": "For if you do not hurry, you will arrive late."
+    },
+    {
+      "id": 8,
+      "greek": "ἄγε, ἡγήσομαί σοι πρὸς τὸ θέατρον.",
+      "english": "Come, I shall lead you to the theater."
+    },
+    {
+      "id": 9,
+      "greek": "ὁ μὲν οὖν πάππος ἐγείρεται, ὁ δὲ Δικαιόπολις πᾶσι πρὸς τὸ θέατρον ἡγεῖται.",
+      "english": "So the grandfather gets up, and Dicaeopolis leads everyone to the theater."
+    },
+    {
+      "id": 10,
+      "greek": "ἐπεὶ δ᾽ ἀφικνοῦνται, πλεῖστοι ἤδη ἄνθρωποι τὸ θέατρον πληροῦσιν.",
+      "english": "When they arrive, a great many people are already filling the theater."
+    },
+    {
+      "id": 11,
+      "greek": "ὁ οὖν πάππος στενάζει καί, φεῦ, φεῦ, φησίν, μεστόν ἐστι τὸ πᾶν θέατρον.",
+      "english": "So the grandfather groans and says, Alas, alas! The entire theater is full."
+    },
+    {
+      "id": 12,
+      "greek": "τοὺς οὖν χοροὺς οὐ θεασόμεθα.",
+      "english": "So we shall not see the choruses."
+    },
+    {
+      "id": 13,
+      "greek": "τί ποιήσομεν;",
+      "english": "What shall we do?"
+    },
+    {
+      "id": 14,
+      "greek": "ὁ δὲ Δικαιόπολις, θάρρει, ὦ πάππα, φησίν.",
+      "english": "But Dicaeopolis says, Cheer up, grandfather!"
+    },
+    {
+      "id": 15,
+      "greek": "ἕπου μοι.",
+      "english": "Follow me."
+    },
+    {
+      "id": 16,
+      "greek": "θρᾶνον εὑρήσομεν.",
+      "english": "We shall find a seat."
+    },
+    {
+      "id": 17,
+      "greek": "καὶ ἡγεῖται αὐτοῖς ἄνω καὶ θρᾶνον εὑρίσκει ἐν ἄκρῳ τῷ θεάτρῳ.",
+      "english": "And he leads them upward and finds a seat at the top of the theater."
+    },
+    {
+      "id": 18,
+      "greek": "ἡ δὲ Μυρρίνη, καθίζεσθε, ὦ παῖδες, φησίν.",
+      "english": "And Myrrhine says, Sit down, children!"
+    },
+    {
+      "id": 19,
+      "greek": "ἐντεῦθεν πάντα εὖ θεασόμεθα.",
+      "english": "From here we shall see everything well."
+    },
+    {
+      "id": 20,
+      "greek": "ἐπεὶ πρῶτον καθίζονται, προχωρεῖ ὁ κῆρυξ εἰς μέσην τὴν ὀρχήστραν καί, εὐφημεῖτε, ὦ πολῖται, φησίν· νῦν γὰρ γενήσονται οἱ χοροί. ἐνταῦθα δὴ ὁ πρῶτος χορὸς προχωρεῖ εἰς τὴν ὀρχήστραν, καὶ τὰ τοῦ Διονύσου ἔργα ὑμνεῖ. θαυμάζει οὖν ἡ Μέλιττα θεωμένη καὶ χαίρει ἀκούουσα. ὡς καλῶς χορεύουσιν οἱ νεανίαι, φησίν· νικήσουσι τοὺς ἄλλους καὶ δέξονται τοὺς στεφάνους. πέντε χοροὶ παίδων καὶ πέντε ἀνδρῶν ἐφεξῆς ἀγωνίζονται, καὶ πάντες ἄριστα χορεύουσιν. ἐπεὶ δὲ παύεται ὁ δέκατος χορός, οἱ νικῶντες τοὺς στεφάνους δέχονται, καὶ πάντες οἱ παρόντες σπεύδουσιν ἐκ τοῦ θεάτρου.",
+      "english": "As soon as they sit down, the herald advances into the middle of the orchestra and says, Keep silence, citizens, for the choruses will now begin. Then the first chorus enters the orchestra and sings of the deeds of Dionysus. Melitta marvels as she watches and rejoices as she listens. How beautifully the young men dance, she says. They will defeat the others and receive the garlands. Five choruses of boys and five of men compete in succession, and all dance excellently. When the tenth chorus finishes, the victors receive the garlands, and everyone present hurries out of the theater."
+    }
+  ]
+},
+
+{
+  "chapter": 10,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἡ δὲ Μυρρίνη τοῖς παισὶν ἐκ τοῦ θεάτρου ἡγουμένη τῷ ἀνδρί, «τί νῦν ποιήσομεν;» φησίν.",
+      "english": "Myrrhine, leading the children out of the theater, says to her husband, What shall we do now?"
+    },
+    {
+      "id": 2,
+      "greek": "«ἆρ᾽ ἔξεστιν ἡμῖν ἐν τῷ ἄστει μένειν;",
+      "english": "Is it possible for us to stay in the city?"
+    },
+    {
+      "id": 3,
+      "greek": "αὔριον γὰρ γενήσονται αἱ τραγῳδίαι.",
+      "english": "For the tragedies will take place tomorrow."
+    },
+    {
+      "id": 4,
+      "greek": "τὴν οὖν νύκτα ἐν τῷ ἄστει μενοῦμεν.",
+      "english": "So we shall stay in the city tonight."
+    },
+    {
+      "id": 5,
+      "greek": "ἀλλὰ ποῦ καθευδήσομεν;",
+      "english": "But where shall we sleep?"
+    },
+    {
+      "id": 6,
+      "greek": "ἆρα δέξεται ἡμᾶς ὁ σὸς ἀδελφός;»",
+      "english": "Will your brother receive us?"
+    },
+    {
+      "id": 7,
+      "greek": "ὁ δὲ Δικαιόπολις, «ἀλλ᾽ οὐ μενοῦμεν ἐν τῷ ἄστει ἀλλ᾽ εὐθὺς οἴκαδε πορευσόμεθα.",
+      "english": "But Dicaeopolis says, We shall not stay in the city, but shall go straight home."
+    },
+    {
+      "id": 8,
+      "greek": "πολὺν γὰρ χρόνον ἀπὸ τοῦ κλήρου ἄπεσμεν.",
+      "english": "For we have been away from the farm for a long time."
+    },
+    {
+      "id": 9,
+      "greek": "ὁ δὲ Ξανθίας, ἀργὸς ὤν, οὐδὲν ποιήσει·",
+      "english": "And Xanthias, being lazy, will do nothing."
+    },
+    {
+      "id": 10,
+      "greek": "οἱ οὖν βόες πεινήσουσιν, τὰ δὲ πρόβατα ἀποφεύξεται, ὁ δὲ οἶκος κατ᾽ εἰκὸς ἤδη κάεται.",
+      "english": "So the oxen will be hungry, the sheep will run away, and the house is probably already burning."
+    },
+    {
+      "id": 11,
+      "greek": "σπεύσομεν οὖν πρὸς τὰς πύλας καὶ οἴκαδε πορευσόμεθα.",
+      "english": "So we shall hurry to the gates and go home."
+    },
+    {
+      "id": 12,
+      "greek": "δεῖ γὰρ ἡμᾶς πρὸ τῆς νυκτὸς ἐκεῖσε παρεῖναι.»",
+      "english": "For we must be there before nightfall."
+    },
+    {
+      "id": 13,
+      "greek": "οἱ μὲν οὖν παῖδες τῷ πατρὶ πειθόμενοι πρὸς τὰς πύλας σπεύδουσιν.",
+      "english": "So the children obey their father and hurry toward the gates."
+    },
+    {
+      "id": 14,
+      "greek": "ὁ δὲ πάππος, «φεῦ, φεῦ,» φησίν, «βούλομαι τὰς τραγῳδίας θεᾶσθαι.",
+      "english": "But the grandfather says, Alas, alas! I want to watch the tragedies."
+    },
+    {
+      "id": 15,
+      "greek": "ὑμεῖς μὲν οὖν οἴκαδε σπεύδετε, ἐγὼ δὲ ἐν τῷ ἄστει μενῶ ὡς τὰς τραγῳδίας θεασόμενος.»",
+      "english": "You hurry home, but I shall remain in the city to watch the tragedies."
+    },
+    {
+      "id": 16,
+      "greek": "ἡ δὲ Μυρρίνη, «μὴ φλυάρει,» φησίν.",
+      "english": "But Myrrhine says, Don't talk nonsense."
+    },
+    {
+      "id": 17,
+      "greek": "«οὐ γὰρ καταλείψομέν σε ἐν τῷ ἄστει.",
+      "english": "For we shall not leave you in the city."
+    },
+    {
+      "id": 18,
+      "greek": "ἐλθὲ μεθ᾽ ἡμῶν.»",
+      "english": "Come with us."
+    },
+    {
+      "id": 19,
+      "greek": "καὶ ἡγεῖται αὐτῷ δεινολογουμένῳ πρὸς τὰς πύλας.",
+      "english": "And she leads him toward the gates while he complains loudly."
+    },
+    {
+      "id": 20,
+      "greek": "ἐν ᾧ δὲ σπεύδουσι διὰ τῶν ὁδῶν, ὁ Φίλιππος νεανίας τινὰς ὁρᾷ ἐν τῇ ὁδῷ μαχομένους·",
+      "english": "While they hurry through the streets, Philip sees some young men fighting in the road."
+    },
+    {
+      "id": 21,
+      "greek": "πολὺν γὰρ οἶνον πεπώκασι καὶ μεθύουσιν.",
+      "english": "For they have drunk much wine and are drunk."
+    },
+    {
+      "id": 22,
+      "greek": "μένει οὖν ὁ Φίλιππος τὴν μάχην θεώμενος·",
+      "english": "So Philip stays and watches the fight."
+    },
+    {
+      "id": 23,
+      "greek": "τέλος δὲ οἱ ἄλλοι νεανίαι ἕνα τινὰ καταβάλλουσι καὶ οὐ παύονται τύπτοντες αὐτόν.",
+      "english": "Finally the other young men knock one of them down and do not stop beating him."
+    },
+    {
+      "id": 24,
+      "greek": "ὁ δὲ Φίλιππος φοβούμενος ὑπὲρ αὐτοῦ προστρέχει καί, «τί ποιήσετε, ὦ ἄνθρωποι;» φησίν.",
+      "english": "Philip, fearing for him, runs forward and says, What are you going to do, men?"
+    },
+    {
+      "id": 25,
+      "greek": "«παύετε τύπτοντες αὐτόν.",
+      "english": "Stop beating him."
+    },
+    {
+      "id": 26,
+      "greek": "ἀποκτενεῖτε γὰρ τὸν τλήμονα.»",
+      "english": "For you will kill the poor man."
+    },
+    {
+      "id": 27,
+      "greek": "τῶν δὲ νεανιῶν τις ἀγρίως βοῶν πρὸς τὸν Φίλιππον τρέπεται καί, «τίς ὢν σύ,» φησίν, «οὕτω πολυπραγμονεῖς;»",
+      "english": "One of the young men turns toward Philip, shouting fiercely, and says, Who are you to interfere like this?"
+    },
+    {
+      "id": 28,
+      "greek": "καὶ τύπτει αὐτόν.",
+      "english": "And he strikes him."
+    },
+    {
+      "id": 29,
+      "greek": "ὁ δὲ πρὸς τὴν γῆν καταπίπτει καὶ ἀκίνητος μένει.",
+      "english": "Philip falls to the ground and lies motionless."
+    },
+    {
+      "id": 30,
+      "greek": "οἱ δὲ τεκόντες τὰς βοὰς ἀκούοντες τρέχουσι πρὸς τὸν παῖδα καὶ ὁρῶσιν αὐτὸν ἐπὶ τῇ γῇ κείμενον.",
+      "english": "His parents, hearing the shouts, run toward the boy and see him lying on the ground."
+    },
+    {
+      "id": 31,
+      "greek": "αἴρουσιν οὖν αὐτόν, ὁ δὲ ἔτι ἀκίνητος μένει.",
+      "english": "So they lift him up, but he remains motionless."
+    },
+    {
+      "id": 32,
+      "greek": "ἡ δὲ Μέλιττα, «ὦ Ζεῦ,» φησίν, «τί ποτε πάσχει ὁ τλήμων;»",
+      "english": "Melitta says, O Zeus! What has happened to the poor boy?"
+    },
+    {
+      "id": 33,
+      "greek": "ἡ δὲ μήτηρ, «φέρετε αὐτὸν πρὸς τὴν κρήνην.»",
+      "english": "But his mother says, Carry him to the fountain."
+    },
+    {
+      "id": 34,
+      "greek": "φέρουσιν οὖν αὐτὸν πρὸς τὴν κρήνην καὶ ὕδωρ καταχέουσι τῆς κεφαλῆς.",
+      "english": "So they carry him to the fountain and pour water over his head."
+    },
+    {
+      "id": 35,
+      "greek": "δι᾽ ὀλίγου οὖν κινεῖται καὶ ἀναπνεῖ.",
+      "english": "After a little while he moves and breathes again."
+    },
+    {
+      "id": 36,
+      "greek": "ἐπαίρει οὖν ἑαυτὸν καὶ τῆς μητρὸς ἀκούει λεγούσης.",
+      "english": "So he raises himself and hears his mother speaking."
+    },
+    {
+      "id": 37,
+      "greek": "βλέπων δὲ πρὸς αὐτήν, «ποῦ εἶ σύ, ὦ μῆτερ;» φησίν.",
+      "english": "Looking toward her, he says, Where are you, mother?"
+    },
+    {
+      "id": 38,
+      "greek": "«τί σκότος ἐστίν;»",
+      "english": "Why is it dark?"
+    },
+    {
+      "id": 39,
+      "greek": "ἡ δὲ μήτηρ, «ἀλλ᾽ οὐ σκότος ἐστίν, ὦ παῖ· βλέπε δεῦρο.» ἀλλ᾽ οὐδὲν ὁρᾷ ὁ παῖς· τυφλὸς γὰρ γέγονεν.",
+      "english": "But his mother says, It is not dark, child. Look here. Yet the boy sees nothing, for he has become blind."
+    }
+  ]
+},
+
+{
+  "chapter": 11,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἡ δὲ Μυρρίνη, ἐπεὶ ἔμαθεν ὅτι τυφλός ἐστιν ὁ παῖς, δακρύσασα τῷ ἀνδρί, «ὦ Ζεῦ,» ἔφη, «τί δεῖ ἡμᾶς ποιεῖν;",
+      "english": "When Myrrhine learned that the boy was blind, she burst into tears and said to her husband, O Zeus! What must we do?"
+    },
+    {
+      "id": 2,
+      "greek": "ὦ ἄνερ, τοῖς θεοῖς εὔχου βοηθεῖν ἡμῖν.»",
+      "english": "Husband, pray to the gods to help us."
+    },
+    {
+      "id": 3,
+      "greek": "ὁ δὲ Δικαιόπολις, «ἀλλὰ δεῖ ἡμᾶς τὸν παῖδα φέρειν παρὰ ἰατρόν τινα,» ἔφη.",
+      "english": "But Dicaeopolis said, We must take the boy to a doctor."
+    },
+    {
+      "id": 4,
+      "greek": "«ἀλλὰ νὺξ δι᾽ ὀλίγου γενήσεται.",
+      "english": "But it will soon be night."
+    },
+    {
+      "id": 5,
+      "greek": "νῦν οὖν δεῖ πρὸς τὴν τοῦ ἀδελφοῦ οἰκίαν σπεύδειν καὶ αἰτεῖν αὐτὸν ἡμᾶς δέχεσθαι.",
+      "english": "So now we must hurry to my brother's house and ask him to receive us."
+    },
+    {
+      "id": 6,
+      "greek": "αὔριον δὲ ζητήσομεν ἰατρόν.»",
+      "english": "Tomorrow we shall look for a doctor."
+    },
+    {
+      "id": 7,
+      "greek": "βραδέως οὖν τῷ παιδὶ ἡγούμενοι βαδίζουσι πρὸς τὴν τοῦ ἀδελφοῦ οἰκίαν.",
+      "english": "So they walk slowly toward the brother's house, leading the boy."
+    },
+    {
+      "id": 8,
+      "greek": "ἐπεὶ δ᾽ ἀφίκοντο, ὁ μὲν Δικαιόπολις ἔκοψε τὴν θύραν.",
+      "english": "When they arrived, Dicaeopolis knocked on the door."
+    },
+    {
+      "id": 9,
+      "greek": "ὁ δὲ ἀδελφὸς πρὸς τὴν θύραν ἐλθὼν καὶ τὸν Δικαιόπολιν καὶ τὸν πατέρα ἰδὼν «χαίρετε, ὦ πάππα καὶ ἄδελφε,» ἔφη.",
+      "english": "His brother came to the door, saw Dicaeopolis and their father, and said, Greetings, father and brother!"
+    },
+    {
+      "id": 10,
+      "greek": "«πῶς ἔχετε;",
+      "english": "How are you?"
+    },
+    {
+      "id": 11,
+      "greek": "σὺ δέ, ὦ Μυρρίνη, χαῖρε καὶ σύ.",
+      "english": "And greetings to you too, Myrrhine."
+    },
+    {
+      "id": 12,
+      "greek": "ὑμεῖς δέ, ὦ Φίλιππε καὶ Μέλιττα, χαίρετε καὶ ὑμεῖς.",
+      "english": "And greetings to you too, Philip and Melitta."
+    },
+    {
+      "id": 13,
+      "greek": "ἀλλ᾽ εἴπετέ μοι, τί πάσχετε;",
+      "english": "But tell me, what is wrong?"
+    },
+    {
+      "id": 14,
+      "greek": "τί οὐκ ἐπανέρχεσθε εἰς τοὺς ἀγροὺς ἀλλ᾽ ἔτι μένετε ἐν τῷ ἄστει;",
+      "english": "Why are you not returning to the countryside, but are still staying in the city?"
+    },
+    {
+      "id": 15,
+      "greek": "ἑσπέρα γὰρ ἤδη γίνεται.»",
+      "english": "For it is already becoming evening."
+    },
+    {
+      "id": 16,
+      "greek": "ὁ δὲ Δικαιόπολις, «ἐγὼ μὲν καλῶς ἔχω, ὁ δὲ παῖς, ἰδού, τυφλὸς γὰρ γέγονεν οὐδὲν ὁρᾷ.",
+      "english": "But Dicaeopolis says, I am well, but look at the boy: he has become blind and sees nothing."
+    },
+    {
+      "id": 17,
+      "greek": "πάρεσμεν οὖν αἰτοῦντές σε ἡμᾶς δέχεσθαι.»",
+      "english": "So we are here asking you to receive us."
+    },
+    {
+      "id": 18,
+      "greek": "ὁ δὲ ἀδελφὸς ἰδὼν τὸν παῖδα τυφλὸν ὄντα, «ὦ Ζεῦ,» ἔφη, «τί ποτε ἔπαθεν ὁ παῖς;",
+      "english": "When his brother saw that the boy was blind, he said, O Zeus! What has happened to the boy?"
+    },
+    {
+      "id": 19,
+      "greek": "εἰσέλθετε καὶ εἴπετέ μοι τί ἐγένετο.»",
+      "english": "Come inside and tell me what happened."
+    },
+    {
+      "id": 20,
+      "greek": "οὕτως εἰπὼν εἰσήγαγεν αὐτοὺς εἰς τὴν οἰκίαν.",
+      "english": "Having said this, he led them into the house."
+    },
+    {
+      "id": 21,
+      "greek": "οἱ δὲ πάντα τὰ γενόμενα εἶπον αὐτῷ.",
+      "english": "And they told him everything that had happened."
+    },
+    {
+      "id": 22,
+      "greek": "ὁ δὲ τὴν γυναῖκα καλέσας, «ἐλθὲ δεῦρο, ὦ γύναι,» ἔφη.",
+      "english": "Then he called his wife and said, Come here, wife."
+    },
+    {
+      "id": 23,
+      "greek": "«πάρεστι γὰρ ὅ τε Δικαιόπολις καὶ ἡ Μυρρίνη· ὁ δὲ Φίλιππος δεινὸν ἔπαθεν· τυφλὸς γὰρ γέγονεν.",
+      "english": "For Dicaeopolis and Myrrhine are here, and Philip has suffered something terrible: he has become blind."
+    },
+    {
+      "id": 24,
+      "greek": "κόμιζε οὖν αὐτόν τε καὶ τὰς γυναῖκας εἰς τὸν γυναικῶνα.",
+      "english": "So take him and the women into the women's quarters."
+    },
+    {
+      "id": 25,
+      "greek": "ἡσυχάσουσι γὰρ ἐκεῖ.",
+      "english": "For they will rest there."
+    },
+    {
+      "id": 26,
+      "greek": "σὺ δέ, ὦ πάππα καὶ ἄδελφε, ἔλθετε δεῦρο.»",
+      "english": "But you, father and brother, come here."
+    },
+    {
+      "id": 27,
+      "greek": "ὅ τε οὖν Δικαιόπολις καὶ ὁ ἀδελφὸς καὶ ὁ πατὴρ εἰς τὸν ἀνδρῶνα εἰσελθόντες πολλὰ διαλέγονται σκοποῦντες τί δεῖ ποιεῖν.",
+      "english": "So Dicaeopolis, his brother, and their father enter the men's quarters and discuss at length what they must do."
+    },
+    {
+      "id": 28,
+      "greek": "τέλος δὲ ὁ ἀδελφός, «ἄλλης λόγων,» ἔφη· «ἐγὼ σοφὸν ἰατρὸν ἔγνωκα καὶ αὔριον, εἴ σοι δοκεῖ, κομιῶ ὑμᾶς παρ᾽ αὐτόν. νῦν δέ—ὀψὲ γάρ ἐστιν—δεῖ ἡμᾶς καθεύδειν.»",
+      "english": "Finally his brother said, Enough talk! I know a skilled doctor, and tomorrow, if you agree, I shall take you to him. But now, since it is late, we must sleep."
+    }
+  ]
+},
+
+{
+  "chapter": 11,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "τῇ οὖν ὑστεραίᾳ, ἐπεὶ πρῶτον ἡμέρα ἐγένετο, τὰς γυναῖκας ἐν τῇ οἰκίᾳ λιπόντες ὅ τε Δικαιόπολις καὶ ὁ ἀδελφὸς τὸν Φίλιππον εἰς τὴν ὁδὸν ἤγαγον.",
+      "english": "On the following day, as soon as daybreak came, Dicaeopolis and his brother left the women in the house and led Philip into the street."
+    },
+    {
+      "id": 2,
+      "greek": "ὁ δὲ τῆς τοῦ πατρὸς χειρὸς ἐλάβετο ἀλλ᾽ ὅμως πρὸς τοὺς λίθους πταίων πρὸς τὴν γῆν κατέπεσεν.",
+      "english": "He took hold of his father's hand, but nevertheless stumbled against the stones and fell to the ground."
+    },
+    {
+      "id": 3,
+      "greek": "ὁ οὖν πατὴρ αἴρει αὐτὸν καὶ φέρει.",
+      "english": "So his father lifts him up and carries him."
+    },
+    {
+      "id": 4,
+      "greek": "οὕτως οὖν πορευόμενοι δι᾽ ὀλίγου ἀφίκοντο εἰς τὴν τοῦ ἰατροῦ οἰκίαν.",
+      "english": "Traveling in this way, they soon arrived at the doctor's house."
+    },
+    {
+      "id": 5,
+      "greek": "ὁ δ᾽ ἀδελφός, «ἰδού,» ἔφη· «εἰς τοῦ ἰατροῦ ἥκομεν.",
+      "english": "His brother said, Look! We have arrived at the doctor's house."
+    },
+    {
+      "id": 6,
+      "greek": "ἐλθὲ δεῦρο καὶ κόψον τὴν θύραν.»",
+      "english": "Come here and knock on the door."
+    },
+    {
+      "id": 7,
+      "greek": "τοῦτο εἰπὼν ὁ ἀδελφὸς οἴκαδε ἐπανῆλθεν.",
+      "english": "Having said this, his brother returned home."
+    },
+    {
+      "id": 8,
+      "greek": "ὁ οὖν Δικαιόπολις προσελθὼν ἔκοψε τὴν θύραν, ἀλλ᾽ οὐδεὶς ἦλθεν.",
+      "english": "Dicaeopolis approached and knocked on the door, but nobody came."
+    },
+    {
+      "id": 9,
+      "greek": "ἐπεὶ δ᾽ αὖθις ἔκοψεν, δοῦλός τις ἐξελθὼν, «βάλλ᾽ ἐς κόρακας,» ἔφη.",
+      "english": "When he knocked again, a slave came out and said, Go to the crows! (Go to hell!)"
+    },
+    {
+      "id": 10,
+      "greek": "«τίς ὢν σὺ κόπτεις τὴν θύραν;»",
+      "english": "Who are you to be knocking on the door?"
+    },
+    {
+      "id": 11,
+      "greek": "ὁ δὲ Δικαιόπολις· «ἀλλ᾽, ὦ δαιμόνιε, ἐγώ εἰμι Δικαιόπολις· τὸν δὲ παῖδα κομίζω παρὰ τὸν σὸν δεσπότην· τυφλὸς γὰρ γέγονεν.»",
+      "english": "Dicaeopolis replied, But my good fellow, I am Dicaeopolis, and I am bringing my son to your master, for he has become blind."
+    },
+    {
+      "id": 12,
+      "greek": "ὁ δὲ δοῦλος· «ἀλλ᾽ οὐ σχολὴ αὐτῷ.»",
+      "english": "But the slave said, He has no leisure."
+    },
+    {
+      "id": 13,
+      "greek": "ὁ δὲ Δικαιόπολις· «ἀλλ᾽ ὅμως κάλει αὐτόν.",
+      "english": "But Dicaeopolis said, Nevertheless, call him."
+    },
+    {
+      "id": 14,
+      "greek": "δεινὰ γὰρ ἔπαθεν ὁ παῖς· ἀλλὰ μένε, ὦ φίλε.»",
+      "english": "For the boy has suffered terribly. But wait, my friend."
+    },
+    {
+      "id": 15,
+      "greek": "καὶ οὕτως εἰπὼν δύο ὀβολοὺς τῷ δούλῳ παρέσχεν.",
+      "english": "And having said this, he gave the slave two obols."
+    },
+    {
+      "id": 16,
+      "greek": "ὁ δέ· «μένετε οὖν ἐνταῦθα.",
+      "english": "The slave said, Then wait here."
+    },
+    {
+      "id": 17,
+      "greek": "ἐγὼ γὰρ τὸν δεσπότην καλῶ, εἴ πως ἐθελήσει ὑμᾶς δέχεσθαι.»",
+      "english": "For I shall call my master, in case he is willing to receive you."
+    },
+    {
+      "id": 18,
+      "greek": "ὅ τε οὖν πατὴρ καὶ ὁ παῖς ὀλίγον τινὰ χρόνον μένουσιν ἐπὶ τῇ θύρᾳ.",
+      "english": "So the father and the boy wait for a short time at the door."
+    },
+    {
+      "id": 19,
+      "greek": "ἔπειτα δ᾽ ὁ δοῦλος ἐξελθών, «εἰσέλθετε,» ἔφη· «ὁ γὰρ δεσπότης ὑμᾶς δέχεται.»",
+      "english": "Then the slave came out and said, Come in, for my master will receive you."
+    },
+    {
+      "id": 20,
+      "greek": "ὁ οὖν πατὴρ τῷ παιδὶ εἰσηγούμενος τὸν ἰατρὸν εἶδεν ἐν τῇ αὐλῇ καθιζόμενον.",
+      "english": "So the father, leading the boy inside, saw the doctor sitting in the courtyard."
+    },
+    {
+      "id": 21,
+      "greek": "προσελθὼν οὖν, «χαῖρε,» ἔφη· «ἐγὼ μέν εἰμι Δικαιόπολις Χολλεΐδης, κομίζω δὲ παρὰ σὲ τὸν ἐμὸν παῖδα· δεινὰ γὰρ ἔπαθεν· τυφλὸς γὰρ γέγονεν.»",
+      "english": "Approaching, he said, Greetings! I am Dicaeopolis of Cholleidae, and I bring my son to you, for he has suffered terribly: he has become blind."
+    },
+    {
+      "id": 22,
+      "greek": "ὁ δὲ ἰατρός, «δεῦρο ἐλθέ, ὦ παῖ.",
+      "english": "The doctor said, Come here, boy."
+    },
+    {
+      "id": 23,
+      "greek": "τί ἔπαθες; πῶς τυφλὸς ἐγένου;»",
+      "english": "What happened to you? How did you become blind?"
+    },
+    {
+      "id": 24,
+      "greek": "ὁ μὲν οὖν Δικαιόπολις πάντα τῷ ἰατρῷ εἶπεν,",
+      "english": "Dicaeopolis told the doctor everything,"
+    },
+    {
+      "id": 25,
+      "greek": "ὁ δὲ τοὺς τοῦ παιδὸς ὀφθαλμοὺς πολὺν χρόνον σκοπεῖ.",
+      "english": "and the doctor examined the boy's eyes for a long time."
+    },
+    {
+      "id": 26,
+      "greek": "τέλος δέ· «ἐγὼ μὲν οὐ δυνήσομαι αὐτὸν ὠφελεῖν.",
+      "english": "Finally he said, I shall not be able to help him."
+    },
+    {
+      "id": 27,
+      "greek": "οὐδὲν γὰρ νοσοῦσιν οἱ ὀφθαλμοί.",
+      "english": "For his eyes are not diseased at all."
+    },
+    {
+      "id": 28,
+      "greek": "οὐκ οὖν δυνήσονται ὠφελεῖν οἱ ἄνθρωποι, ἀλλὰ τοῖς γε θεοῖς πάντα δυνατά.",
+      "english": "Therefore human beings will not be able to help, but for the gods all things are possible."
+    },
+    {
+      "id": 29,
+      "greek": "δεῖ οὖν σε κομίζειν τὸν παῖδα πρὸς τὴν Ἐπίδαυρον καὶ τῷ Ἀσκληπιῷ εὔχεσθαι, εἴ πως ἐθελήσει αὐτὸν ἰᾶσθαι.»",
+      "english": "Therefore you must take the boy to Epidaurus and pray to Asclepius, in case he is willing to heal him."
+    },
+    {
+      "id": 30,
+      "greek": "ὁ δὲ Δικαιόπολις, «οἴμοι, πῶς γὰρ ἔξεσταί μοι πένητι ὄντι πρὸς τὴν Ἐπίδαυρον ἰέναι;»",
+      "english": "But Dicaeopolis said, Alas! How will it be possible for me, being a poor man, to go to Epidaurus?"
+    },
+    {
+      "id": 31,
+      "greek": "ὁ δὲ ἰατρός, «σὸν ἔργον, ὦ ἄνθρωπε,» ἔφη· «χαίρετε.»",
+      "english": "The doctor said, That is your business, my good man. Farewell."
+    },
+    {
+      "id": 32,
+      "greek": "ὁ οὖν Δικαιόπολις μάλα λυπούμενος βαδίζει πρὸς τὴν θύραν καὶ τῷ παιδὶ οἴκαδε ἡγεῖται.",
+      "english": "So Dicaeopolis, deeply distressed, walks toward the door and leads the boy home."
+    },
+    {
+      "id": 33,
+      "greek": "ἀφικόμενος δὲ πάντα τὰ γενόμενα τῷ ἀδελφῷ εἶπεν.",
+      "english": "When he arrived, he told his brother everything that had happened."
+    },
+    {
+      "id": 34,
+      "greek": "ἡ δὲ Μυρρίνη πάντα μαθοῦσα, «ἔστω· οὐ δυνάμεθα τῇ ἀνάγκῃ μάχεσθαι.",
+      "english": "When Myrrhine learned everything, she said, So be it. We cannot fight against necessity."
+    },
+    {
+      "id": 35,
+      "greek": "δεῖ σε οὖν τὸν παῖδα πρὸς τὴν Ἐπίδαυρον κομίζειν.»",
+      "english": "Therefore you must take the boy to Epidaurus."
+    },
+    {
+      "id": 36,
+      "greek": "ὁ δὲ Δικαιόπολις, «ἀλλὰ πῶς ἔξεσταί μοι, ὦ γύναι,» ἔφη, «τὸν παῖδα ἐκεῖσε ἄγειν;",
+      "english": "But Dicaeopolis said, How will it be possible for me, wife, to take the boy there?"
+    },
+    {
+      "id": 37,
+      "greek": "δεῖ γὰρ κατὰ θάλατταν ἰέναι· οὐ γὰρ δυνήσεται πεζῇ ἰέναι ὁ παῖς τυφλὸς ὤν.",
+      "english": "For we must travel by sea, since the boy, being blind, will not be able to go on foot."
+    },
+    {
+      "id": 38,
+      "greek": "πῶς οὖν ἔξεσται τὸν μισθὸν παρασχεῖν τῷ ναυκλήρῳ;",
+      "english": "How then will it be possible to provide the fare for the ship's captain?"
+    },
+    {
+      "id": 39,
+      "greek": "οὐ γάρ ἐστί μοι τὸ ἀργύριον.»",
+      "english": "For I do not have the money."
+    },
+    {
+      "id": 40,
+      "greek": "ὁ δὲ ἀδελφός, «μὴ φρόντιζε, ὦ φίλε,» ἔφη.",
+      "english": "But his brother said, Do not worry, my friend."
+    },
+    {
+      "id": 41,
+      "greek": "«καὶ πρὸς κυψέλην τινὰ ἐλθὼν πέντε δραχμὰς ἐξεῖλε καὶ τῷ Δικαιοπόλιδι παρέσχεν.",
+      "english": "And going to a certain chest, he took out five drachmas and gave them to Dicaeopolis."
+    },
+    {
+      "id": 42,
+      "greek": "ὁ δὲ τὸ ἀργύριον δέχεται καὶ μεγάλην χάριν ἔχων, «ὦ φίλτατ᾽ ἀνδρῶν,» ἔφη,",
+      "english": "Dicaeopolis accepted the money and, being very grateful, said, Dearest of men,"
+    },
+    {
+      "id": 43,
+      "greek": "«τοὺς θεοὺς εὔχομαι πάντα ἀγαθά σοι παρέχειν οὕτως εὔφρονι ὄντι.»",
+      "english": "I pray that the gods grant you every good thing, since you are so kind."
+    },
+    {
+      "id": 44,
+      "greek": "οὕτως οὖν δοκεῖ αὐτοῖς τῇ ὑστεραίᾳ πρὸς τὸν Πειραιᾶ σπεύδειν καὶ ναῦν τινα ζητεῖν πρὸς τὴν Ἐπίδαυρον πλευσουμένην.",
+      "english": "So they decide to hurry to the Piraeus the following day and look for a ship that will sail to Epidaurus."
+    }
+  ]
+},
+
+{
+  "chapter": 12,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "τῇ δ᾽ ὑστεραίᾳ ἐπεὶ πρῶτον ἡμέρα ἐγένετο, ὁ Δικαιόπολις πάντας ἐκέλευσε παρασκευάζεσθαι.",
+      "english": "On the following day, as soon as daybreak came, Dicaeopolis ordered everyone to get ready."
+    },
+    {
+      "id": 2,
+      "greek": "οἱ μὲν οὖν ἄλλοι εὐθὺς παρεσκευάσαντο βουλόμενοι ὡς τάχιστα πορεύεσθαι καὶ δι᾽ ὀλίγου ἕτοιμοι ἦσαν.",
+      "english": "The others immediately prepared themselves, wishing to set out as quickly as possible, and soon they were ready."
+    },
+    {
+      "id": 3,
+      "greek": "ὁ δὲ πάππος οὐκ ἠθέλησε πορεύεσθαι· οὕτω γὰρ γεραιὸς ἦν ὥστε οὐκ ἐδύνατο μακρὰν βαδίζειν.",
+      "english": "But the grandfather did not wish to travel, for he was so old that he could not walk a long distance."
+    },
+    {
+      "id": 4,
+      "greek": "ἡ δὲ Μέλιττα οὕτω μακρὰν τῇ προτεραίᾳ βαδίσασα ὑπέρκοπος ἦν·",
+      "english": "And Melitta, having walked such a long distance the previous day, was exhausted."
+    },
+    {
+      "id": 5,
+      "greek": "ἔδοξεν οὖν τῇ μητρὶ καταλιπεῖν αὐτὴν οἴκοι μετὰ τοῦ πάππου.",
+      "english": "Therefore her mother decided to leave her at home with her grandfather."
+    },
+    {
+      "id": 6,
+      "greek": "ἐπεὶ δὲ παρῆσαν οἱ ἄλλοι, ὁ Δικαιόπολις ἡγησάμενος αὐτοῖς εἰς τὴν αὐλὴν τῷ βωμῷ προσεχώρησε καὶ σπονδὴν ποιησάμενος τὸν Δία ηὔξατο σῴζειν πάντας τοσαύτην ὁδὸν ποιουμένους.",
+      "english": "When the others were present, Dicaeopolis led them into the courtyard, approached the altar, made a libation, and prayed to Zeus to protect them all as they undertook such a long journey."
+    },
+    {
+      "id": 7,
+      "greek": "τόν τ᾽ οὖν πάππον καὶ τὴν Μέλιτταν χαίρειν κελεύσαντες ὥρμησαν,",
+      "english": "So, bidding farewell to the grandfather and Melitta, they set out."
+    },
+    {
+      "id": 8,
+      "greek": "καὶ δι᾽ ὀλίγου, εἰς τὰς τῆς πόλεως πύλας ἀφικόμενοι, τὴν πρὸς τὸν λιμένα ὁδὸν εἵλοντο.",
+      "english": "And soon, having reached the city gates, they took the road toward the harbor."
+    },
+    {
+      "id": 9,
+      "greek": "ὀρθὴ δ᾽ ἦν ἡ ὁδός, διὰ τῶν μακρῶν τειχῶν φέρουσα·",
+      "english": "The road was straight, leading between the Long Walls."
+    },
+    {
+      "id": 10,
+      "greek": "πολλοὶ δὲ ἄνθρωποι ἐνῆσαν, πολλαὶ δὲ ἅμαξαι, πολλοὶ δὲ καὶ ἡμίονοι φορτία φέροντες ἢ πρὸς τὴν πόλιν ἢ ἀπὸ τῆς πόλεως πρὸς τὸν λιμένα.",
+      "english": "There were many people, many wagons, and many mules carrying loads either toward the city or from the city toward the harbor."
+    },
+    {
+      "id": 11,
+      "greek": "ὁ δὲ Δικαιόπολις σπεύδει διὰ τοῦ ὁμίλου βουλόμενος ὡς τάχιστα ἀφικέσθαι.",
+      "english": "Dicaeopolis hurries through the crowd, wishing to arrive as quickly as possible."
+    },
+    {
+      "id": 12,
+      "greek": "ὁ δὲ Φίλιππος καίπερ τῆς τοῦ πατρὸς χειρὸς ἐχόμενος ἔπταισε καὶ πρὸς τὴν γῆν κατέπεσεν.",
+      "english": "But Philip, although holding his father's hand, stumbled and fell to the ground."
+    },
+    {
+      "id": 13,
+      "greek": "ἡ δὲ μήτηρ βοήσασα, «ὦ τλήμον παῖ,» ἔφη, «τί ἔπαθες;»",
+      "english": "His mother cried out, Poor boy! What happened to you?"
+    },
+    {
+      "id": 14,
+      "greek": "καὶ προσδραμοῦσα ἦρεν αὐτόν.",
+      "english": "And running up to him, she lifted him."
+    },
+    {
+      "id": 15,
+      "greek": "ὁ δὲ οὐδὲν κακὸν παθών, «μὴ φρόντιζε, ὦ μῆτερ,» ἔφη·",
+      "english": "But he, having suffered no injury, said, Do not worry, mother."
+    },
+    {
+      "id": 16,
+      "greek": "«καίπερ γὰρ πεσὼν ἐγὼ καλῶς ἔχω.»",
+      "english": "For although I fell, I am all right."
+    },
+    {
+      "id": 17,
+      "greek": "ἡ δὲ μήτηρ ἔτι φροντίζει καὶ τὸν παῖδα σκοπεῖ.",
+      "english": "But his mother is still worried and examines the boy."
+    },
+    {
+      "id": 18,
+      "greek": "ἐν ᾧ δὲ πάντες περιμένουσιν ἀποροῦντες τί δεῖ ποιεῖν, προσεχώρησεν ἀνήρ τις ἅμαξαν ἐλαύνων.",
+      "english": "While they were all waiting, uncertain what to do, a man driving a wagon approached."
+    },
+    {
+      "id": 19,
+      "greek": "ἰδὼν δ᾽ αὐτοὺς ἐν τῇ ὁδῷ περιμένοντας καὶ ἀποροῦντας, τὸν ἡμίονον ἔστησε καὶ, «εἴπετέ μοι, τί πάσχετε, ὦ φίλοι;» ἔφη,",
+      "english": "Seeing them waiting in the road and at a loss, he stopped his mule and said, Tell me, friends, what is troubling you?"
+    },
+    {
+      "id": 20,
+      "greek": "«τί οὕτω περιμένετε; ἆρα κακόν τι ἔπαθεν ὁ παῖς;»",
+      "english": "Why are you waiting like this? Has something bad happened to the boy?"
+    },
+    {
+      "id": 21,
+      "greek": "οἱ μὲν οὖν πάντα ἐξηγήσαντο,",
+      "english": "So they explained everything."
+    },
+    {
+      "id": 22,
+      "greek": "ὁ δέ, «ἐλθὲ δεῦρο, ὦ παῖ,» ἔφη, «καὶ ἀνάβηθι ἐπὶ τὴν ἅμαξαν.",
+      "english": "And the man said, Come here, boy, and climb onto the wagon."
+    },
+    {
+      "id": 23,
+      "greek": "καὶ σύ, ὦ γύναι, εἰ τῷ ἀνδρὶ δοκεῖ, ἀνάβηθι.",
+      "english": "And you too, woman, climb aboard if your husband agrees."
+    },
+    {
+      "id": 24,
+      "greek": "καὶ ἐγὼ γὰρ πρὸς τὸν λιμένα πορεύομαι.»",
+      "english": "For I too am traveling to the harbor."
+    },
+    {
+      "id": 25,
+      "greek": "οἱ δὲ ἐδέξαντο τὸν λόγον καὶ οὕτω πορευόμενοι δι᾽ ὀλίγου ἀφίκοντο εἰς τὸν λιμένα.",
+      "english": "They accepted his offer, and traveling in this way, they soon arrived at the harbor."
+    }
+  ]
+},
+
+{
+  "chapter": 12,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐν δὲ τῷ λιμένι πλεῖστος μὲν ἦν ὅμιλος, πλεῖστος δὲ θόρυβος.",
+      "english": "In the harbor there was a very large crowd and a great deal of noise."
+    },
+    {
+      "id": 2,
+      "greek": "πανταχόσε γὰρ ἔσπευδον οἱ ἄνθρωποι·",
+      "english": "For people were hurrying in every direction."
+    },
+    {
+      "id": 3,
+      "greek": "οἱ μὲν γὰρ ναύκληροι τοὺς ναύτας ἐκάλουν, κελεύοντες αὐτοὺς τὰ φορτία ἐκ τῶν νεῶν ἐκφέρειν,",
+      "english": "The shipowners were calling the sailors, ordering them to carry the cargo out of the ships."
+    },
+    {
+      "id": 4,
+      "greek": "οἱ δὲ ἔμποροι μέγα ἐβόων τὰ φορτία δεχόμενοι καὶ εἰς ἁμάξας εἰσφέροντες·",
+      "english": "The merchants were shouting loudly as they received the cargo and loaded it onto wagons."
+    },
+    {
+      "id": 5,
+      "greek": "ἄλλοι δὲ τὰ πρόβατα ἐξελάσαντες διὰ τῶν ὁδῶν ἦγον.",
+      "english": "Others were driving sheep through the streets."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ δὲ Δικαιόπολις πάντα θεώμενος ἠπόρει τί δεῖ ποιῆσαι καὶ ποῦ δεῖ ζητεῖν ναῦν τινα πρὸς τὴν Ἐπίδαυρον πλευσομένην·",
+      "english": "Dicaeopolis, looking at everything, was at a loss about what to do and where to look for a ship that would sail to Epidaurus."
+    },
+    {
+      "id": 7,
+      "greek": "πλείστας γὰρ ναῦς εἶδε πρὸς τῷ χώματι ὁρμούσας.",
+      "english": "For he saw very many ships lying at anchor beside the pier."
+    },
+    {
+      "id": 8,
+      "greek": "τέλος δὲ πάντες ἐν οἰνοπωλίῳ τινὶ καθισάμενοι οἶνον ᾔτησαν.",
+      "english": "Finally, they all sat down in a wine shop and asked for wine."
+    },
+    {
+      "id": 9,
+      "greek": "ἐν ᾧ δὲ τὸν οἶνον ἔπινον, προσεχώρησε ναύτης τις γεραιὸς καί,",
+      "english": "While they were drinking the wine, an elderly sailor approached and said,"
+    },
+    {
+      "id": 10,
+      "greek": "«τίνες ἐστέ, ὦ φίλοι,» ἔφη, «καὶ τί βουλόμενοι πάρεστε;",
+      "english": "Who are you, friends, and what do you want here?"
+    },
+    {
+      "id": 11,
+      "greek": "ἄγροικοι γὰρ ὄντες φαίνεσθε ἀπορεῖν.",
+      "english": "For you seem to be country people who are at a loss."
+    },
+    {
+      "id": 12,
+      "greek": "εἴπετέ μοι τί πάσχετε.»",
+      "english": "Tell me what is troubling you."
+    },
+    {
+      "id": 13,
+      "greek": "ὁ δὲ Δικαιόπολις πάντα ἐξηγησάμενος, «ἆρ᾽ οἶσθα,» ἔφη, «εἴ τις ναῦς πάρεστι μέλλουσα πρὸς τὴν Ἐπίδαυρον πλεύσεσθαι;»",
+      "english": "Dicaeopolis explained everything and said, Do you know whether there is a ship here that is going to sail to Epidaurus?"
+    },
+    {
+      "id": 14,
+      "greek": "ὁ δέ, «μάλιστά γε,» ἔφη·",
+      "english": "The sailor replied, Certainly."
+    },
+    {
+      "id": 15,
+      "greek": "«ἡ γὰρ ἐμὴ ναῦς μέλλει ἐκεῖσε πλεύσεσθαι.",
+      "english": "For my ship is going to sail there."
+    },
+    {
+      "id": 16,
+      "greek": "ἕπεσθέ μοι οὖν παρὰ τὸν ναύκληρον.",
+      "english": "So follow me to the shipowner."
+    },
+    {
+      "id": 17,
+      "greek": "ἀλλ᾽ ἰδού, πάρεστιν αὐτὸς ὁ ναύκληρος εἰς καιρὸν προσχωρῶν.»",
+      "english": "But look, here comes the shipowner himself, arriving at just the right moment."
+    },
+    {
+      "id": 18,
+      "greek": "καὶ οὕτως εἰπὼν ἡγήσατο αὐτοῖς παρὰ νεανίαν τινὰ ἐκ νεώς τινος τότε ἐκβαίνοντα.",
+      "english": "Having said this, he led them to a young man who was just then coming off a ship."
+    },
+    {
+      "id": 19,
+      "greek": "ὁ οὖν Δικαιόπολις προσχωρήσας ἤρετο αὐτὸν εἰ ἐθέλει κομίζειν αὐτοὺς πρὸς τὴν Ἐπίδαυρον.",
+      "english": "Dicaeopolis approached and asked him whether he was willing to take them to Epidaurus."
+    },
+    {
+      "id": 20,
+      "greek": "ὁ δέ, «μάλιστά γε,» ἔφη, «ἐθέλω ὑμᾶς ἐκεῖσε κομίζειν.",
+      "english": "He replied, Certainly, I am willing to take you there."
+    },
+    {
+      "id": 21,
+      "greek": "ἀλλὰ εἴσβητε ταχέως· εὐθὺς γὰρ πλευσόμεθα.»",
+      "english": "But get aboard quickly, for we shall sail immediately."
+    },
+    {
+      "id": 22,
+      "greek": "ὁ δὲ Δικαιόπολις, «ἐπὶ πόσῳ;»",
+      "english": "Dicaeopolis asked, For how much?"
+    },
+    {
+      "id": 23,
+      "greek": "ὁ δὲ ναύκληρος, «ἐπὶ πέντε δραχμαῖς,» ἔφη.",
+      "english": "The shipowner replied, For five drachmas."
+    },
+    {
+      "id": 24,
+      "greek": "ὁ δὲ Δικαιόπολις, «ἀλλ᾽ ἄγαν αἰτεῖς.",
+      "english": "Dicaeopolis said, But you are asking too much."
+    },
+    {
+      "id": 25,
+      "greek": "ἐγὼ δύο δραχμὰς ἐθέλω παρασχεῖν.»",
+      "english": "I am willing to pay two drachmas."
+    },
+    {
+      "id": 26,
+      "greek": "ὁ δέ· «οὐδαμῶς· τέτταρας αἰτῶ.»",
+      "english": "The shipowner replied, Absolutely not. I ask for four."
+    },
+    {
+      "id": 27,
+      "greek": "ὁ δὲ Δικαιόπολις, «ἰδού, τρεῖς δραχμάς· οὐ γὰρ δύναμαι πλέον παρασχεῖν.»",
+      "english": "Dicaeopolis said, Look, three drachmas, for I cannot pay any more."
+    },
+    {
+      "id": 28,
+      "greek": "ὁ δέ, «ἔστω· παράσχες μοι τὸ ἀργύριον· καὶ εἴσβητε ταχέως.»",
+      "english": "The shipowner replied, Very well. Give me the money, and get aboard quickly."
+    },
+    {
+      "id": 29,
+      "greek": "ὁ οὖν Δικαιόπολις τὸ ἀργύριον τῷ ναυκλήρῳ παρέσχε καὶ τήν τε γυναῖκα καὶ τὸν ἀδελφὸν χαίρειν ἐκέλευσεν.",
+      "english": "Dicaeopolis gave the money to the shipowner and said farewell to his wife and brother."
+    },
+    {
+      "id": 30,
+      "greek": "ἡ δὲ Μυρρίνη δακρύσασα, «τὸν παῖδα,» ἔφη, «εὖ φύλαττε, ὦ φίλε ἄνερ, καὶ σπεῦδε ὡς τάχιστα οἴκαδε ἐπανιέναι.",
+      "english": "Myr rhine burst into tears and said, Take good care of the boy, dear husband, and hurry home as quickly as possible."
+    },
+    {
+      "id": 31,
+      "greek": "σὺ δέ, ὦ φίλτατε παῖ, θάρρει καὶ σὺν θεῷ δι᾽ ὀλίγου νόστησον ὑγιεῖς ἔχων τοὺς ὀφθαλμούς.»",
+      "english": "And you, dearest boy, take courage, and with the god's help you will soon return with your eyes healthy."
+    },
+    {
+      "id": 32,
+      "greek": "οὕτως εἰποῦσα ἀπεστρέψατο·",
+      "english": "Having said this, she turned away."
+    },
+    {
+      "id": 33,
+      "greek": "ὁ δὲ ἀδελφὸς αὐτῇ ἡγήσατο Ἀθήναζε δακρυούσῃ.",
+      "english": "And her brother-in-law led her back toward Athens as she wept."
+    }
+  ]
+},
+
+{
+  "chapter": 13,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐν δὲ τούτῳ ὁ ναύτης ὁ γεραιὸς τόν τε Δικαιόπολιν καὶ τὸν παῖδα εἰς τὴν ναῦν ἀγαγὼν ἐκέλευσε καθίζεσθαι ἐπὶ τῷ καταστρώματι.",
+      "english": "Meanwhile, the elderly sailor led Dicaeopolis and the boy onto the ship and told them to sit on the deck."
+    },
+    {
+      "id": 2,
+      "greek": "ἐνταῦθα δὴ ὁ μὲν ναύκληρος ἐκέλευσε τοὺς ναύτας λῦσαι τὰ πείσματα,",
+      "english": "Then the shipowner ordered the sailors to loosen the mooring ropes."
+    },
+    {
+      "id": 3,
+      "greek": "οἱ δὲ ναῦται τὰ πείσματα λύσαντες τὴν ναῦν βραδέως ἤρεσσον πρὸς τὴν θάλατταν.",
+      "english": "The sailors untied the ropes and slowly rowed the ship out toward the sea."
+    },
+    {
+      "id": 4,
+      "greek": "ἔπειτα δὲ τὴν γῆν καταλιπόντες τὰ ἱστία ἐπέτασαν.",
+      "english": "Then, leaving the land behind, they spread the sails."
+    },
+    {
+      "id": 5,
+      "greek": "ἐπεὶ δὲ ἡ μὲν ναῦς βεβαίως ἔπλει, οἱ δὲ ναῦται τῶν ἔργων παυσάμενοι ἡσύχαζον, ὁ Δικαιόπολις πᾶσαν τὴν ναῦν ἐσκόπει.",
+      "english": "When the ship was sailing steadily and the sailors had stopped working and were resting, Dicaeopolis examined the entire ship."
+    },
+    {
+      "id": 6,
+      "greek": "στρογγύλη ἦν ἡ ναῦς, οὐ μεγάλη οὐδὲ ταχεῖα ἀλλὰ βεβαία, ἣ φορτία ἔφερε πρὸς τὰς νήσους·",
+      "english": "The ship was round, neither large nor fast, but sturdy, and it carried cargo to the islands."
+    },
+    {
+      "id": 7,
+      "greek": "σῖτός τε γὰρ ἐνῆν καὶ οἶνος καὶ ὕλη καὶ πρόβατα.",
+      "english": "For there was grain, wine, timber, and sheep aboard."
+    },
+    {
+      "id": 8,
+      "greek": "πολλοὶ δ᾽ ἐνῆσαν ἄνθρωποι, ἄγροικοι ὄντες, οἳ τὰ φορτία ἐν ταῖς Ἀθήναις πωλήσαντες οἴκαδε ἐπανῄεσαν·",
+      "english": "There were also many people aboard, country folk who, having sold their goods in Athens, were returning home."
+    },
+    {
+      "id": 9,
+      "greek": "ἄλλοι δὲ παρὰ τοὺς οἰκείους ἐπορεύοντο, οἳ ἐν ταῖς νήσοις ᾤκουν.",
+      "english": "Others were traveling to visit their relatives who lived on the islands."
+    },
+    {
+      "id": 10,
+      "greek": "πάντες δὲ ἐτέρποντο πλέοντες—οὔριος γὰρ ἦν ὁ ἄνεμος καὶ λαμπρὸς ὁ ἥλιος—καὶ ἢ διελέγοντο ἀλλήλοις ἢ μέλη ᾖδον.",
+      "english": "Everyone enjoyed the voyage, for the wind was favorable and the sun was bright, and they either talked with one another or sang songs."
+    }
+  ]
+},
+
+{
+  "chapter": 13,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐπεὶ δὲ ὀλίγον χρόνον ἔπλευσαν, δέκα νῆες μακραὶ ἐφαίνοντο, αἳ πρὸς τὸν Πειραιᾶ ἐπορεύοντο ἀπὸ τῶν νήσων ἐπανιοῦσαι.",
+      "english": "After they had sailed for a short time, ten warships appeared, which were heading toward the Piraeus, returning from the islands."
+    },
+    {
+      "id": 2,
+      "greek": "πάντες οὖν τὰς τριήρεις ἐθεῶντο, αἳ ταχέως διὰ τῶν κυμάτων ἔσπευδον.",
+      "english": "Everyone watched the triremes, which were speeding rapidly through the waves."
+    },
+    {
+      "id": 3,
+      "greek": "οἱ γὰρ ἐρέται τῷ κελευστῇ πειθόμενοι τὴν θάλατταν ἅμα ἔτυπτον.",
+      "english": "For the rowers, obeying the boatswain, struck the sea together."
+    },
+    {
+      "id": 4,
+      "greek": "ἐπεὶ δὲ οὐκέτι ἐφαίνοντο αἱ τριήρεις, μείζων μὲν ἐγίγνετο ὁ ἄνεμος, ἡ δὲ θάλαττα ἐκύμαινεν.",
+      "english": "When the triremes were no longer visible, the wind grew stronger and the sea became rough."
+    },
+    {
+      "id": 5,
+      "greek": "οἱ δ᾽ ἄνθρωποι οὐκέτι ἐτέρποντο, ἀλλ᾽ οἱ μὲν ἄνδρες ἐσίγων, αἱ δὲ γυναῖκες μέγα ἔκλαζον εὐχόμεναι τὸν Ποσειδῶνα σῴζειν ἑαυτὰς εἰς τὸν λιμένα.",
+      "english": "The passengers no longer enjoyed themselves. The men fell silent, while the women cried out loudly, praying to Poseidon to bring them safely into the harbor."
+    },
+    {
+      "id": 6,
+      "greek": "ἀνὴρ δέ τις, ὃς ἐγγὺς τοῦ Δικαιοπόλιδος ἐκαθίζετο, ἀνέστη καὶ βοήσας,",
+      "english": "A certain man who was sitting near Dicaeopolis stood up and shouted."
+    },
+    {
+      "id": 7,
+      "greek": "«ὀργίζεται ἡμῖν,» ἔφη, «ὁ Ποσειδῶν, ὡς δοκεῖ.",
+      "english": "Poseidon is angry with us, it seems, he said."
+    },
+    {
+      "id": 8,
+      "greek": "κακὸν γὰρ ἄνθρωπον ἐν τῇ νηὶ φέρομεν, ὃν δεῖ ῥίπτειν εἰς τὴν θάλατταν.»",
+      "english": "For we are carrying an evil man aboard the ship, whom we must throw into the sea."
+    },
+    {
+      "id": 9,
+      "greek": "καὶ τοὺς παρόντας ἐπιφθόνως ἐσκόπει,",
+      "english": "And he looked suspiciously and maliciously at those present."
+    },
+    {
+      "id": 10,
+      "greek": "ὁ δὲ γέρων προσελθών, «σίγησον, ὦ ἄνθρωπε,» ἔφη.",
+      "english": "But the old man approached and said, Be quiet, man."
+    },
+    {
+      "id": 11,
+      "greek": "«οὐδὲν γὰρ λέγεις.",
+      "english": "For you are talking nonsense."
+    },
+    {
+      "id": 12,
+      "greek": "ἤδη γὰρ πίπτει ὁ ἄνεμος καὶ οὐκέτι τοσοῦτο κυμαίνει ἡ θάλαττα.",
+      "english": "The wind is already dying down, and the sea is no longer so rough."
+    },
+    {
+      "id": 13,
+      "greek": "κάθιζε οὖν καὶ ἥσυχος ἔχε.»",
+      "english": "So sit down and keep quiet."
+    },
+    {
+      "id": 14,
+      "greek": "τρεψάμενος δὲ πρὸς τὸν Φίλιππον, «μηδὲν φοβοῦ, ὦ παῖ,» ἔφη.",
+      "english": "Then, turning toward Philip, he said, Do not be afraid, boy."
+    },
+    {
+      "id": 15,
+      "greek": "«δι᾽ ὀλίγου γὰρ εἰς τὴν Σαλαμῖνα ἀφιξόμεθα.",
+      "english": "For we shall soon arrive at Salamis."
+    },
+    {
+      "id": 16,
+      "greek": "ἤδη γὰρ πλέομεν διὰ τῶν στενῶν πρὸς τὸν λιμένα.",
+      "english": "For we are already sailing through the straits toward the harbor."
+    },
+    {
+      "id": 17,
+      "greek": "ἰδού, ὦ Δικαιόπολι, τὰ στενά, ἐν οἷς τὸ τῶν βαρβάρων ναυτικὸν ἐμείναμεν ὅτε τῇ Ἑλλάδι αὐτοὺς ἠμύνομεν ὑπὲρ τῆς ἐλευθερίας μαχόμενοι.»",
+      "english": "Look, Dicaeopolis, the straits where we awaited the barbarian fleet when we defended Greece against them, fighting for freedom."
+    },
+    {
+      "id": 18,
+      "greek": "ὁ δὲ Δικαιόπολις, «τί λέγεις, ὦ γέρον;» ἔφη. «ἆρα σὺ ἐκείνῃ τῇ μάχῃ παρῆσθα;»",
+      "english": "Dicaeopolis said, What are you saying, old man? Were you present at that battle?"
+    },
+    {
+      "id": 19,
+      "greek": "ὁ δὲ γέρων, «μάλιστά γε,» ἔφη, «ἐγὼ παρῆν, νεανίας ὢν καὶ ἐρέτης ἐν τριήρει Ἀθηναίᾳ.»",
+      "english": "The old man replied, Certainly. I was there, when I was a young man and a rower aboard an Athenian trireme."
+    },
+    {
+      "id": 20,
+      "greek": "ὁ δὲ Φίλιππος, «ἆρα τὰ ἀληθῆ λέγεις; μάλα οὖν γεραιὸς εἶ, εἰ τῷ ὄντι ἐκείνῃ τῇ μάχῃ παρῆσθα.",
+      "english": "Philip said, Are you telling the truth? You must be very old indeed if you really were present at that battle."
+    },
+    {
+      "id": 21,
+      "greek": "ἀλλ᾽ εἰπὲ ἡμῖν τί ἐγένετο.»",
+      "english": "But tell us what happened."
+    },
+    {
+      "id": 22,
+      "greek": "ὁ δέ, «μακρός ἐστιν ὁ λόγος,» ἔφη, «ἀλλ᾽ εἰ βούλεσθε τὰ γενόμενα μαθεῖν, πάντα ἐξ ἀρχῆς ἐξηγήσομαι.",
+      "english": "The old man replied, It is a long story, but if you wish to learn what happened, I shall explain everything from the beginning."
+    },
+    {
+      "id": 23,
+      "greek": "ἐγὼ δέ, ὃς παρῆν, τέρπομαι ἐξηγούμενος.",
+      "english": "And I, who was there, take pleasure in telling the story."
+    },
+    {
+      "id": 24,
+      "greek": "ἀκούετε οὖν.»",
+      "english": "So listen."
+    }
+  ]
+},
+
+{
+  "chapter": 14,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ἐπεὶ ὁ Ξέρξης, βασιλεὺς ὢν τῶν Περσῶν, τὸν στόλον παρεσκεύαζεν, ἐν νῷ ἔχων πᾶσαν τὴν Ἑλλάδα καταστρέψασθαι, οἱ τῶν Ἑλλήνων πρῶτοι συνῆλθον εἰς τὴν Κόρινθον καὶ ἐσκόπουν τί δεῖ πράττειν.",
+      "english": "When Xerxes, being king of the Persians, was preparing his expedition, intending to subdue all Greece, the leaders of the Greeks gathered at Corinth and considered what they should do."
+    },
+    {
+      "id": 2,
+      "greek": "πολὺν δὲ χρόνον ἠπόρουν·",
+      "english": "For a long time they were at a loss."
+    },
+    {
+      "id": 3,
+      "greek": "μείζονα γὰρ στρατὸν εἶχεν ὁ Ξέρξης ἢ πάντες οἱ Ἕλληνες καὶ πλείονας ναῦς.",
+      "english": "For Xerxes had a larger army than all the Greeks combined, and more ships."
+    },
+    {
+      "id": 4,
+      "greek": "τέλος δὲ ἔδοξεν αὐτοῖς τοὺς βαρβάρους ἀμύνειν ἐν ταῖς Θερμοπύλαις·",
+      "english": "Finally they decided to resist the barbarians at Thermopylae."
+    },
+    {
+      "id": 5,
+      "greek": "ἐκεῖ γὰρ κατὰ μὲν γῆν τὰ ὄρη οὕτω πρόσκειται τῇ θαλάττῃ ὥστε ὀλίγοι πρὸς πολλοὺς δύνανται μάχεσθαι, κατὰ δὲ θάλατταν πόροι εἰσὶ στενοὶ ἐν μέσῳ τῆς τε Εὐβοίας καὶ τῆς ἠπείρου.",
+      "english": "For there, on land, the mountains lie so close to the sea that a few men can fight against many, while at sea there are narrow straits between Euboea and the mainland."
+    },
+    {
+      "id": 6,
+      "greek": "μαθόντες οὖν οἱ Ἕλληνες ὅτι ὁ Ξέρξης ἤδη πρὸς τὴν Ἑλλάδα πορεύεται καὶ δι᾽ ὀλίγου εἰς τὰς Θερμοπύλας οἱ Πέρσαι ἀφίξονται, τὸν Λεωνίδην ἔπεμψαν, βασιλέα ὄντα τῶν Λακεδαιμονίων, ἑπτακισχιλίους ἔχοντα ὁπλίτας.",
+      "english": "When the Greeks learned that Xerxes was already marching toward Greece and that the Persians would soon arrive at Thermopylae, they sent Leonidas, king of the Spartans, with seven thousand hoplites."
+    },
+    {
+      "id": 7,
+      "greek": "οὗτοι δὲ ἀφικόμενοι εἰς τὰς Θερμοπύλας παρεσκευάζοντο ἀμύνειν τοὺς βαρβάρους τῇ Ἑλλάδι.",
+      "english": "When these men arrived at Thermopylae, they prepared to defend Greece against the barbarians."
+    },
+    {
+      "id": 8,
+      "greek": "ὁ δὲ Ξέρξης ἀφικόμενος εἰς τὰ στενὰ στρατὸν ἔχων μέγιστον δή, τέτταρας μὲν ἡμέρας ἡσύχαζεν·",
+      "english": "When Xerxes arrived at the narrow pass with an enormous army, he remained inactive for four days."
+    },
+    {
+      "id": 9,
+      "greek": "ἤλπιζε γὰρ τοὺς Ἕλληνας ἀποφεύξεσθαι ἰδόντας τὸ πλῆθος τοῦ στρατοῦ.",
+      "english": "For he hoped that the Greeks would flee when they saw the size of his army."
+    },
+    {
+      "id": 10,
+      "greek": "τῇ δὲ πέμπτῃ ἡμέρᾳ—οἱ γὰρ Ἕλληνες ἔτι ἀκίνητοι ἔμενον—τὸν στρατὸν ἐκέλευσεν εὐθὺς προσβαλεῖν.",
+      "english": "But on the fifth day, since the Greeks still remained unmoved, he ordered his army to attack immediately."
+    },
+    {
+      "id": 11,
+      "greek": "οἱ δὲ Ἕλληνες ἀνδρειότατα μαχόμενοι τοὺς βαρβάρους ἤμυνον.",
+      "english": "The Greeks fought very bravely and repelled the barbarians."
+    },
+    {
+      "id": 12,
+      "greek": "τέλος δὲ βασιλεὺς τοὺς Πέρσας ἐπέπεμψεν οὓς ‘ἀθανάτους’ ἐκάλει, ἀνδρειοτάτους ὄντας τῶν στρατιωτῶν, ἐλπίζων τούτους γε ῥᾳδίως νικήσειν τοὺς Ἕλληνας.",
+      "english": "Finally the king sent against them the Persians whom he called the Immortals, the bravest of his soldiers, hoping that these men at least would easily defeat the Greeks."
+    },
+    {
+      "id": 13,
+      "greek": "ἐπεὶ δὲ καὶ οὗτοι συνέβαλον, οὐδὲν ἄμεινον ἔπραττον ἢ οἱ ἄλλοι, ἐν τοῖς στενοῖς μαχόμενοι καὶ οὐ δυνάμενοι τῷ πλήθει χρῆσθαι.",
+      "english": "But when these men also joined battle, they fared no better than the others, fighting in the narrow pass and being unable to make use of their numbers."
+    },
+    {
+      "id": 14,
+      "greek": "βασιλεὺς δὲ τὴν μάχην θεώμενος τρὶς ἀνέδραμεν, ὡς λέγουσιν, ἐκ τοῦ θρόνου, φοβούμενος ὑπὲρ τοῦ στρατοῦ.",
+      "english": "The king, watching the battle, leaped up from his throne three times, as they say, fearing for his army."
+    }
+  ]
+},
+
+{
+  "chapter": 14,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "τῇ δ᾽ ὑστεραίᾳ οἱ βάρβαροι αὖθις προσβαλόντες οὐδὲν ἄμεινον ἔπραττον ἢ τῇ προτεραίᾳ.",
+      "english": "On the following day, the barbarians attacked again but fared no better than on the previous day."
+    },
+    {
+      "id": 2,
+      "greek": "ὡς οὖν ἠπόρει ὁ Ξέρξης, προσῆλθε πρὸς αὐτὸν ἀνήρ τις τῶν Ἑλλήνων, Ἐφιάλτης ὀνόματι, ἔφρασέ τε τὴν ἀτραπὸν τὴν διὰ τοῦ ὄρους φέρουσαν εἰς τὰς Θερμοπύλας.",
+      "english": "As Xerxes was at a loss, a certain Greek named Ephialtes approached him and revealed the path leading through the mountain to Thermopylae."
+    },
+    {
+      "id": 3,
+      "greek": "ταῦτα δὲ μαθὼν ὁ Ξέρξης τοὺς ἀθανάτους ταύτῃ ἔπεμψεν, κελεύων αὐτοὺς ἐκ τοῦ ὄπισθεν λαβεῖν τοὺς Ἕλληνας.",
+      "english": "Having learned this, Xerxes sent the Immortals by this route, ordering them to take the Greeks from behind."
+    },
+    {
+      "id": 4,
+      "greek": "οἱ δὲ Ἕλληνες μαθόντες τί γίγνεται πρῶτον μὲν ἠπόρουν τί δεῖ πρᾶξαι, τέλος δὲ ἔδοξε τῷ Λεωνίδῃ τοὺς μὲν ἄλλους ἀποπέμψαι πρὸς τὴν Ἀττικήν, αὐτὸς δὲ ἔμενεν ἐν ταῖς Θερμοπύλαις τριακοσίους ἔχων Σπαρτιάτας ἐν νῷ ἔχων τὰς πύλας φυλάττειν.",
+      "english": "When the Greeks learned what was happening, they were at first uncertain what to do. Finally Leonidas decided to send the others away toward Attica, while he himself remained at Thermopylae with three hundred Spartans, intending to guard the pass."
+    },
+    {
+      "id": 5,
+      "greek": "οἱ μὲν οὖν βάρβαροι προσέβαλον, οἱ δὲ Σπαρτιᾶται ἐμάχοντο πρὸς πολεμίους πολλαπλασίους ὄντας καὶ πλείστους δὴ ἀπέκτειναν·",
+      "english": "The barbarians attacked, and the Spartans fought against enemies many times their number and killed a great many of them."
+    },
+    {
+      "id": 6,
+      "greek": "τῶν δ᾽ Ἑλλήνων ἄλλοι τε πολλοὶ ἔπεσον καὶ αὐτὸς ὁ Λεωνίδης, ἀνὴρ ἄριστος γενόμενος.",
+      "english": "Many of the Greeks also fell, including Leonidas himself, who had proved to be an excellent man."
+    },
+    {
+      "id": 7,
+      "greek": "τέλος δὲ οἱ Πέρσαι οἱ διὰ τοῦ ὄρους διελθόντες παρεγένοντο καὶ ἐκ τοῦ ὄπισθεν προσέβαλον.",
+      "english": "Finally the Persians who had passed through the mountain arrived and attacked from behind."
+    },
+    {
+      "id": 8,
+      "greek": "τότε δὴ οἱ Σπαρτιᾶται εἰς τὸ στενὸν τῆς ὁδοῦ ἀνεχώρουν καὶ ἐνταῦθα ἐμάχοντο ἕως ἅπαντες ἔπεσον.",
+      "english": "Then the Spartans withdrew into the narrow part of the road and fought there until every one of them fell."
+    },
+    {
+      "id": 9,
+      "greek": "οἱ δὲ Ἕλληνες μετὰ τὸν πόλεμον τοὺς τριακοσίους ἔθαψαν ὅπου ἔπεσον καὶ μνημεῖον ἐποίησαν τῷ Λεωνίδῃ, λέοντα λίθινον, ὃν καὶ νῦν ἔξεστιν ἰδεῖν.",
+      "english": "After the war, the Greeks buried the three hundred where they had fallen and made a monument to Leonidas, a stone lion, which can still be seen today."
+    },
+    {
+      "id": 10,
+      "greek": "καὶ τοῦτο τὸ ἐπίγραμμα ἐν στήλῃ λιθίνῃ ἔγραψαν·",
+      "english": "And they inscribed this epitaph on a stone monument:"
+    },
+    {
+      "id": 11,
+      "greek": "ὦ ξεῖν᾽, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε κεἴμεθα, τοῖς κείνων ῥήμασι πειθόμενοι.",
+      "english": "Stranger, tell the Spartans that we lie here, obedient to their commands."
+    },
+    {
+      "id": 12,
+      "greek": "ἐν δὲ τούτῳ κατὰ θάλατταν οἱ Ἕλληνες πρὸς τῷ Ἀρτεμισίῳ μένοντες τὰ στενὰ ἐφύλαττον καὶ ναυμαχοῦντες τοὺς βαρβάρους ἐνίκησαν καίπερ πλέονας ὄντας καὶ ἤμυναν.",
+      "english": "Meanwhile, at sea, the Greeks remained near Artemisium, guarded the straits, and defeated and repelled the barbarians in a naval battle, although they were more numerous."
+    },
+    {
+      "id": 13,
+      "greek": "ὡς δὲ οἱ βάρβαροι τὰς Θερμοπύλας εἷλον, οἱ Ἕλληνες οὐκέτι ἐφύλαττον τὰ στενὰ ἀλλὰ πρὸς τὴν Σαλαμῖνα ταῖς ναυσὶν ἀνεχώρουν.",
+      "english": "When the barbarians captured Thermopylae, the Greeks no longer guarded the straits but withdrew with their ships toward Salamis."
+    },
+    {
+      "id": 14,
+      "greek": "κατὰ δὲ γῆν οὐκέτι ἐδύναντο ἀντέχειν τοῖς βαρβάροις ἀλλὰ ἔφευγον πρὸς τὴν Πελοπόννησον, τήν τε Βοιωτίαν καὶ τὴν Ἀττικὴν τοῖς πολεμίοις καταλιπόντες.",
+      "english": "On land, they could no longer hold out against the barbarians, but fled toward the Peloponnese, abandoning Boeotia and Attica to the enemy."
+    },
+    {
+      "id": 15,
+      "greek": "οὕτως οὖν οἱ βάρβαροι κατὰ μὲν γῆν προχωρήσαντες τοῖς Ἀθήναις προσβαλεῖν ἐν νῷ εἶχον, κατὰ δὲ θάλατταν εἰς τὸ Φάληρον πλεύσαντες ἐν τῷ λιμένι ὥρμουν.",
+      "english": "Thus the barbarians advanced by land, intending to attack Athens, while at sea they sailed to Phalerum and anchored in the harbor."
+    }
+  ]
+},
+
+{
+  "chapter": 15,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "οἱ μὲν οὖν Ἀθηναῖοι ἐν ἀπορίᾳ ἦσαν πλείστῃ·",
+      "english": "The Athenians, then, were in very great difficulty."
+    },
+    {
+      "id": 2,
+      "greek": "ὁ δὲ Θεμιστοκλῆς ἔπεισεν αὐτοὺς μὴ εἴκειν τοῖς βαρβάροις ἀλλὰ ὑπὲρ τῆς ἐλευθερίας μάχεσθαι.",
+      "english": "But Themistocles persuaded them not to yield to the barbarians, but to fight for their freedom."
+    },
+    {
+      "id": 3,
+      "greek": "τάς τ᾽ οὖν γυναῖκας καὶ τοὺς παῖδας καὶ τοὺς γέροντας εἰς τήν τε Πελοπόννησον καὶ τὴν Σαλαμῖνα ἐκόμισαν, τήν τ᾽ Ἀττικὴν καὶ τὴν πόλιν τοῖς πολεμίοις καταλιπόντες.",
+      "english": "So they transported the women, children, and old men to the Peloponnese and Salamis, abandoning Attica and the city to the enemy."
+    },
+    {
+      "id": 4,
+      "greek": "αὐτοὶ δὲ εἰς τὰς ναῦς εἰσβάντες πρὸς τὴν Σαλαμῖνα προσέπλευσαν καὶ παρεσκευάζοντο ὡς κατὰ θάλατταν μαχούμενοι.",
+      "english": "They themselves boarded the ships, sailed toward Salamis, and prepared to fight at sea."
+    },
+    {
+      "id": 5,
+      "greek": "ἐν δὲ τούτῳ οἱ μὲν τῶν Ἑλλήνων στρατηγοὶ ἐν τῇ Σαλαμῖνι συνελθόντες οὕτως ἐφοβοῦντο ὥστε ἀποφυγεῖν ἐβούλοντο πρὸς τὴν Πελοπόννησον·",
+      "english": "Meanwhile, the Greek generals assembled at Salamis and were so frightened that they wanted to escape to the Peloponnese."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ δὲ Θεμιστοκλῆς ἐν τῷ συνεδρίῳ ἀναστὰς εἶπεν ὅτι ἔτι καὶ νῦν δύνανται τοὺς πολεμίους νικῆσαι·",
+      "english": "But Themistocles stood up in the council and said that even now they could defeat the enemy."
+    },
+    {
+      "id": 7,
+      "greek": "ἐν γὰρ τοῖς στενοῖς μαχόμενοι οὐ δυνήσονται οἱ βάρβαροι τῷ πλήθει χρῆσθαι·",
+      "english": "For if they fought in the narrow straits, the barbarians would not be able to make use of their numerical superiority."
+    },
+    {
+      "id": 8,
+      "greek": "δεῖ οὖν ἀναγκάσαι αὐτοὺς ἐκεῖ συμβαλεῖν.",
+      "english": "Therefore, they must force them to engage in battle there."
+    },
+    {
+      "id": 9,
+      "greek": "οὕτως εἰπὼν οὐ μόνον τοὺς ἄλλους στρατηγοὺς ἔπεισε μάχεσθαι, ἀλλὰ καὶ ἄγγελον παρὰ τὸν Ξέρξην ἔπεμψε λάθρᾳ, ὡς λέξοντα ὅτι οἱ Ἕλληνες παρασκευάζονται εἰς φυγήν.",
+      "english": "Having spoken thus, he not only persuaded the other generals to fight, but also secretly sent a messenger to Xerxes to say that the Greeks were preparing to flee."
+    },
+    {
+      "id": 10,
+      "greek": "ὁ οὖν Ξέρξης, ὡς ἔγνω ὅτι ἀποφυγεῖν ἐν νῷ ἔχουσιν οἱ Ἕλληνες, βουλόμενος αὐτοὺς ὡς τάχιστα διαφθεῖραι, διέγνω αὐτοὺς ἀναγκάσαι ἐν Σαλαμῖνι μάχεσθαι.",
+      "english": "When Xerxes learned that the Greeks intended to escape, he decided to force them to fight at Salamis, wishing to destroy them as quickly as possible."
+    },
+    {
+      "id": 11,
+      "greek": "τῶν οὖν νεῶν τὰς μὲν ἔπεμψε περὶ τὴν νῆσον, κελεύων τοὺς ναυάρχους τοὺς ἔκπλους φυλάττειν,",
+      "english": "He sent some of his ships around the island, ordering the naval commanders to guard the escape routes,"
+    },
+    {
+      "id": 12,
+      "greek": "τὰς δὲ ἐκέλευσε φυλάττειν τὰ στενὰ ὥστε μηκέτι ἐξεῖναι τοῖς Ἕλλησιν ἀποπλεῖν.",
+      "english": "and ordered the others to guard the straits so that it would no longer be possible for the Greeks to sail away."
+    }
+  ]
+},
+
+{
+  "chapter": 15,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "πᾶσαν οὖν τὴν νύκτα οἱ βάρβαροι ἔνθα καὶ ἔνθα ἤρεσσον τά τε στενὰ φυλάττοντες καὶ τοὺς ἔκπλους, οἱ δὲ Ἕλληνες ἡσύχαζον παρασκευαζόμενοι μάχεσθαι.",
+      "english": "Throughout the night, the barbarians rowed back and forth, guarding the straits and the escape routes, while the Greeks remained quiet, preparing to fight."
+    },
+    {
+      "id": 2,
+      "greek": "ἐπεὶ δὲ πρῶτον ἡμέρα ἐγένετο, προὐχώρουν οἱ βάρβαροι εἰς τὰ στενά, πιστεύοντες ὡς ῥᾳδίως μέλλουσι νικήσειν τοὺς Ἕλληνας, ἐξαίφνης δὲ βοὴν μεγίστην ἤκουσαν ὥστε μάλα ἐφοβοῦντο.",
+      "english": "When day first broke, the barbarians advanced into the straits, believing that they would easily defeat the Greeks, but suddenly they heard an enormous shout, so that they became very frightened."
+    },
+    {
+      "id": 3,
+      "greek": "οἱ γὰρ Ἕλληνες, κόσμῳ χρώμενοι εἰς μάχην προὐχώρουν καὶ ἐπὶ τοὺς βαρβάρους πλέοντες τὸν παιᾶνα ἐβόων.",
+      "english": "For the Greeks advanced into battle in good order, and as they sailed against the barbarians, they shouted the battle song."
+    },
+    {
+      "id": 4,
+      "greek": "οὕτω δὲ ὁ Αἰσχύλος ὁ ποιητής, ὃς καὶ αὐτὸς τῇ μάχῃ παρῆν, τοὺς Ἕλληνας ποιεῖ ἐπὶ τοὺς βαρβάρους ἐπιπλέοντας·",
+      "english": "Thus the poet Aeschylus, who himself was present at the battle, describes the Greeks sailing against the barbarians:"
+    },
+    {
+      "id": 5,
+      "greek": "τὸ δεξιὸν μὲν πρῶτον εὐτάκτως κέρας ἡγεῖτο κόσμῳ, δεύτερον δ᾽ ὁ πᾶς στόλος ἐπεξεχώρει, καὶ παρῆν ὁμοῦ κλύειν πολλὴν βοήν,",
+      "english": "First the right wing led the way in good order; next the entire fleet advanced, and at the same time a great shout could be heard,"
+    },
+    {
+      "id": 6,
+      "greek": "ὦ παῖδες Ἑλλήνων ἴτε, ἐλευθεροῦτε πατρίδ᾽, ἐλευθεροῦτε δὲ παῖδας, γυναῖκας, θεῶν τε πατρῴων ἕδη, θήκας τε προγόνων· νῦν ὑπὲρ πάντων ἀγών.",
+      "english": "Come, sons of the Greeks! Free your fatherland, free your children and wives, the shrines of your ancestral gods, and the tombs of your forefathers! Now is the struggle for everything!"
+    },
+    {
+      "id": 7,
+      "greek": "οὕτως οὖν οἱ Ἕλληνες τῷ Περσικῷ στρατῷ προσέβαλλον καὶ ἐν τοῖς στενοῖς συμπίπτοντες ἐναυμάχουν ὀλίγοι πρὸς πολλούς.",
+      "english": "Thus the Greeks attacked the Persian fleet, and engaging them in the narrow straits, they fought a naval battle, few against many."
+    },
+    {
+      "id": 8,
+      "greek": "οἱ δὲ βάρβαροι, καίπερ πλείστας ἔχοντες ναῦς, οὐκ ἐδύναντο πάσαις ταῖς ναυσὶν ἅμα χρῆσθαι.",
+      "english": "But the barbarians, although they had very many ships, were unable to use all their ships at the same time."
+    },
+    {
+      "id": 9,
+      "greek": "καὶ οἱ μὲν Ἕλληνες τὰς πρώτας τῶν βαρβάρων ναῦς ἢ ἔβλαψαν ἢ κατέδυσαν τοσαύτῃ σπουδῇ προσβάλλοντες ὥστε οἱ βάρβαροι μάλα φοβούμενοι ἐτρέποντο καὶ ἐπειρῶντο ἐκφυγεῖν.",
+      "english": "The Greeks attacked the foremost barbarian ships with such vigor that they either damaged or sank them, so the barbarians, greatly frightened, turned and attempted to escape."
+    },
+    {
+      "id": 10,
+      "greek": "ἐνταῦθα δὴ πλεῖστος ἐγένετο θόρυβος.",
+      "english": "At that point an enormous uproar arose."
+    },
+    {
+      "id": 11,
+      "greek": "αἱ γὰρ τῶν βαρβάρων νῆες ἀλλήλαις ἐνέπιπτον, αἱ μὲν ἐκ τῆς μάχης πειρώμεναι ἐκφυγεῖν, αἱ δὲ εἰς τὴν μάχην προχωροῦσαι.",
+      "english": "For the barbarian ships collided with one another, some attempting to escape from the battle and others advancing into it."
+    },
+    {
+      "id": 12,
+      "greek": "τέλος δὲ πάντες οἱ βάρβαροι ἔφευγον οὐδενὶ κόσμῳ χρώμενοι, οἱ δὲ Ἕλληνες διώκοντες πλείστας δὴ ναῦς κατέδυσαν·",
+      "english": "Finally all the barbarians fled in complete disorder, while the pursuing Greeks sank a great many ships."
+    },
+    {
+      "id": 13,
+      "greek": "καὶ πανταχοῦ μὲν ἦν ναυάγια, πανταχοῦ δὲ νεκροί, ὥστε τὴν θάλατταν οὐκέτι ἐξῆν ἰδεῖν.",
+      "english": "Everywhere there were shipwrecks and everywhere dead bodies, so that it was no longer possible to see the sea."
+    },
+    {
+      "id": 14,
+      "greek": "οὕτως οὖν ἐμάχοντο ἕως νὺξ ἐγένετο.",
+      "english": "Thus they continued fighting until night fell."
+    },
+    {
+      "id": 15,
+      "greek": "ἐν δὲ τούτῳ ὁ Ξέρξης ἐκαθίζετο ἐπὶ ὄχθῳ τινὶ ἐγγὺς τῆς θαλάττης τὴν μάχην θεώμενος·",
+      "english": "Meanwhile Xerxes sat on a hill near the sea, watching the battle."
+    },
+    {
+      "id": 16,
+      "greek": "ἐπίστευε γὰρ ὡς ῥᾳδίως νικήσουσιν οἱ Πέρσαι.",
+      "english": "For he believed that the Persians would win easily."
+    },
+    {
+      "id": 17,
+      "greek": "ἠγνόει γὰρ τὰ τῆς τύχης οὐδ᾽ ἔγνω τί ἐν νῷ ἔχουσιν οἱ θεοὶ ἀλλ᾽ ἀεὶ ὕβρει ἐχρῆτο.",
+      "english": "For he was ignorant of the workings of fortune and did not know what the gods had in mind, but always acted with arrogance."
+    },
+    {
+      "id": 18,
+      "greek": "γνοὺς δὲ ὅτι νικῶσι μὲν οἱ Ἕλληνες οἱ δὲ βάρβαροι ἀποφεύγουσιν, ἀνέστη καὶ τοὺς πέπλους ἔρρηξεν.",
+      "english": "When he realized that the Greeks were winning and the barbarians were fleeing, he stood up and tore his robes."
+    },
+    {
+      "id": 19,
+      "greek": "ἐν ἀπορίᾳ γὰρ μεγίστῃ ἦν· ἀπολέσας γὰρ τὸ ναυτικὸν οὐκέτι ἐδύνατο σῖτον παρέχειν τῷ πεζῷ στρατῷ μεγίστῳ ὄντι.",
+      "english": "For he was in the greatest difficulty: having lost his fleet, he could no longer provide food for his enormous land army."
+    },
+    {
+      "id": 20,
+      "greek": "τοὺς μὲν οὖν στρατηγοὺς ἐκέλευσε τὸν πεζὸν στρατὸν ἄγειν κατὰ γῆν πρὸς τὴν Ἀσίαν, αὐτὸς δὲ ἀπέφυγεν ὀδυρόμενος.",
+      "english": "He therefore ordered his generals to lead the land army back to Asia overland, while he himself fled in lamentation."
+    },
+    {
+      "id": 21,
+      "greek": "οὕτως οὖν οἱ Ἕλληνες τοὺς Πέρσας νικήσαντες τὴν Ἑλλάδα ἠλευθέρωσαν.",
+      "english": "Thus the Greeks defeated the Persians and freed Greece."
+    },
+    {
+      "id": 22,
+      "greek": "καὶ δὴ καὶ ἐν τούτῳ τῷ ἔργῳ οἱ Ἀθηναῖοι πλείστας τε ναῦς παρέσχον τῶν Ἑλλήνων καὶ πλείστην ἐδήλωσαν ἀρετήν, ὥστε ἔξεστιν ἀληθῶς λέγειν ὅτι οἱ Ἀθηναῖοι τὴν Ἑλλάδα ἔσωσαν, καὶ οὐχ ἥκιστα ὁ Θεμιστοκλῆς, ὃς στρατηγὸς ὢν Ἀθηναῖος μάλιστα αἴτιος ἦν τῆς νίκης.",
+      "english": "In this battle especially, the Athenians provided more ships than any other Greeks and displayed the greatest courage, so that one can truly say that the Athenians saved Greece, and not least Themistocles, the Athenian general who was chiefly responsible for the victory."
+    },
+    {
+      "id": 23,
+      "greek": "τοῦτο τὸ ἐπίγραμμα τοῖς Ἀθηναίοις τοῖς ἐν τούτῳ τῷ πολέμῳ ἀποθανοῦσιν ἔγραψεν ὁ Σιμωνίδης, ποιητὴς ὢν ἄριστος·",
+      "english": "Simonides, an excellent poet, wrote this epitaph for the Athenians who died in this war:"
+    },
+    {
+      "id": 24,
+      "greek": "εἰ τὸ καλῶς θνῄσκειν ἀρετῆς μέρος ἐστὶ μέγιστον,",
+      "english": "If dying nobly is the greatest part of virtue,"
+    },
+    {
+      "id": 25,
+      "greek": "ἡμῖν ἐκ πάντων τοῦτ᾽ ἀπένειμε Τύχη·",
+      "english": "Fortune has allotted this to us above all others."
+    },
+    {
+      "id": 26,
+      "greek": "Ἑλλάδι γὰρ σπεύδοντες ἐλευθερίην περιθεῖναι κείμεθ᾽ ἀγηράντῳ χρώμενοι εὐλογίῃ.",
+      "english": "For, striving to bring freedom to Greece, we lie here enjoying undying praise."
+    }
+  ]
+},
+
+{
+  "chapter": 16,
+  "section": "α",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "οὕτως οὖν περάνας τὸν λόγον ὁ ναύτης κατέκειτο ἐπὶ τῷ καταστρώματι, ὁ δὲ Δικαιόπολις καὶ ὁ Φίλιππος ἐσίγων, πάντα θαυμάζοντες ἅπερ εἶπεν.",
+      "english": "Thus, having finished his story, the sailor lay on the deck, while Dicaeopolis and Philip remained silent, marveling at everything he had said."
+    },
+    {
+      "id": 2,
+      "greek": "τέλος δὲ ὁ Φίλιππος, «ὡς ἀνδρείως», ἔφη, «ἐμάχοντο οἱ Ἕλληνες, ὡς λαμπρῶς τοῖς συμμάχοις ἡγοῦντο οἱ Ἀθηναῖοι.",
+      "english": "Finally Philip said, 'How bravely the Greeks fought! How splendidly the Athenians led their allies!'"
+    },
+    {
+      "id": 3,
+      "greek": "σὺ δὲ τί ἐποίεις μετὰ τὸν πόλεμον; ἆρα ἔμπορος γενόμενος ἐν ὁλκάσιν ἔπλεις;»",
+      "english": "But what did you do after the war? Did you become a merchant and sail on merchant ships?"
+    },
+    {
+      "id": 4,
+      "greek": "ὁ δέ, «οὐδαμῶς», ἔφη· «οὐ γὰρ ἐτελεύτησεν ὁ πόλεμος, ἀλλὰ πολὺν ἔτι χρόνον ἔδει πρὸς τοὺς βαρβάρους μάχεσθαι.",
+      "english": "But he said, 'Not at all! For the war had not ended, but it was still necessary to fight against the barbarians for a long time.'"
+    },
+    {
+      "id": 5,
+      "greek": "πᾶσαί τε γὰρ αἱ νῆσοι καὶ πᾶσα ἡ Ἰωνία ὑπὸ τῶν βαρβάρων ἔτι εἴχοντο.",
+      "english": "For all the islands and all of Ionia were still held by the barbarians."
+    },
+    {
+      "id": 6,
+      "greek": "ὁ δὲ Φίλιππος, «ἀλλὰ πόσον χρόνον ἔδει μάχεσθαι; ἆρα πολλαῖς παρῆσθα μάχαις;»",
+      "english": "Philip asked, 'But how long was it necessary to fight? Were you present at many battles?'"
+    },
+    {
+      "id": 7,
+      "greek": "ὁ δὲ ναύτης, «μάλιστά γε, ὦ παῖ», ἔφη, «πλείσταις τε μάχαις παρῆν καὶ πολλαχόσε τῆς γῆς ἔπλεον μετὰ τῶν συμμάχων.",
+      "english": "The sailor said, 'Certainly, boy! I was present at very many battles and sailed to many parts of the world with the allies.'"
+    },
+    {
+      "id": 8,
+      "greek": "ἀεὶ μὲν γὰρ οἱ βάρβαροι ἐμάχοντο, ἀεὶ δὲ ἐνικῶντο.»",
+      "english": "For the barbarians were always fighting, but they were always being defeated."
+    },
+    {
+      "id": 9,
+      "greek": "ὁ δὲ Φίλιππος, «ἀλλὰ ποῦ γῆς ἐμάχεσθε;»",
+      "english": "Philip asked, 'But where in the world did you fight?'"
+    },
+    {
+      "id": 10,
+      "greek": "ὁ δέ, «πρῶτον μὲν ἅμα ἦρι ἀρχομένῳ οἱ Ἴωνες ὑφ᾽ ἡμῶν ἐλευθεροῦνται·",
+      "english": "He replied, 'First, at the beginning of spring, the Ionians were liberated by us.'"
+    },
+    {
+      "id": 11,
+      "greek": "πλεύσαντες γὰρ ἑκατὸν ναυσὶ πρὸς τὴν Σάμον καὶ τὸ τῶν βαρβάρων ναυτικὸν εἰς τὴν Μυκάλην διώξαντες, οὕτω προθύμως αὐτοῖς προσβάλλομεν ὥστε νικᾶται τε ὁ στρατὸς αὐτῶν καὶ διαφθείρεται τὸ ναυτικόν.",
+      "english": "For, having sailed with a hundred ships to Samos and pursued the barbarian fleet to Mycale, we attacked them so eagerly that their army was defeated and their fleet destroyed."
+    },
+    {
+      "id": 12,
+      "greek": "οἱ δὲ Ἴωνες, ὡς ᾔσθαντο ὅτι οἱ βάρβαροι νικῶνται, ἡμῖν ἐβοήθουν·",
+      "english": "And when the Ionians realized that the barbarians were being defeated, they came to our aid."
+    },
+    {
+      "id": 13,
+      "greek": "οὕτως οὖν πᾶσά τε ἡ Ἰωνία ἐλευθεροῦται καὶ πᾶσαι αἱ νῆσοι.",
+      "english": "Thus all of Ionia and all the islands were liberated."
+    },
+    {
+      "id": 14,
+      "greek": "οὐδαμοῦ γὰρ δύνανται οἱ βάρβαροι ἡμῖν ἀντέχειν.",
+      "english": "For nowhere are the barbarians able to withstand us."
+    },
+    {
+      "id": 15,
+      "greek": "ὕστερον δέ, ὡς οἱ Πέρσαι στρατόν τε μέγιστον καὶ ναῦς διακοσίας συναγείραντες εἰς τὸν Αἰγαῖον πόντον αὖθις εἰσβιάζεσθαι ἐπειρῶντο, καταλαβόντες αὐτοὺς πρὸς τῷ Εὐρυμέδοντι ποταμῷ ἐνικήσαμεν ἐν μάχῃ μεγίστῃ κατὰ γῆν τε καὶ θάλατταν.",
+      "english": "Later, when the Persians had gathered an enormous army and two hundred ships and were again attempting to force their way into the Aegean Sea, we intercepted them at the Eurymedon River and defeated them in a great battle on both land and sea."
+    },
+    {
+      "id": 16,
+      "greek": "καὶ δὴ καὶ εἰς τὴν Αἴγυπτον ἐστρατεύσαμεν καὶ τοῖς ἐνοίκοις βοηθοῦντες τοὺς Πέρσας ἐξηλάσαμεν.",
+      "english": "And furthermore, we campaigned in Egypt and, helping the inhabitants, drove out the Persians."
+    },
+    {
+      "id": 17,
+      "greek": "ἀνά τε γὰρ τὸν Νεῖλον ἐπλεύσαμεν καὶ τὴν Μέμφιν εἵλομεν, πόλιν μεγίστην ἐπὶ τῷ Νείλῳ κειμένην.",
+      "english": "For we sailed up the Nile and captured Memphis, a very great city situated on the Nile."
+    },
+    {
+      "id": 18,
+      "greek": "ἓξ οὖν ἔτη ἐν τῇ Αἰγύπτῳ ἐμένομεν καὶ πολλὰ θαύματα εἴδομεν.",
+      "english": "So we remained in Egypt for six years and saw many wonders."
+    },
+    {
+      "id": 19,
+      "greek": "τάς τε γὰρ πυραμίδας ἐθεωρήσαμεν, σήματα μέγιστα οὔσας τῶν βασιλέων τῶν ἀρχαίων, καὶ τὴν Σφίγγα, εἰκόνα δεινοτάτην, τὸ μὲν ἥμισυ λέαιναν, τὸ δὲ ἥμισυ γυναῖκα.",
+      "english": "For we saw the pyramids, which are enormous tombs of the ancient kings, and the Sphinx, a most awe-inspiring image, half lioness and half woman."
+    },
+    {
+      "id": 20,
+      "greek": "καὶ δὴ καὶ ζῷα ἔκτοπα εἴδομεν, κροκοδείλους τε καὶ στρουθούς.",
+      "english": "And we also saw strange animals, including crocodiles and ostriches."
+    },
+    {
+      "id": 21,
+      "greek": "τέλος δὲ οἱ Πέρσαι, στρατὸν μέγιστον συναγείραντες, ἡμῖν προσέβαλον·",
+      "english": "Finally the Persians, having gathered a very large army, attacked us."
+    },
+    {
+      "id": 22,
+      "greek": "νικώμεθα οὖν καὶ ἐξ Αἰγύπτου ἐξελαυνόμεθα.",
+      "english": "So we were defeated and driven out of Egypt."
+    },
+    {
+      "id": 23,
+      "greek": "οὕτως οὖν συμφορὰν μεγίστην ἐπάθομεν· διακοσίας γὰρ ναῦς ἀπολέσαντες μόλις ἡμεῖς αὐτοὶ ἐξεφύγομεν.",
+      "english": "Thus we suffered a very great disaster, for after losing two hundred ships, we ourselves barely escaped."
+    }
+  ]
+},
+
+{
+  "chapter": 16,
+  "section": "β",
+  "sentences": [
+    {
+      "id": 1,
+      "greek": "ὁ δὲ Φίλιππος, «ἆρ᾽ οὐ τοσαύτην συμφορὰν παθόντες τοῦ πολέμου ἐπαύσασθε;»",
+      "english": "Philip asked, 'After suffering such a great disaster, did you not stop fighting?'"
+    },
+    {
+      "id": 2,
+      "greek": "ὁ δὲ ναύτης, «ἥκιστά γε», ἔφη· «οὐδὲν γὰρ ἐδύνατο τὸν τῶν Ἀθηναίων θυμὸν καθαιρεῖν.",
+      "english": "The sailor said, 'Certainly not! For nothing could weaken the spirit of the Athenians.'"
+    },
+    {
+      "id": 3,
+      "greek": "δι᾽ ὀλίγου οὖν ὁ Κίμων τῷ ναυτικῷ εἰς Κύπρον ἡγησάμενος τοὺς Πέρσας αὖθις ἐνίκησεν, αὐτὸς δὲ πόλιν τινὰ πολιορκῶν ἀπέθανεν.",
+      "english": "So, shortly afterward, Cimon led the fleet to Cyprus and defeated the Persians again, but he himself died while besieging a certain city."
+    },
+    {
+      "id": 4,
+      "greek": "ἡμεῖς οὖν λυπούμενοι οἴκαδε ἀπεπλεύσαμεν.",
+      "english": "So we sailed home in sorrow."
+    },
+    {
+      "id": 5,
+      "greek": "τῷ δὲ ἐπιγιγνομένῳ ἔτει σπονδαὶ ποιοῦνται ὑπὸ τοῦ δήμου πρὸς τοὺς Πέρσας.",
+      "english": "In the following year, a peace agreement was made by the people with the Persians."
+    },
+    {
+      "id": 6,
+      "greek": "τοσαῦτα οὖν εἰργασάμεθα πρὸς τοὺς βαρβάρους μαχόμενοι.",
+      "english": "Thus we accomplished so much while fighting against the barbarians."
+    },
+    {
+      "id": 7,
+      "greek": "ἀγὼν οὖν μέγιστος πρόκειται σοι, ὦ παῖ· δεῖ γάρ σε ἄξιον γίγνεσθαι τῶν πατέρων.»",
+      "english": "Therefore, a very great contest lies before you, boy, for you must become worthy of your ancestors."
+    },
+    {
+      "id": 8,
+      "greek": "ὁ δὲ Φίλιππος, «ἀληθῆ λέγεις, ὦ γέρον», ἔφη· «ἐὰν δὲ ἵλεως ᾖ ὁ θεός, ἐγὼ ἀνὴρ ἀγαθὸς γίγνεσθαι πειράσομαι, ἄξιος τῶν πατέρων.",
+      "english": "Philip said, 'You speak the truth, old man. If the god is gracious, I shall try to become a good man, worthy of my ancestors.'"
+    },
+    {
+      "id": 9,
+      "greek": "ἀλλὰ τί ἐποίεις σὺ ἐν τῇ εἰρήνῃ;»",
+      "english": "But what did you do during peacetime?"
+    },
+    {
+      "id": 10,
+      "greek": "ὁ δὲ γέρων, «οὐκέτι νεανίας ἦν ἐγώ», ἔφη, «οὐδὲ τοσαύτῃ ῥώμῃ ἐχρώμην ὥστε ἐν τῷ ναυτικῷ ἐρέσσειν.",
+      "english": "The old man said, 'I was no longer a young man, nor did I possess enough strength to row in the navy.'"
+    },
+    {
+      "id": 11,
+      "greek": "μισθοφορῶν οὖν ἐν ὁλκάσι πολλαχόσε τῆς γῆς ἔπλεον.",
+      "english": "So, hiring myself out on merchant ships, I sailed to many parts of the world."
+    },
+    {
+      "id": 12,
+      "greek": "εἴς τε γὰρ τὴν Σικελίαν ἦλθον, οὗπερ τὸ Αἰτναῖον ὄρος εἶδον ποταμοὺς πυρὸς πρὸς τὸν οὐρανὸν ἐκβάλλον,",
+      "english": "For I went to Sicily, where I saw Mount Etna sending rivers of fire toward the sky."
+    },
+    {
+      "id": 13,
+      "greek": "καὶ εἰς τὴν Σκυθίαν ἔπλευσα, οὗπερ τοῦ χειμῶνος τοσαῦτά ἐστιν τὰ ψύχη ὥστε πήγνυσθαι καὶ τὴν θάλατταν.",
+      "english": "And I sailed to Scythia, where in winter the cold is so severe that even the sea freezes."
+    },
+    {
+      "id": 14,
+      "greek": "νῦν δὲ μάλα γεραιὸς ὢν πλοῦς τινας μικροὺς ποιοῦμαι περὶ τὰς νήσους, καὶ θάνατον εὔκολος προσδέχομαι.»",
+      "english": "But now, being very old, I make a few short voyages around the islands and calmly await death."
+    },
+    {
+      "id": 15,
+      "greek": "ὁ δὲ Φίλιππος, «πολλὰ μὲν εἶδες, ὦ γέρον», ἔφη, «ἐν τῷ μακρῷ βίῳ, πολλὰ δὲ καὶ ἔπαθες.",
+      "english": "Philip said, 'You have seen many things, old man, in your long life, and you have also experienced many things.'"
+    },
+    {
+      "id": 16,
+      "greek": "οὐ γὰρ αὐτὸς ὁ Ὀδυσσεὺς πορρωτέρω ἐπλανάτο ἢ σύ.»",
+      "english": "For not even Odysseus himself wandered farther than you."
+    },
+    {
+      "id": 17,
+      "greek": "ὁ δὲ γέρων πρὸς τὴν γῆν βλέψας ἀνέστη καὶ, «ἰδού», ἔφη, «ἤδη γὰρ ἡ ναῦς ἀνέμῳ οὐρίῳ φερομένη τῷ λιμένι προσχωρεῖ.",
+      "english": "The old man, looking toward the land, stood up and said, 'Look! The ship, carried by a favorable wind, is already approaching the harbor.'"
+    },
+    {
+      "id": 18,
+      "greek": "χαίρετε οὖν.»",
+      "english": "So farewell."
+    },
+    {
+      "id": 19,
+      "greek": "οὕτως εἰπὼν ἀπέβη πρὸς τὴν πρῴραν, οἱ δὲ ἔμενον πάντα ἐνθυμούμενοι ἅπερ εἶπεν.",
+      "english": "Having said this, he went to the bow, while the others remained, reflecting on everything he had said."
+    },
+    {
+      "id": 20,
+      "greek": "οἱ δ᾽ ὅτε δὴ λιμένος πολυβενθέος ἐντὸς ἵκοντο, ἱστία μὲν στείλαντο, θέσαν δ᾽ ἐν νηὶ μελαίνῃ ... καρπαλίμως, τὴν δ᾽ εἰς ὅρμον προέρεσσαν ἐρετμοῖς.",
+      "english": "And when they came inside the deep harbor, they quickly furled the sails and stowed them in the black ship, then rowed her into the anchorage with their oars."
+    }
+  ]
+}
+  ]
+}
