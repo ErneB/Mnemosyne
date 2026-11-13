@@ -5,14 +5,15 @@
    File: vocabulary.js
 
    Features:
-   - Load vocabulary from words.json
+   - Load words.json
    - Filter by chapter and section
    - Greek First / English First
    - Shuffle vocabulary
-   - Tap center to reveal translation
-   - Tap left edge for previous card
-   - Tap right edge for next card
+   - Tap card to reveal translation
+   - Previous / Next navigation
+   - Automatic English text resizing
    - Automatic Greek text resizing
+   - Responsive font sizing
    - Card counter and progress bar
 
    ========================================= */
@@ -31,19 +32,19 @@ let englishFirst = false;
 
 
 /* =========================================
-   2. FIND HTML ELEMENTS
-
-   These helpers prevent errors when
-   optional buttons are not present.
-
+   2. HTML ELEMENT HELPERS
    ========================================= */
 
 function getElement(id) {
     return document.getElementById(id);
 }
 
+/*
+   Support both flashcard IDs.
 
-/* Support both old and new flashcard IDs. */
+   Prefer flashcardText because it contains
+   the actual vocabulary text.
+*/
 
 function getFlashcard() {
     return (
@@ -55,18 +56,6 @@ function getFlashcard() {
 
 /* =========================================
    3. LOAD VOCABULARY
-
-   Expected words.json format:
-
-   [
-       {
-           "chapter": 1,
-           "section": "α",
-           "greek": "λόγος",
-           "english": "word"
-       }
-   ]
-
    ========================================= */
 
 async function loadCards() {
@@ -133,10 +122,19 @@ function showVocabularyError(message) {
     const flashcard = getFlashcard();
 
     if (flashcard) {
+
         flashcard.textContent = message;
-        flashcard.classList.remove("greekText");
-        flashcard.classList.add("englishText");
+
+        flashcard.classList.remove(
+            "greekText"
+        );
+
+        flashcard.classList.add(
+            "englishText"
+        );
+
         flashcard.style.fontSize = "28px";
+        flashcard.style.whiteSpace = "normal";
     }
 
     const counter = getElement("cardCounter");
@@ -152,7 +150,6 @@ function showVocabularyError(message) {
     }
 
     updateProgress(0);
-
     updateControls();
 
 }
@@ -292,8 +289,6 @@ function populateSections() {
 
 /* =========================================
    7. CHAPTER SELECTION
-
-   Called when the chapter changes.
    ========================================= */
 
 function selectChapter() {
@@ -306,10 +301,6 @@ function selectChapter() {
 
 /* =========================================
    8. SECTION SELECTION
-
-   Filters the vocabulary and resets
-   the current card.
-
    ========================================= */
 
 function selectSection() {
@@ -355,11 +346,6 @@ function selectSection() {
 
 /* =========================================
    9. LANGUAGE DIRECTION
-
-   Toggle between:
-   - Greek First
-   - English First
-
    ========================================= */
 
 function toggleLanguage() {
@@ -392,7 +378,7 @@ function toggleLanguage() {
 /* =========================================
    10. SHUFFLE VOCABULARY
 
-   Fisher-Yates shuffle algorithm.
+   Fisher-Yates shuffle.
    ========================================= */
 
 function shuffleCards() {
@@ -429,14 +415,6 @@ function shuffleCards() {
 
 /* =========================================
    11. DISPLAY FLASHCARD
-
-   Updates:
-   - Greek / English text
-   - Language label
-   - Card counter
-   - Progress bar
-   - Navigation controls
-
    ========================================= */
 
 function displayCard() {
@@ -470,6 +448,7 @@ function displayCard() {
         );
 
         flashcard.style.fontSize = "28px";
+        flashcard.style.whiteSpace = "normal";
 
         if (counter) {
             counter.textContent = "Card 0 of 0";
@@ -483,7 +462,6 @@ function displayCard() {
         updateControls();
 
         return;
-
     }
 
     const currentCard =
@@ -527,10 +505,18 @@ function displayCard() {
             studyCards.length) * 100;
 
     updateProgress(progress);
-
     updateControls();
 
-    fitFlashcardText();
+    /*
+       Wait until the browser has applied
+       the new text and CSS classes.
+
+       Then calculate the best font size.
+    */
+
+    requestAnimationFrame(
+        fitFlashcardText
+    );
 
 }
 
@@ -568,13 +554,6 @@ function updateProgress(progress) {
 
 /* =========================================
    13. UPDATE BUTTON STATES
-
-   Works with either:
-   - Old navigation buttons
-   - New flashcard arrows
-
-   Missing controls are ignored.
-
    ========================================= */
 
 function updateControls() {
@@ -621,67 +600,172 @@ function updateControls() {
 
 
 /* =========================================
-   14. AUTOMATIC TEXT RESIZING
+   14. AUTOMATIC FONT RESIZING
 
-   Greek vocabulary:
+   English:
+   - Starts at 64px
+   - Allows wrapping
+   - Shrinks only if necessary
+
+   Greek:
    - Starts at 72px
-   - Shrinks if the word is too wide
+   - Stays on one line
+   - Shrinks if too wide
 
-   English translations:
-   - Uses 42px
-   - Allows normal wrapping
+   This prevents long definitions
+   from escaping the flashcard.
 
    ========================================= */
 
 
 /* =========================================
-   AUTOMATIC FLASHCARD TEXT RESIZING
+   14. AUTOMATIC FLASHCARD TEXT RESIZING
+
+   English:
+   - Short words start at 64px
+   - Long definitions wrap automatically
+   - Shrinks only when necessary
+
+   Greek:
+   - Starts at 72px
+   - Stays on one line
+   - Shrinks to fit
+
    ========================================= */
 
 function fitFlashcardText() {
 
-    const flashcard = getFlashcard();
+    const text = getFlashcard();
+    const box = getElement("flashcardBox");
 
-    if (!flashcard) return;
+    if (!text || !box) return;
 
-    const isGreek =
-        flashcard.classList.contains("greekText");
+    const isEnglish =
+        text.classList.contains("englishText");
 
-    const maxFontSize = isGreek ? 72 : 42;
-    const minFontSize = 12;
+    const maxSize = isEnglish ? 64 : 72;
+    const minSize = isEnglish ? 20 : 18;
 
-    let fontSize = maxFontSize;
+    /*
+       Reset previous measurements.
+    */
 
-    flashcard.style.fontSize = `${fontSize}px`;
+    text.style.fontSize = `${maxSize}px`;
 
-    if (!isGreek) return;
+    text.style.whiteSpace =
+        isEnglish ? "normal" : "nowrap";
 
-    // Keep Greek words on a single line.
-    flashcard.style.whiteSpace = "nowrap";
+    text.style.overflowWrap =
+        isEnglish ? "anywhere" : "normal";
 
-    // Shrink until the word fits.
-    while (
-        flashcard.scrollWidth >
-            flashcard.clientWidth + 1 &&
-        fontSize > minFontSize
-    ) {
+    text.style.wordBreak = "normal";
 
-        fontSize -= 2;
+    /*
+       Reserve 10% on each side
+       for the navigation arrows.
+    */
 
-        flashcard.style.fontSize =
-            `${fontSize}px`;
+    const availableWidth =
+        box.clientWidth * 0.78;
 
+    const availableHeight =
+        box.clientHeight - 40;
+
+    /*
+       Create an invisible text-measuring
+       element with a fixed width.
+    */
+
+    const measure =
+        document.createElement("div");
+
+    const computed =
+        window.getComputedStyle(text);
+
+    Object.assign(measure.style, {
+        position: "fixed",
+        left: "-10000px",
+        top: "0",
+        visibility: "hidden",
+        pointerEvents: "none",
+
+        display: "block",
+        boxSizing: "border-box",
+
+        width: `${availableWidth}px`,
+        minWidth: "0",
+        maxWidth: `${availableWidth}px`,
+
+        height: "auto",
+        minHeight: "0",
+        maxHeight: "none",
+
+        margin: "0",
+        padding: "0",
+        border: "0",
+
+        fontFamily: computed.fontFamily,
+        fontWeight: computed.fontWeight,
+        lineHeight: "1.25",
+        letterSpacing: computed.letterSpacing,
+
+        textAlign: "center",
+
+        whiteSpace:
+            isEnglish ? "normal" : "nowrap",
+
+        overflowWrap:
+            isEnglish ? "anywhere" : "normal",
+
+        wordBreak: "normal"
+    });
+
+    measure.textContent = text.textContent;
+
+    document.body.appendChild(measure);
+
+    /*
+       Start large, then shrink until
+       the text fits horizontally
+       and vertically.
+    */
+
+    let size = maxSize;
+
+    while (size >= minSize) {
+
+        measure.style.fontSize = `${size}px`;
+
+        const tooWide =
+            measure.scrollWidth >
+            measure.clientWidth + 1;
+
+        const tooTall =
+            measure.scrollHeight >
+            availableHeight;
+
+        if (!tooWide && !tooTall) {
+            break;
+        }
+
+        size -= 2;
     }
+
+    /*
+       Apply the calculated font size.
+    */
+
+    text.style.fontSize =
+        `${Math.max(size, minSize)}px`;
+
+    measure.remove();
 
 }
 
+
+
 /* =========================================
    15. REVEAL TRANSLATION
-
-   Called by:
-   - Center of flashcard
-   - Reveal button
-
    ========================================= */
 
 function flipCard() {
@@ -697,12 +781,6 @@ function flipCard() {
 
 /* =========================================
    16. NEXT FLASHCARD
-
-   Called by the right arrow.
-
-   Wraps back to the first card
-   after reaching the last card.
-
    ========================================= */
 
 function nextCard() {
@@ -722,12 +800,6 @@ function nextCard() {
 
 /* =========================================
    17. PREVIOUS FLASHCARD
-
-   Called by the left arrow.
-
-   Wraps to the last card when
-   navigating backward from the first.
-
    ========================================= */
 
 function previousCard() {
@@ -749,25 +821,26 @@ function previousCard() {
 
 
 /* =========================================
-   18. RESPONSIVE TEXT RESIZING
+   18. RESIZE WHEN SCREEN CHANGES
 
-   Recalculate the font size when
-   the browser window changes size.
-
+   Handles:
+   - iPhone rotation
+   - Desktop resizing
+   - Different screen widths
    ========================================= */
 
 window.addEventListener(
     "resize",
-    fitFlashcardText
+    () => {
+        requestAnimationFrame(
+            fitFlashcardText
+        );
+    }
 );
 
 
 /* =========================================
    19. INITIALIZE APPLICATION
-
-   Wait for HTML to finish loading
-   before accessing page elements.
-
    ========================================= */
 
 function initializeVocabulary() {
