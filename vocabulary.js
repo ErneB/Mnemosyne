@@ -655,8 +655,9 @@ function fitFlashcardText() {
     text.style.whiteSpace =
         isEnglish ? "normal" : "nowrap";
 
-    text.style.overflowWrap =
-        isEnglish ? "anywhere" : "normal";
+    text.style.overflowWrap = "normal";
+text.style.wordBreak = "normal";
+text.style.hyphens = "none";
 
     text.style.wordBreak = "normal";
 
@@ -714,10 +715,9 @@ function fitFlashcardText() {
         whiteSpace:
             isEnglish ? "normal" : "nowrap",
 
-        overflowWrap:
-            isEnglish ? "anywhere" : "normal",
-
-        wordBreak: "normal"
+        overflowWrap: "normal",
+wordBreak: "normal",
+hyphens: "none"
     });
 
     measure.textContent = text.textContent;
