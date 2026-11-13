@@ -1135,3 +1135,17 @@ h1 {
         transition: none !important;
     }
 }
+
+/* ==========================================
+   ENGLISH FLASHCARD WORD-WRAPPING FIX
+   ========================================== */
+
+.vocabularyMode #flashcardText.englishText {
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+
+    min-width: 0;
+    max-width: 80%;
+}
