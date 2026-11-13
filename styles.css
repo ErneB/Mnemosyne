@@ -1,17 +1,12 @@
 
 /* ==========================================
    MNEMOSYNE — COMPLETE STYLESHEET
-
-   index.html   = Vocabulary Mode
-   passage.html = Passage Mode
-
-   Mobile: single-column layout
-   Desktop: compact two-column study area
+   Vocabulary Mode + Passage Mode
    ========================================== */
 
 
 /* ==========================================
-   1. COLORS AND VARIABLES
+   1. GLOBAL COLORS AND SETTINGS
    ========================================== */
 
 :root {
@@ -30,11 +25,6 @@
     --shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
 }
 
-
-/* ==========================================
-   2. GLOBAL STYLES
-   ========================================== */
-
 * {
     box-sizing: border-box;
 }
@@ -44,9 +34,12 @@ html {
 }
 
 body {
+    min-height: 100vh;
     margin: 0;
     padding: 16px 18px 36px;
-    min-height: 100vh;
+
+    background: var(--background);
+    color: var(--text);
 
     font-family:
         -apple-system,
@@ -54,9 +47,6 @@ body {
         "Segoe UI",
         Arial,
         sans-serif;
-
-    background: var(--background);
-    color: var(--text);
 }
 
 .app {
@@ -90,7 +80,7 @@ select:focus-visible,
 
 
 /* ==========================================
-   3. HEADER
+   2. PAGE HEADER
    ========================================== */
 
 .appHeader {
@@ -102,7 +92,6 @@ select:focus-visible,
 .eyebrow {
     margin: 0 0 5px;
     color: var(--blue);
-
     font-size: 11px;
     font-weight: 800;
     letter-spacing: 2px;
@@ -126,7 +115,7 @@ h1 {
 
 
 /* ==========================================
-   4. VOCABULARY / PASSAGES SELECTOR
+   3. VOCABULARY / PASSAGES SELECTOR
    ========================================== */
 
 .modeNavigation {
@@ -151,7 +140,7 @@ h1 {
 
 
 /* ==========================================
-   5. STUDY SETTINGS
+   4. STUDY SETTINGS
    ========================================== */
 
 .settingsPanel,
@@ -207,7 +196,7 @@ h1 {
 
 
 /* ==========================================
-   6. VOCABULARY OPTIONS
+   5. VOCABULARY SETTINGS
    ========================================== */
 
 .studyOptions {
@@ -237,7 +226,7 @@ h1 {
 
 
 /* ==========================================
-   7. GREEK FIRST SWITCH
+   6. GREEK FIRST SWITCH
    ========================================== */
 
 .switch {
@@ -297,7 +286,7 @@ h1 {
 
 
 /* ==========================================
-   8. SHUFFLE BUTTON
+   7. SHUFFLE BUTTON
    ========================================== */
 
 #shuffleButton {
@@ -317,7 +306,7 @@ h1 {
 
 
 /* ==========================================
-   9. FLASHCARD AREA
+   8. FLASHCARD FRAME
    ========================================== */
 
 .flashcardArea {
@@ -347,6 +336,7 @@ h1 {
     justify-content: center;
 
     width: 100%;
+    min-width: 0;
     min-height: 270px;
     padding: 0;
 
@@ -360,102 +350,7 @@ h1 {
 
 
 /* ==========================================
-   10. VOCABULARY FLASHCARD TEXT
-   ========================================== */
-
-.vocabularyMode #flashcard,
-.vocabularyMode #flashcardText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 80%;
-    min-width: 0;
-    min-height: 270px;
-
-    margin: 0;
-    padding: 18px 2px;
-
-    color: var(--text);
-    font-family: inherit;
-
-    font-size: clamp(36px, 9vw, 72px);
-    font-weight: 800;
-    line-height: 1.25;
-
-    text-align: center;
-    cursor: pointer;
-}
-
-/* Keep Greek words on one line */
-
-.vocabularyMode .greekText {
-    white-space: nowrap;
-    overflow-wrap: normal;
-    word-break: normal;
-}
-
-/* English definitions may wrap */
-
-.vocabularyMode .englishText {
-    white-space: normal;
-    overflow-wrap: break-word;
-    word-break: normal;
-}
-
-
-/* ==========================================
-   11. PASSAGE FLASHCARD TEXT
-   ========================================== */
-
-.passageMode #flashcardBox {
-    min-height: 270px;
-}
-
-.flashcardTextArea {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 80%;
-    min-width: 0;
-    min-height: 270px;
-
-    padding: 18px 2px;
-    text-align: center;
-}
-
-.passageMode #flashcardText {
-    display: inline;
-    max-width: 100%;
-
-    color: var(--text);
-    font-family: inherit;
-
-    font-size: clamp(28px, 6vw, 44px);
-    font-weight: 800;
-    line-height: 1.4;
-
-    overflow-wrap: anywhere;
-    cursor: pointer;
-}
-
-.passageMode #flashcardBox > #flashcardText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 80%;
-    min-width: 0;
-    min-height: 270px;
-
-    padding: 18px 2px;
-    text-align: center;
-}
-
-
-/* ==========================================
-   12. FLASHCARD NAVIGATION ARROWS
+   9. FLASHCARD NAVIGATION ARROWS
    ========================================== */
 
 #flashcardBox .cardEdge {
@@ -463,15 +358,14 @@ h1 {
 
     top: 0;
     bottom: 0;
-
-    width: 10%;
-    height: 100%;
     z-index: 2;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+    width: 10%;
+    height: 100%;
     padding: 0;
 
     color: #94a3b8;
@@ -481,7 +375,6 @@ h1 {
     font-size: 24px;
     font-weight: 700;
 
-    cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
 }
@@ -501,7 +394,123 @@ h1 {
 
 
 /* ==========================================
-   13. VOCABULARY PROGRESS
+   10. VOCABULARY FLASHCARD
+
+   English: wraps within the frame
+   Greek: stays large and centered
+   ========================================== */
+
+.vocabularyMode #flashcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    min-width: 0;
+    min-height: 270px;
+
+    margin: 0;
+    padding: 18px 2px;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+.vocabularyMode #flashcardText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 270px;
+
+    margin: 0;
+    padding: 18px 2px;
+
+    color: var(--text);
+    font-family: inherit;
+
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 800;
+    line-height: 1.25;
+
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+    cursor: pointer;
+}
+
+/* Preserve arrow space for direct text children */
+
+.vocabularyMode #flashcardBox > #flashcardText {
+    width: 80%;
+}
+
+/* English definitions: smaller and allowed to wrap */
+
+.vocabularyMode #flashcardText.englishText {
+    font-size: clamp(23px, 4vw, 34px) !important;
+    font-weight: 700;
+
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+/* Greek words: large and single-line */
+
+.vocabularyMode #flashcardText.greekText {
+    font-size: clamp(34px, 7vw, 72px);
+
+    white-space: nowrap;
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+
+/* ==========================================
+   11. PASSAGE SENTENCE FLASHCARD
+   ========================================== */
+
+.passageMode #flashcardBox {
+    min-height: 270px;
+}
+
+.flashcardTextArea,
+.passageMode #flashcardBox > #flashcardText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    min-width: 0;
+    min-height: 270px;
+
+    padding: 18px 2px;
+    text-align: center;
+}
+
+.passageMode #flashcardText {
+    max-width: 100%;
+
+    color: var(--text);
+    font-family: inherit;
+
+    font-size: clamp(28px, 6vw, 44px);
+    font-weight: 800;
+    line-height: 1.4;
+
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+
+
+/* ==========================================
+   12. PROGRESS BAR
    ========================================== */
 
 .progressArea {
@@ -538,7 +547,7 @@ h1 {
 
 
 /* ==========================================
-   14. ACTION BUTTONS
+   13. ACTION BUTTONS
    ========================================== */
 
 .cardControls {
@@ -551,7 +560,7 @@ h1 {
     padding: 15px;
 
     color: white;
-    border: none;
+    border: 0;
     border-radius: 14px;
 
     font-size: 17px;
@@ -571,7 +580,7 @@ h1 {
 
 .navigationButtons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
 }
 
@@ -585,14 +594,13 @@ h1 {
 
 
 /* ==========================================
-   15. PASSAGE TRANSLATE BUTTON
+   14. PASSAGE TRANSLATE BUTTON
    ========================================== */
 
 .passageMode #languageLabel {
     color: var(--muted);
     font-size: 13px;
     font-weight: 700;
-
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -604,17 +612,18 @@ h1 {
 
 .passageMode #translateButton {
     display: block;
-
     width: 100%;
     min-height: 52px;
     padding: 10px;
-
     font-size: 17px;
 }
 
 
 /* ==========================================
-   16. FULL PASSAGE
+   15. FULL PASSAGE
+
+   Matches the sentence's font family.
+   Uses a lighter weight for readability.
    ========================================== */
 
 .passageSection {
@@ -631,12 +640,19 @@ h1 {
     font-weight: 800;
 }
 
-#fullPassage {
+.passageMode #fullPassage {
     color: var(--text);
-    font-family: Georgia, serif;
 
-    font-size: clamp(23px, 4.5vw, 32px);
-    line-height: 1.85;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    font-size: clamp(24px, 2.2vw, 30px);
+    font-weight: 500;
+    line-height: 1.65;
 
     overflow-wrap: break-word;
 }
@@ -644,13 +660,14 @@ h1 {
 .passageSentence {
     padding: 2px 3px;
     border-radius: 7px;
+    font-family: inherit;
 }
 
 .activeSentence {
     color: var(--text);
     background: #bfdbfe;
 
-    font-weight: 700;
+    font-weight: inherit;
 
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
@@ -658,7 +675,7 @@ h1 {
 
 
 /* ==========================================
-   17. FOOTER
+   16. FOOTER
    ========================================== */
 
 .appFooter {
@@ -672,10 +689,9 @@ h1 {
 
 
 /* ==========================================
-   18. MOBILE LAYOUT
+   17. MOBILE LAYOUT
 
-   Compact header and controls.
-   Flashcard appears higher on screen.
+   Keep a single column with compact spacing.
    ========================================== */
 
 @media (max-width: 600px) {
@@ -755,6 +771,23 @@ h1 {
         min-height: 250px;
     }
 
+    /* Fix long English definitions */
+
+    .vocabularyMode #flashcardText.englishText {
+        font-size: clamp(22px, 6vw, 32px) !important;
+        line-height: 1.35;
+
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+
+    /* Keep Greek words large */
+
+    .vocabularyMode #flashcardText.greekText {
+        font-size: clamp(30px, 9vw, 48px);
+        white-space: nowrap;
+    }
+
     .progressArea {
         margin: 10px 0 14px;
     }
@@ -772,7 +805,7 @@ h1 {
 
 
 /* ==========================================
-   19. SMALL IPHONES
+   18. EXTRA SMALL IPHONES
    ========================================== */
 
 @media (max-width: 380px) {
@@ -804,14 +837,11 @@ h1 {
         padding: 9px;
         font-size: 12px;
     }
-
 }
 
 
 /* ==========================================
-   20. DESKTOP — SHARED LAYOUT
-
-   Applies at 900px and wider.
+   19. DESKTOP TWO-COLUMN LAYOUT
    ========================================== */
 
 @media (min-width: 900px) {
@@ -833,11 +863,10 @@ h1 {
 
         column-gap: 24px;
         row-gap: 12px;
-
         align-items: start;
     }
 
-    /* Compact header across both columns */
+    /* Full width compact header */
 
     .app.vocabularyMode .appHeader,
     .app.passageMode .appHeader {
@@ -886,7 +915,7 @@ h1 {
 
 
     /* ======================================
-       21. DESKTOP VOCABULARY MODE
+       20. DESKTOP VOCABULARY MODE
        ====================================== */
 
     .app.vocabularyMode .settingsPanel {
@@ -909,10 +938,7 @@ h1 {
         grid-row: 4;
     }
 
-    .app.vocabularyMode #flashcardBox {
-        min-height: 260px;
-    }
-
+    .app.vocabularyMode #flashcardBox,
     .app.vocabularyMode #flashcard,
     .app.vocabularyMode #flashcardText {
         min-height: 260px;
@@ -920,121 +946,121 @@ h1 {
 
 
     /* ======================================
-       22. DESKTOP PASSAGE MODE
+       21. DESKTOP PASSAGE MODE
 
-       Left: Study Settings
-       Right: Sentence + Translate
-       Bottom: Full Passage
-
+       Settings on left.
+       Sentence on right.
+       Translate below sentence.
+       Full Passage on bottom.
        ====================================== */
 
-    
-/* ======================================
-   22. DESKTOP PASSAGE MODE
-   ====================================== */
+    .app.passageMode {
+        grid-template-columns:
+            minmax(240px, 0.55fr)
+            minmax(0, 2fr);
 
-/* Narrower settings, wider sentence area */
-.app.passageMode {
-    grid-template-columns:
-        minmax(240px, 0.55fr)
-        minmax(0, 2fr);
+        column-gap: 20px;
+        row-gap: 12px;
+    }
 
-    column-gap: 20px;
-    row-gap: 12px;
-}
+    /* Smaller Study Settings */
 
-/* Study Settings — left */
-.app.passageMode .settingsPanel {
-    grid-column: 1;
-    grid-row: 2;
+    .app.passageMode .settingsPanel {
+        grid-column: 1;
+        grid-row: 2;
 
-    padding: 14px;
-    margin: 0;
-}
+        margin: 0;
+        padding: 14px;
+    }
 
-.app.passageMode .panelTitle {
-    margin-bottom: 10px;
-}
+    .app.passageMode .panelTitle {
+        margin-bottom: 10px;
+    }
 
-.app.passageMode .studyFilters {
-    grid-template-columns: 1fr;
-    gap: 10px;
-}
+    .app.passageMode .studyFilters {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 
-.app.passageMode .filterGroup select {
-    padding: 9px;
-}
+    .app.passageMode .filterGroup select {
+        padding: 9px;
+    }
 
-/* Sentence flashcard — right */
-.app.passageMode .flashcardArea {
-    grid-column: 2;
-    grid-row: 2;
+    /* Larger sentence area */
 
-    margin: 0;
-    min-width: 0;
-}
+    .app.passageMode .flashcardArea {
+        grid-column: 2;
+        grid-row: 2;
 
-/* Larger sentence area */
-.app.passageMode #flashcardBox {
-    height: 290px;
-    min-height: 290px;
-}
+        margin: 0;
+        min-width: 0;
+    }
 
-.app.passageMode .flashcardTextArea,
-.app.passageMode #flashcardBox > #flashcardText {
-    height: 100%;
-    min-height: 0;
-}
+    .app.passageMode #flashcardBox {
+        height: 290px;
+        min-height: 290px;
+    }
 
-.app.passageMode #flashcardText {
-    font-size: clamp(26px, 2.8vw, 46px);
-    line-height: 1.4;
-}
+    .app.passageMode .flashcardTextArea,
+    .app.passageMode #flashcardBox > #flashcardText {
+        height: 100%;
+        min-height: 0;
+    }
 
-/* Translate button inside flashcard area */
-.app.passageMode .flashcardArea .studyButtons {
-    margin-top: 12px;
-}
+    .app.passageMode #flashcardText {
+        font-size: clamp(26px, 2.8vw, 46px);
+        line-height: 1.4;
+    }
 
-/* Translate button as a separate grid child */
-.app.passageMode > .studyButtons,
-.app.passageMode > .cardControls {
-    grid-column: 2;
-    grid-row: 3;
+    /* Translate nested inside flashcardArea */
 
-    margin: 0;
-    align-self: start;
-}
+    .app.passageMode .flashcardArea .studyButtons {
+        margin-top: 12px;
+    }
 
-.app.passageMode #translateButton {
-    min-height: 50px;
-    padding: 12px;
-    font-size: 17px;
-}
+    /* Translate as a separate grid child */
 
-/* Full Passage below the study area */
-.app.passageMode .passageSection {
-    grid-column: 1 / -1;
-    grid-row: 4;
+    .app.passageMode > .studyButtons,
+    .app.passageMode > .cardControls {
+        grid-column: 2;
+        grid-row: 3;
 
-    width: 100%;
-    margin: 0;
-    padding: 20px;
+        margin: 0;
+        align-self: start;
+    }
 
-    max-height: none;
-    overflow: visible;
-}
+    .app.passageMode #translateButton {
+        min-height: 50px;
+        padding: 12px;
+        font-size: 17px;
+    }
 
-/* Footer */
-.app.passageMode .appFooter {
-    grid-column: 1 / -1;
-    grid-row: 5;
-}
+    /* Full Passage spans both columns */
 
+    .app.passageMode .passageSection {
+        grid-column: 1 / -1;
+        grid-row: 4;
+
+        width: 100%;
+        min-width: 0;
+
+        margin: 0;
+        padding: 20px;
+
+        max-height: none;
+        overflow: visible;
+    }
+
+    .app.passageMode .appFooter {
+        grid-column: 1 / -1;
+        grid-row: 5;
+    }
+
+} /* END DESKTOP MEDIA QUERY */
 
 
 /* ==========================================
-   23. SHORT LAPTOP SCREENS
+   22. SHORT LAPTOP SCREENS
    ========================================== */
 
 @media (min-width: 900px) and (max-height: 800px) {
@@ -1066,19 +1092,14 @@ h1 {
     }
 
     .app.passageMode #flashcardBox {
-        height: 185px;
-        min-height: 185px;
+        height: 260px;
+        min-height: 260px;
     }
-
-    .app.passageMode .passageSection {
-        max-height: none;
-    }
-
 }
 
 
 /* ==========================================
-   24. ACCESSIBILITY
+   23. ACCESSIBILITY
    ========================================== */
 
 @media (prefers-reduced-motion: reduce) {
@@ -1088,67 +1109,4 @@ h1 {
     *::after {
         transition: none !important;
     }
-
-}
-
-/* =========================================
-   FULL PASSAGE — MATCH SENTENCE FONT
-   ========================================= */
-
-.passageMode #fullPassage {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Arial,
-        sans-serif;
-
-    font-weight: 500;
-    font-size: clamp(24px, 2.2vw, 30px);
-    line-height: 1.65;
-}
-
-/* Keep highlighting without changing font */
-
-.passageMode .passageSentence {
-    font-family: inherit;
-}
-
-.passageMode .activeSentence {
-    font-weight: inherit;
-}
-
-/* ==========================================
-   FIX: ENGLISH TEXT OVERFLOW ON MOBILE
-   ========================================== */
-
-@media (max-width: 600px) {
-
-    /* English definitions can wrap */
-    .vocabularyMode #flashcardText.englishText {
-        width: 80%;
-        max-width: 80%;
-        min-width: 0;
-
-        font-size: clamp(22px, 6vw, 34px);
-        font-weight: 700;
-        line-height: 1.35;
-
-        white-space: normal;
-        overflow-wrap: anywhere;
-        word-break: normal;
-
-        text-align: center;
-    }
-
-    /* Keep Greek words large */
-    .vocabularyMode #flashcardText.greekText {
-        width: 80%;
-        max-width: 80%;
-        min-width: 0;
-
-        font-size: clamp(30px, 9vw, 48px);
-        white-space: nowrap;
-    }
-
 }
