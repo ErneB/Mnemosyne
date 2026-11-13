@@ -1,273 +1,1119 @@
 
-<!DOCTYPE html>
-<html lang="en">
+/* ==========================================
+   MNEMOSYNE — COMPLETE STYLESHEET
 
-<head>
-    <!-- ========================================
-         1. PAGE SETTINGS
-    ======================================== -->
+   index.html   = Vocabulary Mode
+   passage.html = Passage Mode
 
-    <meta charset="UTF-8">
+   Mobile: single-column layout
+   Desktop: compact two-column study area
+   ========================================== */
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1"
-    >
 
-    <meta name="theme-color" content="#f8fafc">
+/* ==========================================
+   1. COLORS AND VARIABLES
+   ========================================== */
 
-    <title>Mnemosyne | Greek Vocabulary</title>
+:root {
+    --background: #f8fafc;
+    --surface: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
 
-    <!-- Shared stylesheet -->
+    --blue: #2563eb;
+    --green: #16a34a;
+    --red: #dc2626;
+    --purple: #7c3aed;
+
+    --radius: 18px;
+    --shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
+}
+
+
+/* ==========================================
+   2. GLOBAL STYLES
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 16px 18px 36px;
+    min-height: 100vh;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background: var(--background);
+    color: var(--text);
+}
+
+.app {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+button,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+button:focus-visible,
+select:focus-visible,
+.cardEdge:focus-visible,
+#flashcardText:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 3px;
+}
+
+
+/* ==========================================
+   3. HEADER
+   ========================================== */
+
+.appHeader {
+    position: relative;
+    margin: 0 0 16px;
+    padding-right: 124px;
+}
+
+.eyebrow {
+    margin: 0 0 5px;
+    color: var(--blue);
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(32px, 6vw, 42px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1.3px;
+}
+
+.subtitle {
+    margin: 6px 0 0;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+/* ==========================================
+   4. VOCABULARY / PASSAGES SELECTOR
+   ========================================== */
+
+.modeNavigation {
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.modeNavigation select {
+    width: 112px;
+    padding: 9px 7px;
+
+    color: var(--blue);
+    background: #eff6ff;
+
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+/* ==========================================
+   5. STUDY SETTINGS
+   ========================================== */
+
+.settingsPanel,
+.passageSection {
+    min-width: 0;
+    padding: 18px;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.panelTitle {
+    margin: 0 0 15px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.studyFilters {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.filterGroup {
+    min-width: 0;
+}
+
+.filterGroup label {
+    display: block;
+    margin-bottom: 6px;
+
+    color: #475569;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.filterGroup select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    padding: 11px 9px;
+
+    color: #1d4ed8;
+    background: #eff6ff;
+
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+
+    font-size: 15px;
+}
+
+
+/* ==========================================
+   6. VOCABULARY OPTIONS
+   ========================================== */
+
+.studyOptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    margin-top: 14px;
+    padding-top: 14px;
+
+    border-top: 1px solid var(--border);
+}
+
+.languageControl {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+
+.vocabularyMode #languageLabel {
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+/* ==========================================
+   7. GREEK FIRST SWITCH
+   ========================================== */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.switch input {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    opacity: 0;
+    cursor: pointer;
+}
+
+.switchSlider {
+    position: absolute;
+    inset: 0;
+
+    background: var(--blue);
+    border-radius: 30px;
+
+    pointer-events: none;
+    transition: background 0.2s;
+}
+
+.switchSlider::before {
+    content: "";
+    position: absolute;
+
+    top: 4px;
+    left: 4px;
+
+    width: 22px;
+    height: 22px;
+
+    background: white;
+    border-radius: 50%;
+
+    transition: transform 0.2s;
+}
+
+.switch input:checked + .switchSlider {
+    background: var(--green);
+}
+
+.switch input:checked + .switchSlider::before {
+    transform: translateX(20px);
+}
+
+
+/* ==========================================
+   8. SHUFFLE BUTTON
+   ========================================== */
+
+#shuffleButton {
+    width: auto;
+    padding: 10px 14px;
+
+    color: #6d28d9;
+    background: #f5f3ff;
+
+    border: 1px solid #ddd6fe;
+    border-radius: 11px;
+
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+/* ==========================================
+   9. FLASHCARD AREA
+   ========================================== */
+
+.flashcardArea {
+    min-width: 0;
+    margin-top: 16px;
+}
+
+.flashcardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 9px;
+}
+
+.flashcardHeader span {
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#flashcardBox {
+    position: relative;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 270px;
+    padding: 0;
+
+    overflow: hidden;
+
+    background: var(--surface);
+    border: 1px solid #cbd5e1;
+    border-radius: 22px;
+    box-shadow: var(--shadow);
+}
+
+
+/* ==========================================
+   10. VOCABULARY FLASHCARD TEXT
+   ========================================== */
+
+.vocabularyMode #flashcard,
+.vocabularyMode #flashcardText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    min-width: 0;
+    min-height: 270px;
+
+    margin: 0;
+    padding: 18px 2px;
+
+    color: var(--text);
+    font-family: inherit;
+
+    font-size: clamp(36px, 9vw, 72px);
+    font-weight: 800;
+    line-height: 1.25;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Keep Greek words on one line */
+
+.vocabularyMode .greekText {
+    white-space: nowrap;
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+/* English definitions may wrap */
+
+.vocabularyMode .englishText {
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+
+/* ==========================================
+   11. PASSAGE FLASHCARD TEXT
+   ========================================== */
+
+.passageMode #flashcardBox {
+    min-height: 270px;
+}
+
+.flashcardTextArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    min-width: 0;
+    min-height: 270px;
+
+    padding: 18px 2px;
+    text-align: center;
+}
+
+.passageMode #flashcardText {
+    display: inline;
+    max-width: 100%;
+
+    color: var(--text);
+    font-family: inherit;
+
+    font-size: clamp(28px, 6vw, 44px);
+    font-weight: 800;
+    line-height: 1.4;
+
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+
+.passageMode #flashcardBox > #flashcardText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    min-width: 0;
+    min-height: 270px;
+
+    padding: 18px 2px;
+    text-align: center;
+}
+
+
+/* ==========================================
+   12. FLASHCARD NAVIGATION ARROWS
+   ========================================== */
+
+#flashcardBox .cardEdge {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+
+    width: 10%;
+    height: 100%;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    color: #94a3b8;
+    background: transparent;
+    border: 0;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#flashcardBox .leftEdge {
+    left: 0;
+}
+
+#flashcardBox .rightEdge {
+    right: 0;
+}
+
+#flashcardBox .cardEdge:active {
+    color: var(--blue);
+    background: rgba(37, 99, 235, 0.10);
+}
+
+
+/* ==========================================
+   13. VOCABULARY PROGRESS
+   ========================================== */
+
+.progressArea {
+    margin: 12px 0 18px;
+}
+
+#cardCounter {
+    margin: 0 0 8px;
+
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.progressTrack {
+    width: 100%;
+    height: 6px;
+
+    overflow: hidden;
+    background: #e2e8f0;
+    border-radius: 20px;
+}
+
+#progressFill {
+    width: 0;
+    height: 100%;
+
+    background: var(--blue);
+    border-radius: 20px;
+
+    transition: width 0.25s ease;
+}
+
+
+/* ==========================================
+   14. ACTION BUTTONS
+   ========================================== */
+
+.cardControls {
+    display: grid;
+    gap: 12px;
+}
+
+.actionButton {
+    width: 100%;
+    padding: 15px;
+
+    color: white;
+    border: none;
+    border-radius: 14px;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    transition: transform 0.12s;
+}
+
+.actionButton:active {
+    transform: scale(0.98);
+}
+
+#revealButton,
+#translateButton {
+    background: var(--blue);
+}
+
+.navigationButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+#previousButton {
+    background: var(--red);
+}
+
+#nextButton {
+    background: var(--green);
+}
+
+
+/* ==========================================
+   15. PASSAGE TRANSLATE BUTTON
+   ========================================== */
+
+.passageMode #languageLabel {
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.passageMode .studyButtons {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.passageMode #translateButton {
+    display: block;
+
+    width: 100%;
+    min-height: 52px;
+    padding: 10px;
+
+    font-size: 17px;
+}
+
+
+/* ==========================================
+   16. FULL PASSAGE
+   ========================================== */
+
+.passageSection {
+    margin-top: 18px;
+}
+
+.passageSection h2 {
+    margin: 0 0 12px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid var(--border);
+
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#fullPassage {
+    color: var(--text);
+    font-family: Georgia, serif;
+
+    font-size: clamp(23px, 4.5vw, 32px);
+    line-height: 1.85;
+
+    overflow-wrap: break-word;
+}
+
+.passageSentence {
+    padding: 2px 3px;
+    border-radius: 7px;
+}
+
+.activeSentence {
+    color: var(--text);
+    background: #bfdbfe;
+
+    font-weight: 700;
+
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+
+/* ==========================================
+   17. FOOTER
+   ========================================== */
+
+.appFooter {
+    margin-top: 22px;
+
+    color: #94a3b8;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+/* ==========================================
+   18. MOBILE LAYOUT
+
+   Compact header and controls.
+   Flashcard appears higher on screen.
+   ========================================== */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 12px 14px 28px;
+    }
+
+    .appHeader {
+        margin-bottom: 12px;
+        padding-right: 112px;
+    }
+
+    .eyebrow {
+        margin-bottom: 4px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .modeNavigation select {
+        width: 105px;
+    }
+
+    .settingsPanel {
+        padding: 13px;
+        border-radius: 15px;
+    }
+
+    .panelTitle {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .studyFilters {
+        gap: 10px;
+    }
+
+    .filterGroup label {
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+
+    .filterGroup select {
+        padding: 9px 7px;
+        font-size: 14px;
+    }
+
+    .studyOptions {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .flashcardArea {
+        margin-top: 12px;
+    }
+
+    .flashcardHeader {
+        margin-bottom: 7px;
+    }
+
+    #flashcardBox,
+    .passageMode #flashcardBox {
+        min-height: 250px;
+    }
+
+    .vocabularyMode #flashcard,
+    .vocabularyMode #flashcardText,
+    .flashcardTextArea,
+    .passageMode #flashcardBox > #flashcardText {
+        min-height: 250px;
+    }
+
+    .progressArea {
+        margin: 10px 0 14px;
+    }
+
+    .actionButton {
+        padding: 13px 10px;
+        font-size: 16px;
+    }
+
+    .passageSection {
+        margin-top: 15px;
+        padding: 14px;
+    }
+}
+
+
+/* ==========================================
+   19. SMALL IPHONES
+   ========================================== */
+
+@media (max-width: 380px) {
+
+    body {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .appHeader {
+        padding-right: 102px;
+    }
+
+    .modeNavigation select {
+        width: 98px;
+        font-size: 11px;
+    }
+
+    .studyOptions,
+    .languageControl {
+        gap: 7px;
+    }
+
+    .vocabularyMode #languageLabel {
+        font-size: 12px;
+    }
+
+    #shuffleButton {
+        padding: 9px;
+        font-size: 12px;
+    }
+
+}
+
+
+/* ==========================================
+   20. DESKTOP — SHARED LAYOUT
+
+   Applies at 900px and wider.
+   ========================================== */
+
+@media (min-width: 900px) {
+
+    body {
+        padding: 10px 24px 30px;
+    }
+
+    .app.vocabularyMode,
+    .app.passageMode {
+        display: grid;
+
+        width: 100%;
+        max-width: 1440px;
+
+        grid-template-columns:
+            minmax(280px, 0.85fr)
+            minmax(0, 1.75fr);
+
+        column-gap: 24px;
+        row-gap: 12px;
+
+        align-items: start;
+    }
+
+    /* Compact header across both columns */
+
+    .app.vocabularyMode .appHeader,
+    .app.passageMode .appHeader {
+        grid-column: 1 / -1;
+        grid-row: 1;
+
+        margin: 0;
+        padding: 0 130px 0 0;
+    }
+
+    .appHeader h1 {
+        font-size: 30px;
+    }
+
+    .appHeader .eyebrow {
+        margin-bottom: 3px;
+    }
+
+    .appHeader .subtitle {
+        margin-top: 3px;
+        font-size: 13px;
+    }
+
+    .settingsPanel {
+        padding: 16px;
+    }
+
+    .studyFilters {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .filterGroup select {
+        padding: 10px;
+    }
+
+    .flashcardArea {
+        margin-top: 0;
+        min-width: 0;
+    }
+
+    .appFooter {
+        grid-column: 1 / -1;
+        margin-top: 0;
+    }
+
+
+    /* ======================================
+       21. DESKTOP VOCABULARY MODE
+       ====================================== */
+
+    .app.vocabularyMode .settingsPanel {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .app.vocabularyMode .flashcardArea {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .app.vocabularyMode > .progressArea {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .app.vocabularyMode > .cardControls {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .app.vocabularyMode #flashcardBox {
+        min-height: 260px;
+    }
+
+    .app.vocabularyMode #flashcard,
+    .app.vocabularyMode #flashcardText {
+        min-height: 260px;
+    }
+
+
+    /* ======================================
+       22. DESKTOP PASSAGE MODE
+
+       Left: Study Settings
+       Right: Sentence + Translate
+       Bottom: Full Passage
+
+       ====================================== */
+
     
-<link rel="stylesheet" href="styles.css?v=1">
+/* ======================================
+   22. DESKTOP PASSAGE MODE
+   ====================================== */
 
-<script src="vocabulary.js?v=3" defer></script>
+/* Narrower settings, wider sentence area */
+.app.passageMode {
+    grid-template-columns:
+        minmax(240px, 0.55fr)
+        minmax(0, 2fr);
 
-</head>
+    column-gap: 20px;
+    row-gap: 12px;
+}
 
-<body>
+/* Study Settings — left */
+.app.passageMode .settingsPanel {
+    grid-column: 1;
+    grid-row: 2;
 
-    <main class="app vocabularyMode">
+    padding: 14px;
+    margin: 0;
+}
 
-        <!-- ====================================
-             2. HEADER
-        ==================================== -->
+.app.passageMode .panelTitle {
+    margin-bottom: 10px;
+}
 
-        <header class="appHeader">
-        
-<!-- Compact study mode navigation -->
+.app.passageMode .studyFilters {
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
 
-<nav class="modeNavigation" aria-label="Study mode">
+.app.passageMode .filterGroup select {
+    padding: 9px;
+}
 
-    <select
-        aria-label="Choose study mode"
-        onchange="window.location.href = this.value"
-    >
-        <option value="index.html" selected>
-            Vocabulary
-        </option>
+/* Sentence flashcard — right */
+.app.passageMode .flashcardArea {
+    grid-column: 2;
+    grid-row: 2;
 
-        <option value="passage.html">
-            Passages
-        </option>
-    </select>
+    margin: 0;
+    min-width: 0;
+}
 
-</nav>
+/* Larger sentence area */
+.app.passageMode #flashcardBox {
+    height: 290px;
+    min-height: 290px;
+}
 
-            <p class="eyebrow">Ancient Greek Study</p>
+.app.passageMode .flashcardTextArea,
+.app.passageMode #flashcardBox > #flashcardText {
+    height: 100%;
+    min-height: 0;
+}
 
-            <h1>Mnemosyne</h1>
+.app.passageMode #flashcardText {
+    font-size: clamp(26px, 2.8vw, 46px);
+    line-height: 1.4;
+}
 
-            <p class="subtitle">
-                Build your vocabulary, one word at a time.
-            </p>
-        </header>
+/* Translate button inside flashcard area */
+.app.passageMode .flashcardArea .studyButtons {
+    margin-top: 12px;
+}
 
-        <!-- ====================================
-             3. STUDY SETTINGS
-        ==================================== -->
+/* Translate button as a separate grid child */
+.app.passageMode > .studyButtons,
+.app.passageMode > .cardControls {
+    grid-column: 2;
+    grid-row: 3;
 
-        <section
-            class="settingsPanel"
-            aria-label="Study settings"
-        >
+    margin: 0;
+    align-self: start;
+}
 
-            <h2 class="panelTitle">Study Settings</h2>
+.app.passageMode #translateButton {
+    min-height: 50px;
+    padding: 12px;
+    font-size: 17px;
+}
 
-            <div class="studyFilters">
+/* Full Passage below the study area */
+.app.passageMode .passageSection {
+    grid-column: 1 / -1;
+    grid-row: 4;
 
-                <div class="filterGroup">
-                    <label for="chapterSelect">
-                        Chapter
-                    </label>
+    width: 100%;
+    margin: 0;
+    padding: 20px;
 
-                    <select
-                        id="chapterSelect"
-                        onchange="selectChapter()"
-                    >
-                        <option value="all">
-                            All Chapters
-                        </option>
-                    </select>
-                </div>
+    max-height: none;
+    overflow: visible;
+}
 
-                <div class="filterGroup">
-                    <label for="sectionSelect">
-                        Section
-                    </label>
-
-                    <select
-                        id="sectionSelect"
-                        onchange="selectSection()"
-                    >
-                        <option value="all">
-                            All Sections
-                        </option>
-                    </select>
-                </div>
-
-            </div>
-
-            <!-- Language and shuffle options -->
-
-            <div class="studyOptions">
-
-                <div class="languageControl">
-
-                    <label
-                        for="languageToggle"
-                        id="languageLabel"
-                    >
-                        Greek First
-                    </label>
-
-                    <label class="switch">
-
-                        <input
-                            type="checkbox"
-                            id="languageToggle"
-                            aria-label="Start with English"
-                            onchange="toggleLanguage()"
-                        >
-
-                        <span class="switchSlider"></span>
-
-                    </label>
-
-                </div>
-
-                <button
-                    type="button"
-                    id="shuffleButton"
-                    onclick="shuffleCards()"
-                >
-                    ⇄ Shuffle
-                </button>
-
-            </div>
-
-        </section>
-
-        <!-- ====================================
-             4. FLASHCARD
-        ==================================== -->
-
-        <section
-            class="flashcardArea"
-            aria-label="Flashcards"
-        >
-
-            <div class="flashcardHeader">
-                <span>FLASHCARD</span>
-                <span id="cardSideLabel">GREEK</span>
-            </div>
-
-           
-<div id="flashcardBox">
-
-    <!-- LEFT: Previous vocabulary word -->
-    <div
-        class="cardEdge leftEdge"
-        onclick="previousCard()"
-    >
-        &#10094;
-    </div>
-
-    <!-- CENTER: Reveal translation -->
-    <div
-        id="flashcardText"
-        onclick="flipCard()"
-    >
-        Loading...
-    </div>
-
-    <!-- RIGHT: Next vocabulary word -->
-    <div
-        class="cardEdge rightEdge"
-        onclick="nextCard()"
-    >
-        &#10095;
-    </div>
-
-</div>
+/* Footer */
+.app.passageMode .appFooter {
+    grid-column: 1 / -1;
+    grid-row: 5;
+}
 
 
-            <!-- Card progress -->
 
-            <div class="progressArea">
+/* ==========================================
+   23. SHORT LAPTOP SCREENS
+   ========================================== */
 
-                <p id="cardCounter">
-                    Card 0 of 0
-                </p>
+@media (min-width: 900px) and (max-height: 800px) {
 
-                <div
-                    class="progressTrack"
-                    id="progressTrack"
-                    role="progressbar"
-                    aria-label="Deck progress"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-valuenow="0"
-                >
-                    <div id="progressFill"></div>
-                </div>
+    body {
+        padding-top: 8px;
+    }
 
-            </div>
+    .app.vocabularyMode,
+    .app.passageMode {
+        row-gap: 8px;
+    }
 
-        </section>
+    .appHeader h1 {
+        font-size: 28px;
+    }
 
-        <!-- ====================================
-             5. CARD CONTROLS
-        ==================================== -->
+    .settingsPanel {
+        padding: 14px;
+    }
 
-        <section
-            class="cardControls"
-            aria-label="Card controls"
-        >
+    .panelTitle {
+        margin-bottom: 10px;
+    }
 
-            <button
-                type="button"
-                class="actionButton"
-                id="revealButton"
-                onclick="flipCard()"
-            >
-                Reveal Answer
-            </button>
+    .filterGroup select {
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
 
-            <div class="navigationButtons">
+    .app.passageMode #flashcardBox {
+        height: 185px;
+        min-height: 185px;
+    }
 
-                <button
-                    type="button"
-                    class="actionButton"
-                    id="previousButton"
-                    onclick="previousCard()"
-                >
-                    ← Previous
-                </button>
+    .app.passageMode .passageSection {
+        max-height: none;
+    }
 
-                <button
-                    type="button"
-                    class="actionButton"
-                    id="nextButton"
-                    onclick="nextCard()"
-                >
-                    Next →
-                </button>
+}
 
-            </div>
 
-        </section>
+/* ==========================================
+   24. ACCESSIBILITY
+   ========================================== */
 
-        <!-- ====================================
-             6. FOOTER
-        ==================================== -->
+@media (prefers-reduced-motion: reduce) {
 
-        <footer class="appFooter">
-            MNEMOSYNE · GREEK VOCABULARY
-        </footer>
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+    }
 
-    </main>
+}
 
-</body>
-</html>
+/* =========================================
+   FULL PASSAGE — MATCH SENTENCE FONT
+   ========================================= */
+
+.passageMode #fullPassage {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    font-weight: 500;
+    font-size: clamp(24px, 2.2vw, 30px);
+    line-height: 1.65;
+}
+
+/* Keep highlighting without changing font */
+
+.passageMode .passageSentence {
+    font-family: inherit;
+}
+
+.passageMode .activeSentence {
+    font-weight: inherit;
+}
