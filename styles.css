@@ -1117,3 +1117,38 @@ h1 {
 .passageMode .activeSentence {
     font-weight: inherit;
 }
+
+/* ==========================================
+   FIX: ENGLISH TEXT OVERFLOW ON MOBILE
+   ========================================== */
+
+@media (max-width: 600px) {
+
+    /* English definitions can wrap */
+    .vocabularyMode #flashcardText.englishText {
+        width: 80%;
+        max-width: 80%;
+        min-width: 0;
+
+        font-size: clamp(22px, 6vw, 34px);
+        font-weight: 700;
+        line-height: 1.35;
+
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: normal;
+
+        text-align: center;
+    }
+
+    /* Keep Greek words large */
+    .vocabularyMode #flashcardText.greekText {
+        width: 80%;
+        max-width: 80%;
+        min-width: 0;
+
+        font-size: clamp(30px, 9vw, 48px);
+        white-space: nowrap;
+    }
+
+}
